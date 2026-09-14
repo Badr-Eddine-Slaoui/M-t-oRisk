@@ -76,3 +76,70 @@ def get_city_weather_data(
         print(f"JSON invalide pour {city}: {e}")
 
     return {}
+
+
+def add_weather_data_to_contents(
+    contents: dict,
+    city: str,
+    weather_data: dict,
+) -> None:
+
+    daily_data = weather_data.get("daily", {})
+
+    time = daily_data.get("time", [])
+
+    temperature_2m_max = daily_data.get("temperature_2m_max", [])
+    temperature_2m_min = daily_data.get("temperature_2m_min", [])
+
+    precipitation_sum = daily_data.get("precipitation_sum", [])
+
+    precipitation_probability_max = daily_data.get(
+        "precipitation_probability_max",
+        [],
+    )
+
+    windspeed_10m_max = daily_data.get(
+        "windspeed_10m_max",
+        [],
+    )
+
+    windgusts_10m_max = daily_data.get(
+        "windgusts_10m_max",
+        [],
+    )
+
+    weathercode = daily_data.get("weathercode", [])
+
+    for i, date in enumerate(zip_longest(time, temperature_2m_max, temperature_2m_min, precipitation_sum, precipitation_probability_max, windspeed_10m_max, windgusts_10m_max, weathercode, fillvalue=None)):
+
+        contents["city"].append(city)
+        contents["time"].append(time[i])
+
+        contents["temperature_2m_max"].append(
+            temperature_2m_max[i]
+        )
+
+        contents["temperature_2m_min"].append(
+            temperature_2m_min[i]
+        )
+
+        contents["precipitation_sum"].append(
+            precipitation_sum[i]
+        )
+
+        contents["precipitation_probability_max"].append(
+            precipitation_probability_max[i]
+        )
+
+        contents["windspeed_10m_max"].append(
+            windspeed_10m_max[i]
+        )
+
+        contents["windgusts_10m_max"].append(
+            windgusts_10m_max[i]
+        )
+
+        contents["weathercode"].append(
+            weathercode[i]
+        )
+
