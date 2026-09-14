@@ -97,3 +97,28 @@ def weather_quality_check(df: pd.DataFrame) -> None:
     print("Vérification terminée.")
     
     return valid_data
+
+def transform_cities_data_types(df: pd.DataFrame) -> pd.DataFrame:
+    df["lat"] = pd.to_numeric(df["lat"], downcast="float", errors="coerce")
+    df["lng"] = pd.to_numeric(df["lng"], downcast="float", errors="coerce")
+    return df
+
+def join_cities_weather(cities_df: pd.DataFrame, weather_df: pd.DataFrame) -> pd.DataFrame:
+    return pd.merge(weather_df, cities_df, on="city", how="left", validate="m:1")
+
+def validate_joined_data(df: pd.DataFrame) -> pd.DataFrame:
+    missing_data = (df["lat"].isna() | df["lng"].isna()).sum()
+    print(f"Nombre de données manquantes : {missing_data}")
+    
+    if missing_data > 0:
+        print("Données manquantes détectées.")
+        df = df.dropna(subset=["lat", "lng"])
+        
+    return df
+
+def reorder_columns(df: pd.DataFrame) -> pd.DataFrame:
+    desired_order = ["city", "lat", "lng", "date", "temperature_2m_max", "temperature_2m_min",
+                    "precipitation_sum", "precipitation_probability_max", "windspeed_10m_max",
+                    "windgusts_10m_max", "weathercode"]
+    
+    return df[desired_order]
