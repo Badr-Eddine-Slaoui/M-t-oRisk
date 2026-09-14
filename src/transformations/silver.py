@@ -16,3 +16,14 @@ def standardize_column_names(df: pd.DataFrame) -> pd.DataFrame:
     df.columns = df.columns.str.strip().str.lower().str.replace(" ", "_")
     df.rename(columns={"time": "date"}, inplace=True)
     return df
+
+def transform_data_types(df: pd.DataFrame) -> pd.DataFrame:
+    df["date"] = pd.to_datetime(df["date"], errors="coerce")
+    df["temperature_2m_max"] = pd.to_numeric(df["temperature_2m_max"], downcast="float", errors="coerce")
+    df["temperature_2m_min"] = pd.to_numeric(df["temperature_2m_min"], downcast="float", errors="coerce")
+    df["precipitation_sum"] = pd.to_numeric(df["precipitation_sum"], downcast="float", errors="coerce")
+    df["precipitation_probability_max"] = pd.to_numeric(df["precipitation_probability_max"], downcast="float", errors="coerce")
+    df["windspeed_10m_max"] = pd.to_numeric(df["windspeed_10m_max"], downcast="float", errors="coerce")
+    df["windgusts_10m_max"] = pd.to_numeric(df["windgusts_10m_max"], downcast="float", errors="coerce")
+    df["weathercode"] = pd.to_numeric(df["weathercode"], downcast="integer", errors="coerce")
+    return df
