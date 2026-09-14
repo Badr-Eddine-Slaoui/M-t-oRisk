@@ -51,3 +51,49 @@ def remove_missing_values(df: pd.DataFrame) -> pd.DataFrame:
         df = df.dropna(subset=["city", "date"])
     
     return df
+
+def weather_quality_check(df: pd.DataFrame) -> None:
+    
+    print("Vérification de la qualité des données météorologiques...")
+    
+    invalid_precipitation = (df["precipitation_sum"] < 0).sum()
+    
+    print(f"Nombre de précipitations invalides : {invalid_precipitation}")
+    
+    invalid_probability = ((df["precipitation_probability_max"] < 0) | (df["precipitation_probability_max"] > 100)).sum()
+    
+    print(f"Nombre de probabilités invalides : {invalid_probability}")
+    
+    invalid_windspeed = (df["windspeed_10m_max"] < 0).sum()
+    
+    print(f"Nombre de vitesses de vent invalides : {invalid_windspeed}")
+    
+    invalid_windgusts = (df["windgusts_10m_max"] < 0).sum()
+    
+    print(f"Nombre de rafales de vent invalides : {invalid_windgusts}")
+    
+    invalid_weathercode = (~df["weathercode"].isin(range(0, 100))).sum()
+    
+    print(f"Nombre de codes météo invalides : {invalid_weathercode}")
+    
+    invalid_temperature = (df["temperature_2m_max"] < df["temperature_2m_min"]).sum()
+    
+    print(f"Nombre de temperatures invalides : {invalid_temperature}")
+    
+    valid_data = df[
+        (
+            (df["precipitation_sum"] >= 0) &
+            (df["precipitation_probability_max"] >= 0) &
+            (df["precipitation_probability_max"] <= 100) &
+            (df["windspeed_10m_max"] >= 0) &
+            (df["windgusts_10m_max"] >= 0) &
+            (df["weathercode"].isin(range(0, 100))) &
+            (df["temperature_2m_max"] >= df["temperature_2m_min"])
+        )
+    ]
+    
+    print(f"Nombre de données valides : {len(valid_data)}")
+    
+    print("Vérification terminée.")
+    
+    return valid_data
