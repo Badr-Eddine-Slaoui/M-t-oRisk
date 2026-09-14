@@ -1,0 +1,206 @@
+services:
+
+  postgres:
+    image: postgres:17-alpine
+    container_name: postgres
+    restart: always
+
+    environment:
+      POSTGRES_DB: "${POSTGRES_DB}"
+      POSTGRES_USER: "${POSTGRES_USER}"
+      POSTGRES_PASSWORD: "${POSTGRES_PASSWORD}"
+
+    ports:
+      - "${POSTGRES_PORT}:5432"
+
+    volumes:
+      - pgtables:/var/lib/postgresql/data
+
+    healthcheck:
+      test:
+        [
+          "CMD-SHELL",
+          "pg_isready -U ${POSTGRES_USER} -d ${POSTGRES_DB}"
+        ]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  airflow-postgres:
+    image: postgres:17-alpine
+    container_name: airflow-postgres
+    restart: always
+
+    environment:
+      POSTGRES_DB: "${AIRFLOW_POSTGRES_DB}"
+      POSTGRES_USER: "${AIRFLOW_POSTGRES_USER}"
+      POSTGRES_PASSWORD: "${AIRFLOW_POSTGRES_PASSWORD}"
+
+    ports:
+      - "${AIRFLOW_POSTGRES_PORT}:5432"
+
+    volumes:
+      - airflow_pgtables:/var/lib/postgresql/data
+
+    healthcheck:
+      test:
+        [
+          "CMD-SHELL",
+          "pg_isready -U ${AIRFLOW_POSTGRES_USER} -d ${AIRFLOW_POSTGRES_DB}"
+        ]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+
+  pgadmin:
+    image: dpage/pgadmin4:snapshot
+    container_name: pgadmin
+    restart: always
+
+    environment:
+      PGADMIN_DEFAULT_EMAIL: "${PGADMIN_EMAIL}"
+      PGADMIN_DEFAULT_PASSWORD: "${PGADMIN_PASSWORD}"
+
+    ports:
+      - "${PGADMIN_PORT}:80"
+
+    depends_on:
+      postgres:
+        condition: service_healthy
+
+      airflow-postgres:
+        condition: service_healthy
+
+    volumes:
+      - pgadmin_data:/var/lib/pgadmin
+
+
+  python:
+    build:
+      context: .
+      dockerfile: Dockerfile
+
+    container_name: weather-python
+    restart: unless-stopped
+
+    working_dir: /opt/project
+
+    volumes:
+      - .:/opt/project
+
+    environment:
+      PYTHONUNBUFFERED: "1"
+      PYTHONPATH: /opt/project
+
+      POSTGRES_HOST: postgres
+      POSTGRES_PORT: 5432
+      POSTGRES_DB: "${POSTGRES_DB}"
+      POSTGRES_USER: "${POSTGRES_USER}"
+      POSTGRES_PASSWORD: "${POSTGRES_PASSWORD}"
+
+      OPEN_METEO_BASE_URL: "${OPEN_METEO_BASE_URL}"
+
+    depends_on:
+      postgres:
+        condition: service_healthy
+
+    command: ["tail", "-f", "/dev/null"]
+
+  streamlit:
+    build:
+      context: .
+      dockerfile: Dockerfile
+
+    container_name: streamlit
+    restart: unless-stopped
+
+    working_dir: /opt/project
+
+    volumes:
+      - .:/opt/project
+
+    environment:
+      PYTHONUNBUFFERED: "1"
+      PYTHONPATH: /opt/project
+
+      POSTGRES_HOST: postgres
+      POSTGRES_PORT: 5432
+      POSTGRES_DB: "${POSTGRES_DB}"
+      POSTGRES_USER: "${POSTGRES_USER}"
+      POSTGRES_PASSWORD: "${POSTGRES_PASSWORD}"
+
+    ports:
+      - "${STREAMLIT_PORT}:8501"
+
+    depends_on:
+      postgres:
+        condition: service_healthy
+
+    command:
+      [
+        "streamlit",
+        "run",
+        "dashboard/app.py",
+        "--server.address=0.0.0.0",
+        "--server.port=8501"
+      ]
+
+  airflow:
+    build:
+      context: .
+      dockerfile: Dockerfile.airflow
+    container_name: airflow
+    restart: always
+    user: "${AIRFLOW_UID}:0"
+
+    working_dir: /opt/project
+
+    environment:
+      PYTHONUNBUFFERED: "1"
+      PYTHONPATH: /opt/project
+
+      AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: >-
+        postgresql+psycopg2://${AIRFLOW_POSTGRES_USER}:${AIRFLOW_POSTGRES_PASSWORD}@airflow-postgres:5432/${AIRFLOW_POSTGRES_DB}
+
+      AIRFLOW__CORE__EXECUTOR: LocalExecutor
+
+      AIRFLOW__CORE__LOAD_EXAMPLES: "false"
+
+      AIRFLOW__CORE__DAGS_ARE_PAUSED_AT_CREATION: "true"
+
+      AIRFLOW__API__AUTH_BACKENDS: >-
+        airflow.api.auth.backend.basic_auth,
+        airflow.api.auth.backend.session
+
+      POSTGRES_HOST: postgres
+      POSTGRES_PORT: 5432
+      POSTGRES_DB: "${POSTGRES_DB}"
+      POSTGRES_USER: "${POSTGRES_USER}"
+      POSTGRES_PASSWORD: "${POSTGRES_PASSWORD}"
+
+      OPEN_METEO_BASE_URL: "${OPEN_METEO_BASE_URL}"
+
+    ports:
+      - "${AIRFLOW_PORT}:8080"
+
+    volumes:
+      - ./dags:/opt/airflow/dags
+      - ./src:/opt/project/src
+      - ./data:/opt/project/data
+      - ./logs:/opt/airflow/logs
+      - ./plugins:/opt/airflow/plugins
+
+    depends_on:
+      airflow-postgres:
+        condition: service_healthy
+
+      postgres:
+        condition: service_healthy
+
+    command: standalone
+
+volumes:
+  pgtables:
+  airflow_pgtables:
+  pgadmin_data:
