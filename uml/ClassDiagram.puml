@@ -1,0 +1,44 @@
+@startuml
+
+class City{
+    id: int
+    name: str
+    latitude: float
+    longitude: float
+    weather_forecasts: list[WeatherForecast]
+    weather_risks: list[WeatherRisk]
+}
+
+class WeatherForecast{
+    id: int
+    city_id: int
+    date: str
+    temperature_2m_max: float
+    temperature_2m_min: float
+    precipitation_sum: float
+    precipitation_probability_max: float
+    windspeed_10m_max: float
+    windgusts_10m_max: float
+    weathercode: int
+    city: City
+}
+
+class WeatherRisk{
+    id: int
+    city_id: int
+    date: str
+    temperature_category: str
+    precipitation_category: str
+    wind_speed_category: str
+    weathercode_category: str
+    weather_risk_score: float
+    weather_risk_category: str
+    is_weekend: bool
+    delivery_impact: str
+    city: City
+}
+
+City "1" -- "0..*" WeatherForecast : has_many
+City "1" -- "0..*" WeatherRisk : has_many
+
+@enduml
