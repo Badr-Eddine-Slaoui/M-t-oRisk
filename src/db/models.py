@@ -15,3 +15,21 @@ class City(Base):
     
     weather_forecasts: Mapped[list["WeatherForecast"]] = relationship("WeatherForecast", back_populates="city", cascade="all, delete-orphan")
     weather_risks: Mapped[list["WeatherRisk"]] = relationship("WeatherRisk", back_populates="city", cascade="all, delete-orphan")
+    
+class WeatherForecast(Base):
+    __tablename__ = "weather_forecasts"
+    
+    id: Mapped[int] = mapped_column(Integer, primary_key=True)
+    city_id: Mapped[int] = mapped_column(ForeignKey("cities.id", ondelete="CASCADE"), nullable=False)
+    date: Mapped[date] = mapped_column(Date, nullable=False)
+    temperature_2m_max: Mapped[float] = mapped_column(Numeric(10, 2), nullable=False)
+    temperature_2m_min: Mapped[float] = mapped_column(Numeric(10, 2), nullable=False)
+    precipitation_sum: Mapped[float] = mapped_column(Numeric(10, 2), nullable=False)
+    precipitation_probability_max: Mapped[float] = mapped_column(Numeric(5, 2), nullable=False)
+    windspeed_10m_max: Mapped[float] = mapped_column(Numeric(10, 2), nullable=False)
+    windgusts_10m_max: Mapped[float] = mapped_column(Numeric(10, 2), nullable=False)
+    weathercode: Mapped[int] = mapped_column(Integer, nullable=False)
+    
+    city: Mapped["City"] = relationship("City", back_populates="weather_forecasts")
+    
+    __table_args__ = (UniqueConstraint("city_id", "date", name="unique_city_date"),)
