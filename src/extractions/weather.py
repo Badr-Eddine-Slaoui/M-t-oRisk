@@ -143,3 +143,63 @@ def add_weather_data_to_contents(
             weathercode[i]
         )
 
+
+def extract_weather_data(cities: pd.DataFrame) -> None:
+
+    current_date = datetime.now().strftime("%Y-%m-%d")
+
+    output_directory = PROJECT_ROOT / "data" / "bronze"
+
+    output_directory.mkdir(
+        parents=True,
+        exist_ok=True,
+    )
+
+    filename = output_directory / f"weather_data_{current_date}.csv"
+
+    contents = {
+        "city": [],
+        "time": [],
+        "temperature_2m_max": [],
+        "temperature_2m_min": [],
+        "precipitation_sum": [],
+        "precipitation_probability_max": [],
+        "windspeed_10m_max": [],
+        "windgusts_10m_max": [],
+        "weathercode": [],
+    }
+
+    print("Extraction des données météorologiques en cours...")
+
+    for _, row in cities.iterrows():
+
+        city = row["city"]
+        latitude = row["lat"]
+        longitude = row["lng"]
+
+        weather_data = get_city_weather_data(
+            city,
+            latitude,
+            longitude,
+        )
+
+        if weather_data:
+            add_weather_data_to_contents(
+                contents,
+                city,
+                weather_data,
+            )
+
+    df = pd.DataFrame(contents)
+
+    df.to_csv(
+        filename,
+        index=False,
+    )
+
+    print(f"Données sauvegardées dans : {filename}")
+    
+def bronze_extraction_pipeline() -> None:
+    cities_df = extract_cities_from_csv()
+    extract_weather_data(cities_df)
+    print("Extraction des données météorologiques terminée.")
