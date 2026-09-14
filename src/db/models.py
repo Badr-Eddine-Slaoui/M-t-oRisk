@@ -33,3 +33,23 @@ class WeatherForecast(Base):
     city: Mapped["City"] = relationship("City", back_populates="weather_forecasts")
     
     __table_args__ = (UniqueConstraint("city_id", "date", name="unique_city_date"),)
+    
+class WeatherRisk(Base):
+    __tablename__ = "weather_risks"
+    
+    id: Mapped[int] = mapped_column(Integer, primary_key=True)
+    city_id: Mapped[int] = mapped_column(ForeignKey("cities.id", ondelete="CASCADE"), nullable=False)
+    date: Mapped[date] = mapped_column(Date, nullable=False)
+    temperature_category: Mapped[str] = mapped_column(String(255), nullable=False)
+    precipitation_category: Mapped[str] = mapped_column(String(255), nullable=False)
+    wind_speed_category: Mapped[str] = mapped_column(String(255), nullable=False)
+    weathercode_category: Mapped[str] = mapped_column(String(255), nullable=False)
+    weather_risk_score: Mapped[float] = mapped_column(Numeric(5, 2), nullable=False)
+    weather_risk_category: Mapped[str] = mapped_column(String(255), nullable=False)
+    is_weekend: Mapped[bool] = mapped_column(Boolean, nullable=False)
+    delivery_impact: Mapped[str] = mapped_column(String(255), nullable=False)
+    
+    city: Mapped["City"] = relationship("City", back_populates="weather_risks")
+
+    __table_args__ = (UniqueConstraint("city_id", "date", name="unique_city_date_risk"),)
+    
