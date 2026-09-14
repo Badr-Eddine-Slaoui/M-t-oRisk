@@ -27,3 +27,27 @@ def transform_data_types(df: pd.DataFrame) -> pd.DataFrame:
     df["windgusts_10m_max"] = pd.to_numeric(df["windgusts_10m_max"], downcast="float", errors="coerce")
     df["weathercode"] = pd.to_numeric(df["weathercode"], downcast="integer", errors="coerce")
     return df
+
+def remove_duplicates(df: pd.DataFrame) -> pd.DataFrame:
+    
+    count = df.duplicated(subset=["city", "date"]).sum()
+    
+    print(f"Nombre de doublons trouvés : {count}")
+    
+    if count > 0:
+        print("Suppression des doublons...")
+        return df.drop_duplicates(subset=["city", "date"], keep="last")
+    
+    return df
+
+def remove_missing_values(df: pd.DataFrame) -> pd.DataFrame:
+    
+    count = df[["city", "date"]].isna().sum()
+    
+    print(f"Nombre de valeurs manquantes trouvées : {count}")
+    
+    if count.any() > 0:
+        print("Suppression des valeurs manquantes...")
+        df = df.dropna(subset=["city", "date"])
+    
+    return df
