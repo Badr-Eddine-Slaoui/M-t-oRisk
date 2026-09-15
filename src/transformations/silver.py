@@ -122,3 +122,25 @@ def reorder_columns(df: pd.DataFrame) -> pd.DataFrame:
                     "windgusts_10m_max", "weathercode"]
     
     return df[desired_order]
+
+def categorize_temperature(row: pd.Series) -> str:
+    if row["temperature_2m_max"] >= 30:
+        return "Hot"
+    elif 20 <= row["temperature_2m_max"] < 30:
+        return "Warm"
+    elif 10 <= row["temperature_2m_max"] < 20:
+        return "Mild"
+    else:
+        return "Cold"
+
+def categorize_precipitation(row: pd.Series) -> str:
+    if row["precipitation_sum"] > 30:
+        return "Very Heavy Rain"
+    elif 10 < row["precipitation_sum"] <= 30:
+        return "Heavy Rain"
+    elif 2 < row["precipitation_sum"] <= 10:
+        return "Moderate Rain"
+    elif 0 < row["precipitation_sum"] <= 2:
+        return "Light Rain"
+    else:
+        return "No Rain"
