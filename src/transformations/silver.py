@@ -181,3 +181,10 @@ def categorieze_weather_code(row: pd.Series) -> str:
         return "Clear"
     else:
         return "Unknown"
+
+def categoriez_weather_data(df: pd.DataFrame) -> pd.DataFrame:
+    df["temperature_category"] = df.apply(categorize_temperature, axis=1)
+    df["precipitation_category"] = df.apply(categorize_precipitation, axis=1)
+    df["wind_category"] = df.apply(categorize_wind, axis=1)
+    df["weathercode_category"] = df.apply(categorieze_weather_code, axis=1)
+    return df
