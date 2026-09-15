@@ -244,3 +244,15 @@ def calculate_weathercode_risk(df: pd.Series) -> int:
         return 75
     else:
         return 100
+    
+def calculate_overall_risk(df: pd.DataFrame) -> pd.DataFrame:
+    df["weather_risk_score"] = df.apply(
+        lambda row: (
+            calculate_temperature_risk(row) * 0.15 +
+            calculate_precipitation_risk(row) * 0.35 +
+            calculate_wind_risk(row) * 0.30 +
+            calculate_weathercode_risk(row) * 0.20
+        ),
+        axis=1
+    )
+    return df
