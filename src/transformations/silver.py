@@ -144,3 +144,40 @@ def categorize_precipitation(row: pd.Series) -> str:
         return "Light Rain"
     else:
         return "No Rain"
+
+def categorize_wind(row: pd.Series) -> str:
+    wind_value = max(row["windspeed_10m_max"], row["windgusts_10m_max"])
+    if wind_value >= 80:
+        return "Extreme Wind"
+    elif 60 <= wind_value < 80:
+        return "Very Strong Wind"
+    elif 40 <= wind_value < 60:
+        return "Strong Wind"
+    elif 20 <= wind_value < 40:
+        return "Moderate Wind"
+    elif 10 <= wind_value < 20:
+        return "Light Wind"
+    else:
+        return "Calm"
+
+def categorieze_weather_code(row: pd.Series) -> str:
+    if 95 <= row["weathercode"] <= 99:
+        return "Thunderstorm"
+    elif 85 <= row["weathercode"] <= 86:
+        return "Snow Showers"
+    elif 80 <= row["weathercode"] <= 82:
+        return "Rain Showers"
+    elif 71 <= row["weathercode"] <= 77:
+        return "Snow"
+    elif 61 <= row["weathercode"] <= 67:
+        return "Rain"
+    elif 51 <= row["weathercode"] <= 57:
+        return "Drizzle"
+    elif 45 <= row["weathercode"] <= 48:
+        return "Fog"
+    elif 1 <= row["weathercode"] <= 3:
+        return "Cloudy"
+    elif row["weathercode"] == 0:
+        return "Clear"
+    else:
+        return "Unknown"
