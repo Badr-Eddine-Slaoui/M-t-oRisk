@@ -108,3 +108,110 @@ def get_max_precipitation_per_city() -> pd.DataFrame:
 
     df = pd.DataFrame(result, columns=["city", "max_precipitation"])
     return df
+
+def get_average_risk_per_city() -> pd.DataFrame:
+    with Session(engine) as session:
+        result = (
+            session.query(
+                City.name.label("city"),
+                WeatherRisk.date,
+                (WeatherRisk.weather_risk_score).label("average_risk"),
+            )
+            .join(WeatherRisk)
+            .group_by(City.name, WeatherRisk.date, WeatherRisk.weather_risk_score)
+            .order_by(WeatherRisk.weather_risk_score.desc())
+            .all()
+        )
+
+    df = pd.DataFrame(result, columns=["city", "date", "average_risk"])
+    
+    df["average_risk"] = pd.to_numeric(
+        df["average_risk"],
+        errors="coerce"
+    )
+    return df
+
+def get_top_20_weather_risks() -> pd.DataFrame:
+
+    with Session(engine) as session:
+
+        result = (
+            session.query(
+                City.name.label("city"),
+                WeatherRisk.date,
+                WeatherRisk.weather_risk_score,
+                WeatherRisk.weather_risk_category,
+                WeatherRisk.delivery_impact,
+            )
+            .join(WeatherRisk)
+            .order_by(
+                WeatherRisk.weather_risk_score.desc()
+            )
+            .limit(20)
+            .all()
+        )
+
+    df = pd.DataFrame(
+        result,
+        columns=[
+            "city",
+            "date",
+            "weather_risk_score",
+            "weather_risk_category",
+            "delivery_impact",
+        ],
+    )
+
+    df["weather_risk_score"] = pd.to_numeric(
+        df["weather_risk_score"],
+        errors="coerce"
+    )
+
+    return df
+
+def get_highest_risk_per_city() -> pd.DataFrame:
+    with Session(engine) as session:
+        subquery = (
+            session.query(
+                WeatherRisk.city_id,
+                func.max(WeatherRisk.weather_risk_score).label("max_risk"),
+            )
+            .group_by(WeatherRisk.city_id)
+            .subquery()
+        )
+
+        result = (
+            session.query(
+                City.name.label("city"),
+                WeatherRisk.date,
+                WeatherRisk.weather_risk_score,
+                WeatherRisk.weather_risk_category,
+                WeatherRisk.delivery_impact,
+            )
+            .join(WeatherRisk)
+            .join(
+                subquery,
+                (WeatherRisk.city_id == subquery.c.city_id)
+                & (WeatherRisk.weather_risk_score == subquery.c.max_risk),
+            )
+            .order_by(WeatherRisk.weather_risk_score.desc())
+            .all()
+        )
+
+    df = pd.DataFrame(
+        result,
+        columns=[
+            "city",
+            "date",
+            "weather_risk_score",
+            "weather_risk_category",
+            "delivery_impact",
+        ],
+    )
+    
+    df["weather_risk_score"] = pd.to_numeric(
+        df["weather_risk_score"],
+        errors="coerce"
+    )
+    
+    return df
