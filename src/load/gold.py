@@ -120,3 +120,27 @@ def insert_or_upsert_weather_risks(weather_risks_df: pd.DataFrame) -> None:
                 )
                 session.add(new_risk)
         session.commit()
+
+def gold_load_pipeline() -> None:
+    print("Loading silver data...")
+    silver_df = load_silver_data(SILVER_FILE)
+    
+    print("Preparing and inserting/upserting cities data...")
+    cities_df = prepare_cities_data(silver_df)
+    insert_or_upsert_cities(cities_df)
+    
+    print("Retrieving cities IDs...")
+    cities_ids = get_cities_ids()
+    
+    print("Preparing and inserting/upserting weather forecasts data...")
+    weather_forecasts_df = prepare_weather_forecasts_data(silver_df, cities_ids)
+    insert_or_upsert_weather_forecasts(weather_forecasts_df)
+    
+    print("Preparing and inserting/upserting weather risks data...")
+    weather_risks_df = prepare_weather_risks_data(silver_df, cities_ids)
+    insert_or_upsert_weather_risks(weather_risks_df)
+    
+    print("Loading gold data completed.")
+    
+if __name__ == "__main__":
+    gold_load_pipeline()
