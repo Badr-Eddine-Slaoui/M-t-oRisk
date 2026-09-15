@@ -272,3 +272,15 @@ def categorize_weather_risk_score(df: pd.DataFrame) -> pd.DataFrame:
 def check_is_weekend(df: pd.DataFrame) -> pd.DataFrame:
     df["is_weekend"] = df["date"].dt.dayofweek >= 5
     return df
+    
+def delivery_impact(row: pd.Series) -> str:
+    if row["weather_risk_category"] in ["High Risk", "Extreme Risk"]:
+        return "High Impact"
+    elif row["weather_risk_category"] == "Moderate Risk":
+        return "Moderate Impact"
+    else:
+        return "Low Impact"
+    
+def add_delivery_impact(df: pd.DataFrame) -> pd.DataFrame:
+    df["delivery_impact"] = df.apply(delivery_impact, axis=1)
+    return df
