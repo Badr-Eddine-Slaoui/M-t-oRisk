@@ -188,3 +188,59 @@ def categoriez_weather_data(df: pd.DataFrame) -> pd.DataFrame:
     df["wind_category"] = df.apply(categorize_wind, axis=1)
     df["weathercode_category"] = df.apply(categorieze_weather_code, axis=1)
     return df
+
+def calculate_temperature_risk(df: pd.Series) -> int:
+    if df["temperature_category"] == "Hot":
+        return 75
+    elif df["temperature_category"] == "Warm":
+        return 50
+    elif df["temperature_category"] == "Mild":
+        return 20
+    else:
+        return 0
+
+def calculate_precipitation_risk(df: pd.Series) -> int:
+    if df["precipitation_category"] == "No Rain":
+        return 0
+    elif df["precipitation_category"] == "Light Rain":
+        return 20
+    elif df["precipitation_category"] == "Moderate Rain":
+        return 45
+    elif df["precipitation_category"] == "Heavy Rain":
+        return 75
+    else:
+        return 100
+    
+def calculate_wind_risk(df: pd.Series) -> int:
+    if df["wind_category"] == "Calm":
+        return 0
+    elif df["wind_category"] == "Light Wind":
+        return 15
+    elif df["wind_category"] == "Moderate Wind":
+        return 30
+    elif df["wind_category"] == "Strong Wind":
+        return 60
+    elif df["wind_category"] == "Very Strong Wind":
+        return 85
+    else:
+        return 100
+    
+def calculate_weathercode_risk(df: pd.Series) -> int:
+    if df["weathercode_category"] == "Clear":
+        return 0
+    elif df["weathercode_category"] == "Cloudy":
+        return 5
+    elif df["weathercode_category"] == "Fog":
+        return 30
+    elif df["weathercode_category"] == "Drizzle":
+        return 25
+    elif df["weathercode_category"] == "Rain":
+        return 50
+    elif df["weathercode_category"] == "Snow":
+        return 70
+    elif df["weathercode_category"] == "Rain Showers":
+        return 55
+    elif df["weathercode_category"] == "Snow Showers":
+        return 75
+    else:
+        return 100
