@@ -256,3 +256,19 @@ def calculate_overall_risk(df: pd.DataFrame) -> pd.DataFrame:
         axis=1
     )
     return df
+
+def categorize_weather_risk_score(df: pd.DataFrame) -> pd.DataFrame:
+    df["weather_risk_category"] = df["weather_risk_score"].apply(
+        lambda score: (
+            "Very Low Risk" if score < 20 else
+            "Low Risk" if 20 <= score < 40 else
+            "Moderate Risk" if 40 <= score < 60 else
+            "High Risk" if 60 <= score < 80 else
+            "Extreme Risk"
+        )
+    )
+    return df
+
+def check_is_weekend(df: pd.DataFrame) -> pd.DataFrame:
+    df["is_weekend"] = df["date"].dt.dayofweek >= 5
+    return df
