@@ -80,3 +80,43 @@ def insert_or_upsert_weather_forecasts(weather_forecasts_df: pd.DataFrame) -> No
                 )
                 session.add(new_forecast)
         session.commit()
+
+def prepare_weather_risks_data(df: pd.DataFrame, cities_ids: dict) -> pd.DataFrame:
+    df["city_id"] = df["city"].map(cities_ids)
+    
+    weather_risks_df = df[[
+        "city_id", "date", "temperature_category", "precipitation_category",
+        "wind_category", "weathercode_category", "weather_risk_score",
+        "weather_risk_category", "is_weekend", "delivery_impact"
+    ]]
+    
+    return weather_risks_df
+
+def insert_or_upsert_weather_risks(weather_risks_df: pd.DataFrame) -> None:
+    with Session(engine) as session:
+        for _, row in weather_risks_df.iterrows():
+            risk = session.query(WeatherRisk).filter_by(city_id=row["city_id"], date=row["date"]).first()
+            if risk:
+                risk.temperature_category = row["temperature_category"]
+                risk.precipitation_category = row["precipitation_category"]
+                risk.wind_speed_category = row["wind_category"]
+                risk.weathercode_category = row["weathercode_category"]
+                risk.weather_risk_score = row["weather_risk_score"]
+                risk.weather_risk_category = row["weather_risk_category"]
+                risk.is_weekend = row["is_weekend"]
+                risk.delivery_impact = row["delivery_impact"]
+            else:
+                new_risk = WeatherRisk(
+                    city_id=row["city_id"],
+                    date=row["date"],
+                    temperature_category=row["temperature_category"],
+                    precipitation_category=row["precipitation_category"],
+                    wind_speed_category=row["wind_category"],
+                    weathercode_category=row["weathercode_category"],
+                    weather_risk_score=row["weather_risk_score"],
+                    weather_risk_category=row["weather_risk_category"],
+                    is_weekend=row["is_weekend"],
+                    delivery_impact=row["delivery_impact"],
+                )
+                session.add(new_risk)
+        session.commit()
