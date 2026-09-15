@@ -284,3 +284,48 @@ def delivery_impact(row: pd.Series) -> str:
 def add_delivery_impact(df: pd.DataFrame) -> pd.DataFrame:
     df["delivery_impact"] = df.apply(delivery_impact, axis=1)
     return df
+
+def save_to_csv(df: pd.DataFrame, file_path: str) -> None:
+    df.to_csv(file_path, index=False)
+    print(f"Données sauvegardées dans : {file_path}")
+
+def silver_transformation_pipeline() -> None:
+    
+    bronze_df = load_bronze_data(BRONZE_FILE)
+    
+    bronze_df = standardize_column_names(bronze_df)
+    
+    bronze_df = transform_data_types(bronze_df)
+    
+    bronze_df = remove_duplicates(bronze_df)
+    
+    bronze_df = remove_missing_values(bronze_df)
+    
+    valid_weather_data = weather_quality_check(bronze_df)
+    
+    cities_df = extract_cities_from_csv()
+    
+    cities_df = transform_cities_data_types(cities_df)
+    
+    joined_df = join_cities_weather(cities_df, valid_weather_data)
+    
+    final_df = validate_joined_data(joined_df)
+    
+    final_df = reorder_columns(final_df)
+    
+    final_df = categoriez_weather_data(final_df)
+    
+    final_df = calculate_overall_risk(final_df)
+    
+    final_df = categorize_weather_risk_score(final_df)
+    
+    final_df = check_is_weekend(final_df)
+    
+    final_df = add_delivery_impact(final_df)
+    
+    save_to_csv(final_df, SILVER_FILE)
+    
+    print("Transformation des données terminée.")
+    
+if __name__ == "__main__":
+    silver_transformation_pipeline()
