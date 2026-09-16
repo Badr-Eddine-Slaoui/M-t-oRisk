@@ -363,3 +363,79 @@ with precipitation_per_city[0]:
     
 
 st.markdown("---")
+
+average_risk_per_city = st.columns(1)
+
+with average_risk_per_city[0]:
+    date_filter = st.date_input("Date", datetime.date.today(), key="avg_date_filter", width=120)
+    
+    st.markdown("### Risque moyen par ville")
+    average_risk_df = get_average_risk_per_city()
+    
+    average_risk_df = average_risk_df[average_risk_df["date"] == date_filter]
+    
+    fig_average_risk = px.scatter(
+        average_risk_df,
+        x="city",
+        y="average_risk",
+        color="average_risk",
+        size="average_risk",
+        hover_data=["city", "average_risk"],
+        labels={
+            "city": "Ville",
+            "average_risk": "Risque moyen",
+        },
+        title="Risque moyen par ville",
+    )
+    st.plotly_chart(fig_average_risk, use_container_width=True)
+
+st.markdown("---")
+
+top_20_weather_risks = st.columns(1)
+
+with top_20_weather_risks[0]:
+    st.markdown("### Top 20 des risques météorologiques")
+    top_20_risks_df = get_top_20_weather_risks()
+    fig_top_20_risks = px.scatter(
+        top_20_risks_df,
+        x="city",
+        y="weather_risk_score",
+        color="weather_risk_category",
+        size="weather_risk_score",
+        hover_data=["date", "delivery_impact"],
+        labels={
+            "date": "Date",
+            "weather_risk_score": "Score de risque météorologique",
+            "weather_risk_category": "Catégorie de risque météorologique",
+            "city": "Ville",
+            "delivery_impact": "Impact sur les livraisons",
+        },
+        title="Top 20 des risques météorologiques",
+    )
+    st.plotly_chart(fig_top_20_risks, use_container_width=True)
+
+st.markdown("---")
+
+highest_risk_per_city = st.columns(1)
+
+with highest_risk_per_city[0]:
+    st.markdown("### Risque le plus élevé par ville")
+    highest_risk_df = get_highest_risk_per_city()
+    fig_highest_risk = px.scatter(
+        highest_risk_df,
+        x="city",
+        y="weather_risk_score",
+        color="weather_risk_category",
+        size="weather_risk_score",
+        hover_data=["date", "delivery_impact"],
+        labels={
+            "date": "Date",
+            "weather_risk_score": "Score de risque météorologique",
+            "weather_risk_category": "Catégorie de risque météorologique",
+            "city": "Ville",
+            "delivery_impact": "Impact sur les livraisons",
+        },
+        title="Risque le plus élevé par ville",
+    )
+    
+    st.plotly_chart(fig_highest_risk, use_container_width=True)
