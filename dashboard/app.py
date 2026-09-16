@@ -302,3 +302,25 @@ def get_delivery_impact_distribution() -> pd.DataFrame:
 
     df = pd.DataFrame(result, columns=["delivery_impact", "number_of_periods"])
     return df
+
+st.set_page_config(
+    page_title="MétéoRisk Dashboard",
+    page_icon=":cloud:",
+    layout="wide",
+)
+
+st.title(":cloud: MétéoRisk Dashboard")
+st.markdown("""
+Bienvenue sur le tableau de bord MétéoRisk ! Ce tableau de bord fournit des informations sur les prévisions météorologiques et les risques associés pour différentes villes. Vous pouvez explorer les données, visualiser les tendances et obtenir des informations sur l'impact potentiel des conditions météorologiques sur les livraisons et les activités. Utilisez les filtres et les graphiques interactifs pour analyser les données selon vos besoins. Profitez de votre exploration des risques météorologiques !
+""")
+
+#First row of metrics, KPIs
+col1, col2, col3, col4 = st.columns(4)
+col1.metric("Nombre de villes", get_number_of_cities())
+city, max_temp = get_maximum_temperature()
+col2.metric("Température maximale", f"{max_temp} °C", f"Ville: {city}")
+city, max_risk = get_maximum_precipitation()
+col3.metric("Précipitation maximale", f"{max_risk} mm", f"Ville: {city}")
+city, max_risk_score = get_maximum_risk_score()
+col4.metric("Risque météorologique maximal", f"{max_risk_score}", f"Ville: {city}")
+
