@@ -326,6 +326,3 @@ def silver_transformation_pipeline() -> None:
     save_to_csv(final_df, SILVER_FILE)
     
     print("Transformation des données terminée.")
-    
-if __name__ == "__main__":
-    silver_transformation_pipeline()
