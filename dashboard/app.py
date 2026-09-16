@@ -439,3 +439,75 @@ with highest_risk_per_city[0]:
     )
     
     st.plotly_chart(fig_highest_risk, use_container_width=True)
+
+st.markdown("---")
+
+weather_risk_category_distribution, delivery_impact = st.columns(2)
+
+with delivery_impact:
+    st.markdown("### Distribution de l'impact sur les livraisons")
+    delivery_impact_df = get_delivery_impact_distribution()
+    fig_delivery_impact = px.pie(
+        delivery_impact_df,
+        names="delivery_impact",
+        values="number_of_periods",
+        title="Distribution de l'impact sur les livraisons",
+    )
+    st.plotly_chart(fig_delivery_impact, use_container_width=True)
+
+with weather_risk_category_distribution:
+    st.markdown("### Distribution des catégories de risque météorologique")
+    weather_risk_category_df = get_weather_risk_category_distribution()
+    fig_weather_risk_category = px.pie(
+        weather_risk_category_df,
+        names="weather_risk_category",
+        values="number_of_forecasts",
+        title="Distribution des catégories de risque météorologique",
+    )
+    st.plotly_chart(fig_weather_risk_category, use_container_width=True)
+
+st.markdown("---")
+
+weekend_disruptions, affected_forecasts_by_period = st.columns(2)
+
+with weekend_disruptions:
+    st.markdown("### Perturbations en semaine par ville")
+    weekend_disruptions_df = get_weekday_disruptions()
+    fig_weekend_disruptions = px.bar(
+        weekend_disruptions_df,
+        x="city",
+        y="weekday_disruptions",
+        labels={"city": "Ville", "weekend_disruptions": "Perturbations en semaine"},
+        title="Perturbations en semaine par ville",
+    )
+    st.plotly_chart(fig_weekend_disruptions, use_container_width=True)
+    
+
+with affected_forecasts_by_period:
+    st.markdown("### Prévisions affectées par période (semaine vs week-end)")
+    affected_forecasts_df = get_affected_forecasts_by_period()
+    fig_affected_forecasts = px.bar(
+        affected_forecasts_df,
+        x="period",
+        y="affected_forecasts",
+        labels={"period": "Période", "affected_forecasts": "Prévisions affectées"},
+        title="Prévisions affectées par période (semaine vs week-end)",
+    )
+    st.plotly_chart(fig_affected_forecasts, use_container_width=True)
+
+st.markdown("---")
+
+average_weekday_risk_per_city = st.columns(1)
+
+with average_weekday_risk_per_city[0]:
+    st.markdown("### Risque moyen en semaine par ville")
+    average_weekday_risk_df = get_average_weekday_risk_per_city()
+    fig_average_weekday_risk = px.bar(
+        average_weekday_risk_df,
+        x="city",
+        y="average_weekday_risk",
+        labels={"city": "Ville", "average_weekday_risk": "Risque moyen en semaine"},
+        title="Risque moyen en semaine par ville",
+    )
+    st.plotly_chart(fig_average_weekday_risk, use_container_width=True)
+    
