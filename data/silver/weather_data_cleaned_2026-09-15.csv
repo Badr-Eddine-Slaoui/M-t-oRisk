@@ -1,0 +1,841 @@
+city,lat,lng,date,temperature_2m_max,temperature_2m_min,precipitation_sum,precipitation_probability_max,windspeed_10m_max,windgusts_10m_max,weathercode,temperature_category,precipitation_category,wind_category,weathercode_category,weather_risk_score,weather_risk_category,is_weekend,delivery_impact
+Casablanca,33.5992,-7.62,2026-09-15,28.8,21.6,0.0,0.0,10.7,29.9,45,Warm,No Rain,Moderate Wind,Fog,22.5,Low Risk,False,Low Impact
+Casablanca,33.5992,-7.62,2026-09-16,25.9,21.0,0.0,0.0,14.1,36.0,45,Warm,No Rain,Moderate Wind,Fog,22.5,Low Risk,False,Low Impact
+Casablanca,33.5992,-7.62,2026-09-17,25.7,19.9,0.0,0.0,12.0,33.8,3,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,False,Low Impact
+Casablanca,33.5992,-7.62,2026-09-18,25.9,19.5,0.0,3.0,13.0,35.6,45,Warm,No Rain,Moderate Wind,Fog,22.5,Low Risk,False,Low Impact
+Casablanca,33.5992,-7.62,2026-09-19,26.7,19.4,0.0,0.0,12.4,32.8,2,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,True,Low Impact
+Casablanca,33.5992,-7.62,2026-09-20,31.8,20.6,0.0,0.0,11.6,29.9,2,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,True,Low Impact
+Casablanca,33.5992,-7.62,2026-09-21,30.3,21.6,0.0,0.0,13.6,36.0,2,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,False,Low Impact
+Tangier,35.7767,-5.8039,2026-09-15,30.6,21.7,0.0,0.0,13.4,31.7,0,Hot,No Rain,Moderate Wind,Clear,20.25,Low Risk,False,Low Impact
+Tangier,35.7767,-5.8039,2026-09-16,27.0,18.1,0.0,0.0,18.8,44.3,3,Warm,No Rain,Strong Wind,Cloudy,26.5,Low Risk,False,Low Impact
+Tangier,35.7767,-5.8039,2026-09-17,26.6,18.4,0.0,0.0,12.9,30.2,3,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,False,Low Impact
+Tangier,35.7767,-5.8039,2026-09-18,28.7,19.5,0.0,0.0,17.1,41.8,3,Warm,No Rain,Strong Wind,Cloudy,26.5,Low Risk,False,Low Impact
+Tangier,35.7767,-5.8039,2026-09-19,27.5,22.2,0.0,0.0,32.5,77.4,2,Warm,No Rain,Very Strong Wind,Cloudy,34.0,Low Risk,True,Low Impact
+Tangier,35.7767,-5.8039,2026-09-20,25.5,22.1,0.0,0.0,45.7,88.2,2,Warm,No Rain,Extreme Wind,Cloudy,38.5,Low Risk,True,Low Impact
+Tangier,35.7767,-5.8039,2026-09-21,25.6,21.9,0.0,0.0,42.9,80.6,2,Warm,No Rain,Extreme Wind,Cloudy,38.5,Low Risk,False,Low Impact
+Fès,34.0433,-5.0033,2026-09-15,34.8,24.0,0.0,0.0,14.3,37.1,1,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,False,Low Impact
+Fès,34.0433,-5.0033,2026-09-16,31.7,21.0,0.0,0.0,17.1,41.4,2,Hot,No Rain,Strong Wind,Cloudy,30.25,Low Risk,False,Low Impact
+Fès,34.0433,-5.0033,2026-09-17,29.3,19.2,0.0,0.0,12.7,33.5,3,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,False,Low Impact
+Fès,34.0433,-5.0033,2026-09-18,30.7,18.4,0.0,5.0,9.9,27.0,2,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,False,Low Impact
+Fès,34.0433,-5.0033,2026-09-19,33.4,20.9,0.0,3.0,18.8,47.5,2,Hot,No Rain,Strong Wind,Cloudy,30.25,Low Risk,True,Low Impact
+Fès,34.0433,-5.0033,2026-09-20,33.9,22.4,0.0,0.0,20.0,48.6,1,Hot,No Rain,Strong Wind,Cloudy,30.25,Low Risk,True,Low Impact
+Fès,34.0433,-5.0033,2026-09-21,33.8,21.5,0.0,0.0,14.4,37.4,0,Hot,No Rain,Moderate Wind,Clear,20.25,Low Risk,False,Low Impact
+Marrakech,31.6295,-7.9811,2026-09-15,38.4,25.5,0.0,3.0,13.1,38.2,3,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,False,Low Impact
+Marrakech,31.6295,-7.9811,2026-09-16,34.8,21.8,0.0,0.0,11.3,31.7,0,Hot,No Rain,Moderate Wind,Clear,20.25,Low Risk,False,Low Impact
+Marrakech,31.6295,-7.9811,2026-09-17,30.8,19.0,0.0,5.0,9.5,28.1,3,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,False,Low Impact
+Marrakech,31.6295,-7.9811,2026-09-18,32.5,19.0,0.0,3.0,7.9,24.8,3,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,False,Low Impact
+Marrakech,31.6295,-7.9811,2026-09-19,36.3,21.4,0.0,8.0,7.8,25.6,2,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,True,Low Impact
+Marrakech,31.6295,-7.9811,2026-09-20,39.0,23.0,0.0,4.0,14.7,24.8,3,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,True,Low Impact
+Marrakech,31.6295,-7.9811,2026-09-21,34.5,23.6,0.0,5.0,17.0,31.3,3,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,False,Low Impact
+Sale,34.05,-6.8167,2026-09-15,28.2,21.6,0.0,0.0,12.1,31.3,45,Warm,No Rain,Moderate Wind,Fog,22.5,Low Risk,False,Low Impact
+Sale,34.05,-6.8167,2026-09-16,26.3,20.9,0.0,0.0,15.1,37.8,3,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,False,Low Impact
+Sale,34.05,-6.8167,2026-09-17,26.2,19.2,0.0,0.0,11.7,30.6,3,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,False,Low Impact
+Sale,34.05,-6.8167,2026-09-18,25.9,18.0,0.0,3.0,12.6,32.4,45,Warm,No Rain,Moderate Wind,Fog,22.5,Low Risk,False,Low Impact
+Sale,34.05,-6.8167,2026-09-19,29.5,17.0,0.0,2.0,12.3,31.7,45,Warm,No Rain,Moderate Wind,Fog,22.5,Low Risk,True,Low Impact
+Sale,34.05,-6.8167,2026-09-20,33.5,21.5,0.0,2.0,13.6,32.0,1,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,True,Low Impact
+Sale,34.05,-6.8167,2026-09-21,28.4,20.3,0.0,0.0,11.8,27.7,0,Warm,No Rain,Moderate Wind,Clear,16.5,Very Low Risk,False,Low Impact
+Meknès,33.8833,-5.55,2026-09-15,33.6,21.7,0.0,0.0,16.1,40.7,2,Hot,No Rain,Strong Wind,Cloudy,30.25,Low Risk,False,Low Impact
+Meknès,33.8833,-5.55,2026-09-16,30.4,18.8,0.0,0.0,16.6,40.7,1,Hot,No Rain,Strong Wind,Cloudy,30.25,Low Risk,False,Low Impact
+Meknès,33.8833,-5.55,2026-09-17,27.6,17.5,0.0,0.0,13.5,34.9,45,Warm,No Rain,Moderate Wind,Fog,22.5,Low Risk,False,Low Impact
+Meknès,33.8833,-5.55,2026-09-18,28.7,16.3,0.0,13.0,12.8,32.0,3,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,False,Low Impact
+Meknès,33.8833,-5.55,2026-09-19,33.8,18.5,0.0,2.0,14.9,40.3,2,Hot,No Rain,Strong Wind,Cloudy,30.25,Low Risk,True,Low Impact
+Meknès,33.8833,-5.55,2026-09-20,34.9,20.7,0.0,0.0,18.6,40.7,1,Hot,No Rain,Strong Wind,Cloudy,30.25,Low Risk,True,Low Impact
+Meknès,33.8833,-5.55,2026-09-21,34.2,20.3,0.0,0.0,11.6,26.6,0,Hot,No Rain,Moderate Wind,Clear,20.25,Low Risk,False,Low Impact
+Rabat,34.0211,-6.8414,2026-09-15,28.2,21.6,0.0,0.0,12.1,31.3,45,Warm,No Rain,Moderate Wind,Fog,22.5,Low Risk,False,Low Impact
+Rabat,34.0211,-6.8414,2026-09-16,26.3,21.0,0.0,0.0,15.1,37.8,3,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,False,Low Impact
+Rabat,34.0211,-6.8414,2026-09-17,26.2,19.2,0.0,0.0,11.7,30.6,3,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,False,Low Impact
+Rabat,34.0211,-6.8414,2026-09-18,25.9,18.1,0.0,3.0,12.6,32.4,45,Warm,No Rain,Moderate Wind,Fog,22.5,Low Risk,False,Low Impact
+Rabat,34.0211,-6.8414,2026-09-19,29.6,17.1,0.0,2.0,12.3,31.7,45,Warm,No Rain,Moderate Wind,Fog,22.5,Low Risk,True,Low Impact
+Rabat,34.0211,-6.8414,2026-09-20,33.6,21.5,0.0,2.0,13.6,32.0,1,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,True,Low Impact
+Rabat,34.0211,-6.8414,2026-09-21,28.4,20.3,0.0,0.0,11.8,27.7,0,Warm,No Rain,Moderate Wind,Clear,16.5,Very Low Risk,False,Low Impact
+Agadir,30.4214,-9.5831,2026-09-15,36.2,26.0,0.0,5.0,13.8,37.4,3,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,False,Low Impact
+Agadir,30.4214,-9.5831,2026-09-16,37.7,24.0,0.0,0.0,14.7,33.8,1,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,False,Low Impact
+Agadir,30.4214,-9.5831,2026-09-17,28.1,20.8,0.0,0.0,14.4,39.6,3,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,False,Low Impact
+Agadir,30.4214,-9.5831,2026-09-18,26.8,20.2,0.0,3.0,12.4,35.6,2,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,False,Low Impact
+Agadir,30.4214,-9.5831,2026-09-19,27.1,21.0,0.0,0.0,13.0,36.4,3,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,True,Low Impact
+Agadir,30.4214,-9.5831,2026-09-20,28.5,20.4,0.0,0.0,15.0,30.6,45,Warm,No Rain,Moderate Wind,Fog,22.5,Low Risk,True,Low Impact
+Agadir,30.4214,-9.5831,2026-09-21,33.3,21.3,0.0,0.0,12.8,27.0,45,Hot,No Rain,Moderate Wind,Fog,26.25,Low Risk,False,Low Impact
+Kenitra,34.25,-6.5833,2026-09-15,29.2,21.2,0.0,0.0,13.2,33.1,45,Warm,No Rain,Moderate Wind,Fog,22.5,Low Risk,False,Low Impact
+Kenitra,34.25,-6.5833,2026-09-16,27.0,20.9,0.0,0.0,16.8,41.0,3,Warm,No Rain,Strong Wind,Cloudy,26.5,Low Risk,False,Low Impact
+Kenitra,34.25,-6.5833,2026-09-17,27.1,19.0,0.0,0.0,11.6,29.9,3,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,False,Low Impact
+Kenitra,34.25,-6.5833,2026-09-18,27.0,16.0,0.0,3.0,12.5,32.0,45,Warm,No Rain,Moderate Wind,Fog,22.5,Low Risk,False,Low Impact
+Kenitra,34.25,-6.5833,2026-09-19,32.5,16.7,0.0,0.0,16.9,40.7,45,Hot,No Rain,Strong Wind,Fog,35.25,Low Risk,True,Low Impact
+Kenitra,34.25,-6.5833,2026-09-20,36.7,22.5,0.0,0.0,17.3,40.3,1,Hot,No Rain,Strong Wind,Cloudy,30.25,Low Risk,True,Low Impact
+Kenitra,34.25,-6.5833,2026-09-21,33.1,22.1,0.0,0.0,14.3,33.1,0,Hot,No Rain,Moderate Wind,Clear,20.25,Low Risk,False,Low Impact
+Oujda-Angad,34.6867,-1.9114,2026-09-15,31.0,16.4,0.0,0.0,17.8,37.8,3,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,False,Low Impact
+Oujda-Angad,34.6867,-1.9114,2026-09-16,32.3,15.9,0.0,0.0,18.9,38.9,0,Hot,No Rain,Moderate Wind,Clear,20.25,Low Risk,False,Low Impact
+Oujda-Angad,34.6867,-1.9114,2026-09-17,28.0,16.5,0.0,3.0,19.5,40.7,3,Warm,No Rain,Strong Wind,Cloudy,26.5,Low Risk,False,Low Impact
+Oujda-Angad,34.6867,-1.9114,2026-09-18,27.1,17.6,0.0,25.0,20.7,42.8,45,Warm,No Rain,Strong Wind,Fog,31.5,Low Risk,False,Low Impact
+Oujda-Angad,34.6867,-1.9114,2026-09-19,27.8,17.8,0.0,33.0,21.0,43.9,45,Warm,No Rain,Strong Wind,Fog,31.5,Low Risk,True,Low Impact
+Oujda-Angad,34.6867,-1.9114,2026-09-20,28.1,17.7,0.0,13.0,20.3,40.0,45,Warm,No Rain,Strong Wind,Fog,31.5,Low Risk,True,Low Impact
+Oujda-Angad,34.6867,-1.9114,2026-09-21,27.8,18.4,0.3,13.0,15.6,32.4,3,Warm,Light Rain,Moderate Wind,Cloudy,24.5,Low Risk,False,Low Impact
+Tétouan,35.5667,-5.3667,2026-09-15,29.3,21.3,0.0,0.0,12.2,32.0,2,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,False,Low Impact
+Tétouan,35.5667,-5.3667,2026-09-16,34.0,19.5,0.0,0.0,26.3,60.5,2,Hot,No Rain,Very Strong Wind,Cloudy,37.75,Low Risk,False,Low Impact
+Tétouan,35.5667,-5.3667,2026-09-17,27.4,16.5,0.0,0.0,11.3,27.7,3,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,False,Low Impact
+Tétouan,35.5667,-5.3667,2026-09-18,27.0,19.6,0.0,3.0,18.3,43.9,3,Warm,No Rain,Strong Wind,Cloudy,26.5,Low Risk,False,Low Impact
+Tétouan,35.5667,-5.3667,2026-09-19,26.2,22.0,0.0,3.0,33.1,77.4,3,Warm,No Rain,Very Strong Wind,Cloudy,34.0,Low Risk,True,Low Impact
+Tétouan,35.5667,-5.3667,2026-09-20,25.3,22.1,0.0,0.0,40.4,84.2,2,Warm,No Rain,Extreme Wind,Cloudy,38.5,Low Risk,True,Low Impact
+Tétouan,35.5667,-5.3667,2026-09-21,25.4,21.8,0.0,0.0,36.8,76.3,2,Warm,No Rain,Very Strong Wind,Cloudy,34.0,Low Risk,False,Low Impact
+Safi,32.2833,-9.2333,2026-09-15,33.6,22.8,0.0,3.0,23.4,43.2,3,Hot,No Rain,Strong Wind,Cloudy,30.25,Low Risk,False,Low Impact
+Safi,32.2833,-9.2333,2026-09-16,27.5,20.9,0.0,0.0,27.3,48.6,2,Warm,No Rain,Strong Wind,Cloudy,26.5,Low Risk,False,Low Impact
+Safi,32.2833,-9.2333,2026-09-17,25.2,19.5,0.0,0.0,21.3,37.4,3,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,False,Low Impact
+Safi,32.2833,-9.2333,2026-09-18,25.9,19.1,0.0,0.0,22.1,40.0,3,Warm,No Rain,Strong Wind,Cloudy,26.5,Low Risk,False,Low Impact
+Safi,32.2833,-9.2333,2026-09-19,27.6,18.9,0.0,0.0,22.0,39.6,2,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,True,Low Impact
+Safi,32.2833,-9.2333,2026-09-20,30.9,21.1,0.0,0.0,17.0,32.0,2,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,True,Low Impact
+Safi,32.2833,-9.2333,2026-09-21,26.1,19.4,0.0,0.0,14.6,28.4,45,Warm,No Rain,Moderate Wind,Fog,22.5,Low Risk,False,Low Impact
+Taourirt,34.41,-2.89,2026-09-15,32.1,19.0,0.0,0.0,23.4,37.4,3,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,False,Low Impact
+Taourirt,34.41,-2.89,2026-09-16,34.3,18.6,0.0,0.0,20.7,33.1,1,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,False,Low Impact
+Taourirt,34.41,-2.89,2026-09-17,30.4,19.7,0.0,3.0,26.4,44.3,3,Hot,No Rain,Strong Wind,Cloudy,30.25,Low Risk,False,Low Impact
+Taourirt,34.41,-2.89,2026-09-18,29.1,19.7,0.0,18.0,28.4,47.5,45,Warm,No Rain,Strong Wind,Fog,31.5,Low Risk,False,Low Impact
+Taourirt,34.41,-2.89,2026-09-19,29.5,19.4,0.0,15.0,31.6,54.0,3,Warm,No Rain,Strong Wind,Cloudy,26.5,Low Risk,True,Low Impact
+Taourirt,34.41,-2.89,2026-09-20,30.1,19.5,0.0,3.0,28.4,48.6,3,Hot,No Rain,Strong Wind,Cloudy,30.25,Low Risk,True,Low Impact
+Taourirt,34.41,-2.89,2026-09-21,30.2,19.6,0.0,3.0,26.3,45.0,3,Hot,No Rain,Strong Wind,Cloudy,30.25,Low Risk,False,Low Impact
+Temara,33.9234,-6.9076,2026-09-15,28.2,21.4,0.0,0.0,11.6,31.7,45,Warm,No Rain,Moderate Wind,Fog,22.5,Low Risk,False,Low Impact
+Temara,33.9234,-6.9076,2026-09-16,26.1,20.3,0.0,0.0,15.0,39.2,3,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,False,Low Impact
+Temara,33.9234,-6.9076,2026-09-17,26.0,18.8,0.0,0.0,11.8,32.8,3,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,False,Low Impact
+Temara,33.9234,-6.9076,2026-09-18,25.9,17.4,0.0,3.0,12.9,33.5,3,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,False,Low Impact
+Temara,33.9234,-6.9076,2026-09-19,29.4,16.4,0.0,0.0,11.8,31.7,2,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,True,Low Impact
+Temara,33.9234,-6.9076,2026-09-20,31.2,20.4,0.0,0.0,12.8,27.7,1,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,True,Low Impact
+Temara,33.9234,-6.9076,2026-09-21,26.2,20.7,0.0,0.0,12.4,25.2,0,Warm,No Rain,Moderate Wind,Clear,16.5,Very Low Risk,False,Low Impact
+Laâyoune,27.15,-13.2,2026-09-15,40.5,25.1,0.0,0.0,25.3,49.3,0,Hot,No Rain,Strong Wind,Clear,29.25,Low Risk,False,Low Impact
+Laâyoune,27.15,-13.2,2026-09-16,36.1,21.7,0.0,0.0,26.3,51.1,0,Hot,No Rain,Strong Wind,Clear,29.25,Low Risk,False,Low Impact
+Laâyoune,27.15,-13.2,2026-09-17,28.4,21.5,0.0,0.0,31.5,58.3,3,Warm,No Rain,Strong Wind,Cloudy,26.5,Low Risk,False,Low Impact
+Laâyoune,27.15,-13.2,2026-09-18,27.9,20.1,0.0,2.0,27.9,54.4,3,Warm,No Rain,Strong Wind,Cloudy,26.5,Low Risk,False,Low Impact
+Laâyoune,27.15,-13.2,2026-09-19,28.8,18.1,0.0,0.0,24.7,48.6,0,Warm,No Rain,Strong Wind,Clear,25.5,Low Risk,True,Low Impact
+Laâyoune,27.15,-13.2,2026-09-20,32.8,19.3,0.0,0.0,22.7,46.4,3,Hot,No Rain,Strong Wind,Cloudy,30.25,Low Risk,True,Low Impact
+Laâyoune,27.15,-13.2,2026-09-21,35.3,19.3,0.0,8.0,26.3,50.8,0,Hot,No Rain,Strong Wind,Clear,29.25,Low Risk,False,Low Impact
+El Jadid,33.2566,-8.5025,2026-09-15,26.7,21.5,0.0,0.0,16.7,29.9,45,Warm,No Rain,Moderate Wind,Fog,22.5,Low Risk,False,Low Impact
+El Jadid,33.2566,-8.5025,2026-09-16,25.1,21.0,0.0,0.0,19.1,33.5,2,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,False,Low Impact
+El Jadid,33.2566,-8.5025,2026-09-17,25.6,19.6,0.0,0.0,15.5,28.1,3,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,False,Low Impact
+El Jadid,33.2566,-8.5025,2026-09-18,25.0,20.1,0.0,0.0,18.2,34.6,2,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,False,Low Impact
+El Jadid,33.2566,-8.5025,2026-09-19,25.5,19.5,0.0,0.0,17.8,32.4,2,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,True,Low Impact
+El Jadid,33.2566,-8.5025,2026-09-20,28.6,20.9,0.0,0.0,15.5,30.2,2,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,True,Low Impact
+El Jadid,33.2566,-8.5025,2026-09-21,27.5,20.3,0.0,0.0,16.8,33.1,45,Warm,No Rain,Moderate Wind,Fog,22.5,Low Risk,False,Low Impact
+Ait Melloul,30.3342,-9.4972,2026-09-15,36.1,24.9,0.0,8.0,17.8,34.9,3,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,False,Low Impact
+Ait Melloul,30.3342,-9.4972,2026-09-16,29.7,21.6,0.0,0.0,18.0,35.6,1,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,False,Low Impact
+Ait Melloul,30.3342,-9.4972,2026-09-17,26.9,21.3,0.0,0.0,18.0,36.0,3,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,False,Low Impact
+Ait Melloul,30.3342,-9.4972,2026-09-18,27.1,20.4,0.0,3.0,18.1,36.4,2,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,False,Low Impact
+Ait Melloul,30.3342,-9.4972,2026-09-19,26.5,20.7,0.0,0.0,20.0,38.9,2,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,True,Low Impact
+Ait Melloul,30.3342,-9.4972,2026-09-20,28.7,20.6,0.0,0.0,15.0,30.6,45,Warm,No Rain,Moderate Wind,Fog,22.5,Low Risk,True,Low Impact
+Ait Melloul,30.3342,-9.4972,2026-09-21,33.5,21.6,0.0,0.0,12.8,27.0,45,Hot,No Rain,Moderate Wind,Fog,26.25,Low Risk,False,Low Impact
+Béni Mellal,32.3394,-6.3608,2026-09-15,36.3,26.2,0.1,5.0,22.3,39.6,3,Hot,Light Rain,Moderate Wind,Cloudy,28.25,Low Risk,False,Low Impact
+Béni Mellal,32.3394,-6.3608,2026-09-16,32.9,21.7,0.0,0.0,16.6,34.6,0,Hot,No Rain,Moderate Wind,Clear,20.25,Low Risk,False,Low Impact
+Béni Mellal,32.3394,-6.3608,2026-09-17,30.3,19.1,0.0,18.0,12.5,23.4,3,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,False,Low Impact
+Béni Mellal,32.3394,-6.3608,2026-09-18,31.9,19.6,0.0,15.0,9.3,23.0,3,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,False,Low Impact
+Béni Mellal,32.3394,-6.3608,2026-09-19,35.6,22.3,0.0,5.0,15.1,33.5,3,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,True,Low Impact
+Béni Mellal,32.3394,-6.3608,2026-09-20,38.1,28.6,0.3,1.0,16.1,29.5,2,Hot,Light Rain,Moderate Wind,Cloudy,28.25,Low Risk,True,Low Impact
+Béni Mellal,32.3394,-6.3608,2026-09-21,36.8,28.0,0.9,8.0,18.6,37.1,80,Hot,Light Rain,Moderate Wind,Rain Showers,38.25,Low Risk,False,Low Impact
+Bouskoura,33.4489,-7.6486,2026-09-15,32.8,21.2,0.0,0.0,14.7,36.4,45,Hot,No Rain,Moderate Wind,Fog,26.25,Low Risk,False,Low Impact
+Bouskoura,33.4489,-7.6486,2026-09-16,27.2,19.8,0.0,0.0,15.8,38.2,45,Warm,No Rain,Moderate Wind,Fog,22.5,Low Risk,False,Low Impact
+Bouskoura,33.4489,-7.6486,2026-09-17,26.9,19.0,0.0,0.0,14.7,36.7,3,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,False,Low Impact
+Bouskoura,33.4489,-7.6486,2026-09-18,27.6,18.4,0.0,3.0,16.8,41.0,2,Warm,No Rain,Strong Wind,Cloudy,26.5,Low Risk,False,Low Impact
+Bouskoura,33.4489,-7.6486,2026-09-19,29.9,18.0,0.0,0.0,14.1,35.3,45,Warm,No Rain,Moderate Wind,Fog,22.5,Low Risk,True,Low Impact
+Bouskoura,33.4489,-7.6486,2026-09-20,31.0,19.8,0.0,0.0,11.6,29.9,2,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,True,Low Impact
+Bouskoura,33.4489,-7.6486,2026-09-21,29.5,20.8,0.0,0.0,13.6,36.0,2,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,False,Low Impact
+Tiznit,29.7,-9.7269,2026-09-15,35.9,26.6,0.0,0.0,20.6,33.5,1,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,False,Low Impact
+Tiznit,29.7,-9.7269,2026-09-16,32.2,21.6,0.0,0.0,21.4,35.6,1,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,False,Low Impact
+Tiznit,29.7,-9.7269,2026-09-17,24.0,19.8,0.0,0.0,23.6,39.2,3,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,False,Low Impact
+Tiznit,29.7,-9.7269,2026-09-18,25.6,19.7,0.0,0.0,21.8,36.0,3,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,False,Low Impact
+Tiznit,29.7,-9.7269,2026-09-19,26.9,20.2,0.0,3.0,15.4,25.2,1,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,True,Low Impact
+Tiznit,29.7,-9.7269,2026-09-20,25.8,19.9,0.0,0.0,19.0,30.6,2,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,True,Low Impact
+Tiznit,29.7,-9.7269,2026-09-21,27.6,19.8,0.0,0.0,12.3,20.9,45,Warm,No Rain,Moderate Wind,Fog,22.5,Low Risk,False,Low Impact
+Mohammedia,33.6833,-7.3833,2026-09-15,27.6,21.2,0.0,0.0,12.4,29.9,45,Warm,No Rain,Moderate Wind,Fog,22.5,Low Risk,False,Low Impact
+Mohammedia,33.6833,-7.3833,2026-09-16,25.8,20.8,0.0,0.0,15.8,36.7,2,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,False,Low Impact
+Mohammedia,33.6833,-7.3833,2026-09-17,25.4,20.0,0.0,0.0,13.2,31.3,3,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,False,Low Impact
+Mohammedia,33.6833,-7.3833,2026-09-18,25.4,18.7,0.0,3.0,14.1,34.6,3,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,False,Low Impact
+Mohammedia,33.6833,-7.3833,2026-09-19,26.5,17.7,0.0,0.0,13.3,31.3,2,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,True,Low Impact
+Mohammedia,33.6833,-7.3833,2026-09-20,33.9,19.6,0.0,0.0,16.2,30.2,2,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,True,Low Impact
+Mohammedia,33.6833,-7.3833,2026-09-21,32.5,20.3,0.0,0.0,16.9,33.5,1,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,False,Low Impact
+Kouribga,32.88,-6.9,2026-09-15,34.7,22.7,0.0,3.0,24.0,47.2,3,Hot,No Rain,Strong Wind,Cloudy,30.25,Low Risk,False,Low Impact
+Kouribga,32.88,-6.9,2026-09-16,31.4,17.9,0.0,0.0,19.1,35.3,1,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,False,Low Impact
+Kouribga,32.88,-6.9,2026-09-17,28.9,14.2,0.0,3.0,19.9,38.5,3,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,False,Low Impact
+Kouribga,32.88,-6.9,2026-09-18,29.9,15.1,0.0,10.0,16.9,34.9,1,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,False,Low Impact
+Kouribga,32.88,-6.9,2026-09-19,33.3,17.9,0.0,5.0,19.4,38.5,3,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,True,Low Impact
+Kouribga,32.88,-6.9,2026-09-20,35.9,21.5,0.0,5.0,18.4,37.8,2,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,True,Low Impact
+Kouribga,32.88,-6.9,2026-09-21,34.6,21.3,0.0,5.0,20.0,42.5,2,Hot,No Rain,Strong Wind,Cloudy,30.25,Low Risk,False,Low Impact
+Settat,33.0023,-7.6198,2026-09-15,36.2,23.3,0.0,0.0,24.1,51.1,2,Hot,No Rain,Strong Wind,Cloudy,30.25,Low Risk,False,Low Impact
+Settat,33.0023,-7.6198,2026-09-16,30.1,19.4,0.0,0.0,18.9,38.5,2,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,False,Low Impact
+Settat,33.0023,-7.6198,2026-09-17,28.0,17.1,0.0,0.0,18.4,38.9,45,Warm,No Rain,Moderate Wind,Fog,22.5,Low Risk,False,Low Impact
+Settat,33.0023,-7.6198,2026-09-18,29.9,16.9,0.0,0.0,19.2,40.7,45,Warm,No Rain,Strong Wind,Fog,31.5,Low Risk,False,Low Impact
+Settat,33.0023,-7.6198,2026-09-19,33.2,16.5,0.0,5.0,17.1,37.4,3,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,True,Low Impact
+Settat,33.0023,-7.6198,2026-09-20,37.8,20.3,0.0,3.0,18.7,37.4,2,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,True,Low Impact
+Settat,33.0023,-7.6198,2026-09-21,34.6,21.0,0.0,3.0,19.4,37.8,1,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,False,Low Impact
+Barrechid,33.27,-7.5872,2026-09-15,35.9,21.5,0.0,0.0,22.0,39.2,2,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,False,Low Impact
+Barrechid,33.27,-7.5872,2026-09-16,29.3,19.2,0.0,0.0,19.3,34.9,2,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,False,Low Impact
+Barrechid,33.27,-7.5872,2026-09-17,28.2,18.2,0.0,0.0,18.2,32.4,3,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,False,Low Impact
+Barrechid,33.27,-7.5872,2026-09-18,29.4,17.3,0.0,3.0,19.8,36.7,45,Warm,No Rain,Moderate Wind,Fog,22.5,Low Risk,False,Low Impact
+Barrechid,33.27,-7.5872,2026-09-19,32.6,16.2,0.0,0.0,17.3,31.7,2,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,True,Low Impact
+Barrechid,33.27,-7.5872,2026-09-20,36.4,21.1,0.0,0.0,19.2,34.9,2,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,True,Low Impact
+Barrechid,33.27,-7.5872,2026-09-21,33.3,19.9,0.0,0.0,20.5,36.0,2,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,False,Low Impact
+Ad Dakhla,23.7167,-15.95,2026-09-15,24.8,21.7,0.0,12.0,36.0,45.0,1,Warm,No Rain,Strong Wind,Cloudy,26.5,Low Risk,False,Low Impact
+Ad Dakhla,23.7167,-15.95,2026-09-16,23.5,22.1,0.0,3.0,36.7,45.7,0,Warm,No Rain,Strong Wind,Clear,25.5,Low Risk,False,Low Impact
+Ad Dakhla,23.7167,-15.95,2026-09-17,22.2,20.0,0.0,0.0,40.5,52.2,2,Warm,No Rain,Strong Wind,Cloudy,26.5,Low Risk,False,Low Impact
+Ad Dakhla,23.7167,-15.95,2026-09-18,21.1,20.2,0.0,0.0,39.2,49.0,0,Warm,No Rain,Strong Wind,Clear,25.5,Low Risk,False,Low Impact
+Ad Dakhla,23.7167,-15.95,2026-09-19,20.9,19.8,0.0,0.0,30.4,38.9,0,Warm,No Rain,Moderate Wind,Clear,16.5,Very Low Risk,True,Low Impact
+Ad Dakhla,23.7167,-15.95,2026-09-20,21.3,19.5,0.0,0.0,31.2,40.7,3,Warm,No Rain,Strong Wind,Cloudy,26.5,Low Risk,True,Low Impact
+Ad Dakhla,23.7167,-15.95,2026-09-21,21.6,19.1,0.0,11.0,24.5,38.2,0,Warm,No Rain,Moderate Wind,Clear,16.5,Very Low Risk,False,Low Impact
+Nador,35.1667,-2.9333,2026-09-15,26.7,21.9,0.0,0.0,10.8,25.9,3,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,False,Low Impact
+Nador,35.1667,-2.9333,2026-09-16,30.0,21.7,0.0,0.0,9.1,24.1,2,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,False,Low Impact
+Nador,35.1667,-2.9333,2026-09-17,26.3,22.4,0.0,3.0,14.6,32.4,3,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,False,Low Impact
+Nador,35.1667,-2.9333,2026-09-18,25.6,22.2,0.1,5.0,13.0,33.1,3,Warm,Light Rain,Moderate Wind,Cloudy,24.5,Low Risk,False,Low Impact
+Nador,35.1667,-2.9333,2026-09-19,25.1,22.9,0.98,26.0,21.9,46.4,80,Warm,Light Rain,Strong Wind,Rain Showers,43.5,Moderate Risk,True,Moderate Impact
+Nador,35.1667,-2.9333,2026-09-20,26.2,22.0,0.08,13.0,28.8,50.0,2,Warm,Light Rain,Strong Wind,Cloudy,33.5,Low Risk,True,Low Impact
+Nador,35.1667,-2.9333,2026-09-21,26.1,22.6,0.0,5.0,25.0,43.9,3,Warm,No Rain,Strong Wind,Cloudy,26.5,Low Risk,False,Low Impact
+Taza,34.2144,-4.0088,2026-09-15,33.0,19.6,0.0,0.0,13.4,27.7,3,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,False,Low Impact
+Taza,34.2144,-4.0088,2026-09-16,30.9,19.3,0.0,0.0,24.9,51.8,1,Hot,No Rain,Strong Wind,Cloudy,30.25,Low Risk,False,Low Impact
+Taza,34.2144,-4.0088,2026-09-17,30.4,18.0,0.0,3.0,13.4,28.8,3,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,False,Low Impact
+Taza,34.2144,-4.0088,2026-09-18,29.2,18.4,0.0,5.0,17.4,35.6,3,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,False,Low Impact
+Taza,34.2144,-4.0088,2026-09-19,28.7,19.1,0.0,3.0,26.0,54.0,2,Warm,No Rain,Strong Wind,Cloudy,26.5,Low Risk,True,Low Impact
+Taza,34.2144,-4.0088,2026-09-20,29.1,19.4,0.0,5.0,26.9,50.0,2,Warm,No Rain,Strong Wind,Cloudy,26.5,Low Risk,True,Low Impact
+Taza,34.2144,-4.0088,2026-09-21,28.8,20.0,0.0,5.0,26.9,49.3,3,Warm,No Rain,Strong Wind,Cloudy,26.5,Low Risk,False,Low Impact
+Inezgane,30.3658,-9.5381,2026-09-15,34.1,23.6,0.0,8.0,11.2,33.8,3,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,False,Low Impact
+Inezgane,30.3658,-9.5381,2026-09-16,31.9,21.3,0.0,0.0,12.3,33.8,2,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,False,Low Impact
+Inezgane,30.3658,-9.5381,2026-09-17,26.4,20.8,0.0,0.0,14.4,41.0,3,Warm,No Rain,Strong Wind,Cloudy,26.5,Low Risk,False,Low Impact
+Inezgane,30.3658,-9.5381,2026-09-18,25.6,19.9,0.0,3.0,13.8,37.4,2,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,False,Low Impact
+Inezgane,30.3658,-9.5381,2026-09-19,25.3,20.3,0.0,0.0,14.8,39.2,3,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,True,Low Impact
+Inezgane,30.3658,-9.5381,2026-09-20,28.8,20.7,0.0,0.0,15.0,30.6,45,Warm,No Rain,Moderate Wind,Fog,22.5,Low Risk,True,Low Impact
+Inezgane,30.3658,-9.5381,2026-09-21,33.6,21.6,0.0,0.0,12.8,27.0,45,Hot,No Rain,Moderate Wind,Fog,26.25,Low Risk,False,Low Impact
+Larache,35.1833,-6.15,2026-09-15,31.2,19.5,0.0,0.0,24.3,44.6,1,Hot,No Rain,Strong Wind,Cloudy,30.25,Low Risk,False,Low Impact
+Larache,35.1833,-6.15,2026-09-16,27.4,18.5,0.0,0.0,17.5,33.1,2,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,False,Low Impact
+Larache,35.1833,-6.15,2026-09-17,26.8,18.7,0.0,0.0,13.8,25.9,3,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,False,Low Impact
+Larache,35.1833,-6.15,2026-09-18,25.4,16.1,0.0,3.0,17.9,34.6,45,Warm,No Rain,Moderate Wind,Fog,22.5,Low Risk,False,Low Impact
+Larache,35.1833,-6.15,2026-09-19,35.5,16.8,0.0,3.0,22.7,41.0,1,Hot,No Rain,Strong Wind,Cloudy,30.25,Low Risk,True,Low Impact
+Larache,35.1833,-6.15,2026-09-20,36.8,19.8,0.0,2.0,18.4,34.9,0,Hot,No Rain,Moderate Wind,Clear,20.25,Low Risk,True,Low Impact
+Larache,35.1833,-6.15,2026-09-21,34.2,19.3,0.0,0.0,15.5,28.8,1,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,False,Low Impact
+Al Khmissat,33.81,-6.06,2026-09-15,34.8,21.0,0.0,0.0,18.0,36.4,0,Hot,No Rain,Moderate Wind,Clear,20.25,Low Risk,False,Low Impact
+Al Khmissat,33.81,-6.06,2026-09-16,31.2,18.1,0.0,0.0,19.0,38.9,1,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,False,Low Impact
+Al Khmissat,33.81,-6.06,2026-09-17,28.6,16.2,0.0,0.0,14.2,29.5,45,Warm,No Rain,Moderate Wind,Fog,22.5,Low Risk,False,Low Impact
+Al Khmissat,33.81,-6.06,2026-09-18,29.9,15.2,0.0,8.0,16.0,33.1,3,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,False,Low Impact
+Al Khmissat,33.81,-6.06,2026-09-19,34.7,17.4,0.0,3.0,13.4,29.2,2,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,True,Low Impact
+Al Khmissat,33.81,-6.06,2026-09-20,37.2,20.9,0.0,0.0,17.8,32.8,1,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,True,Low Impact
+Al Khmissat,33.81,-6.06,2026-09-21,35.4,20.0,0.0,0.0,13.5,25.2,1,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,False,Low Impact
+Guelmim,28.9833,-10.0667,2026-09-15,38.4,24.9,0.0,0.0,22.7,38.5,0,Hot,No Rain,Moderate Wind,Clear,20.25,Low Risk,False,Low Impact
+Guelmim,28.9833,-10.0667,2026-09-16,36.2,20.5,0.0,0.0,33.1,54.0,0,Hot,No Rain,Strong Wind,Clear,29.25,Low Risk,False,Low Impact
+Guelmim,28.9833,-10.0667,2026-09-17,24.7,18.7,0.0,0.0,29.8,49.3,3,Warm,No Rain,Strong Wind,Cloudy,26.5,Low Risk,False,Low Impact
+Guelmim,28.9833,-10.0667,2026-09-18,26.3,17.0,0.0,0.0,24.1,42.5,1,Warm,No Rain,Strong Wind,Cloudy,26.5,Low Risk,False,Low Impact
+Guelmim,28.9833,-10.0667,2026-09-19,29.1,18.5,0.0,0.0,19.3,35.6,3,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,True,Low Impact
+Guelmim,28.9833,-10.0667,2026-09-20,32.6,16.9,0.0,0.0,21.1,39.2,0,Hot,No Rain,Moderate Wind,Clear,20.25,Low Risk,True,Low Impact
+Guelmim,28.9833,-10.0667,2026-09-21,37.7,20.3,0.0,4.0,24.7,41.4,0,Hot,No Rain,Strong Wind,Clear,29.25,Low Risk,False,Low Impact
+Ksar El Kebir,35.0,-5.9,2026-09-15,37.3,21.3,0.0,0.0,24.7,54.0,0,Hot,No Rain,Strong Wind,Clear,29.25,Low Risk,False,Low Impact
+Ksar El Kebir,35.0,-5.9,2026-09-16,30.8,20.1,0.0,0.0,17.7,34.2,2,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,False,Low Impact
+Ksar El Kebir,35.0,-5.9,2026-09-17,29.5,19.6,0.0,0.0,16.1,30.6,3,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,False,Low Impact
+Ksar El Kebir,35.0,-5.9,2026-09-18,30.1,16.3,0.0,3.0,18.6,36.4,45,Hot,No Rain,Moderate Wind,Fog,26.25,Low Risk,False,Low Impact
+Ksar El Kebir,35.0,-5.9,2026-09-19,36.4,18.5,0.0,3.0,14.0,14.8,1,Hot,No Rain,Light Wind,Cloudy,16.75,Very Low Risk,True,Low Impact
+Ksar El Kebir,35.0,-5.9,2026-09-20,37.9,21.5,0.0,2.0,15.8,31.7,0,Hot,No Rain,Moderate Wind,Clear,20.25,Low Risk,True,Low Impact
+Ksar El Kebir,35.0,-5.9,2026-09-21,36.3,21.3,0.0,0.0,13.9,25.6,1,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,False,Low Impact
+Khénifra,32.93,-5.66,2026-09-15,35.2,20.3,0.0,5.0,19.3,36.4,3,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,False,Low Impact
+Khénifra,32.93,-5.66,2026-09-16,31.6,16.2,0.0,0.0,16.3,31.3,2,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,False,Low Impact
+Khénifra,32.93,-5.66,2026-09-17,31.7,16.4,0.0,23.0,18.9,36.7,2,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,False,Low Impact
+Khénifra,32.93,-5.66,2026-09-18,32.2,15.9,0.0,10.0,17.9,36.0,3,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,False,Low Impact
+Khénifra,32.93,-5.66,2026-09-19,34.2,18.9,0.0,4.0,14.9,28.4,3,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,True,Low Impact
+Khénifra,32.93,-5.66,2026-09-20,35.9,23.5,0.0,5.0,14.9,38.9,2,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,True,Low Impact
+Khénifra,32.93,-5.66,2026-09-21,35.0,21.4,0.0,5.0,21.0,41.0,2,Hot,No Rain,Strong Wind,Cloudy,30.25,Low Risk,False,Low Impact
+Skhirate,33.85,-7.03,2026-09-15,26.6,21.1,0.0,0.0,12.2,27.7,45,Warm,No Rain,Moderate Wind,Fog,22.5,Low Risk,False,Low Impact
+Skhirate,33.85,-7.03,2026-09-16,25.2,20.6,0.0,0.0,16.3,34.9,3,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,False,Low Impact
+Skhirate,33.85,-7.03,2026-09-17,24.8,18.9,0.0,0.0,12.3,28.4,3,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,False,Low Impact
+Skhirate,33.85,-7.03,2026-09-18,24.8,17.9,0.0,3.0,14.5,32.0,3,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,False,Low Impact
+Skhirate,33.85,-7.03,2026-09-19,26.8,16.9,0.0,0.0,12.9,29.2,3,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,True,Low Impact
+Skhirate,33.85,-7.03,2026-09-20,31.3,20.5,0.0,0.0,12.8,27.7,1,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,True,Low Impact
+Skhirate,33.85,-7.03,2026-09-21,26.3,20.8,0.0,0.0,12.4,25.2,0,Warm,No Rain,Moderate Wind,Clear,16.5,Very Low Risk,False,Low Impact
+Beni Yakhlef,33.6555,-7.3221,2026-09-15,30.8,20.1,0.0,0.0,16.7,31.0,45,Hot,No Rain,Moderate Wind,Fog,26.25,Low Risk,False,Low Impact
+Beni Yakhlef,33.6555,-7.3221,2026-09-16,27.1,19.5,0.0,0.0,18.4,34.2,2,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,False,Low Impact
+Beni Yakhlef,33.6555,-7.3221,2026-09-17,26.8,18.9,0.0,0.0,16.6,30.6,3,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,False,Low Impact
+Beni Yakhlef,33.6555,-7.3221,2026-09-18,27.3,17.1,0.0,3.0,19.1,35.3,3,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,False,Low Impact
+Beni Yakhlef,33.6555,-7.3221,2026-09-19,29.1,15.8,0.0,0.0,16.3,31.0,45,Warm,No Rain,Moderate Wind,Fog,22.5,Low Risk,True,Low Impact
+Beni Yakhlef,33.6555,-7.3221,2026-09-20,33.4,19.0,0.0,0.0,16.2,30.2,2,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,True,Low Impact
+Beni Yakhlef,33.6555,-7.3221,2026-09-21,31.9,19.8,0.0,0.0,16.9,33.5,1,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,False,Low Impact
+Sidi Yahya Zaer,33.7105,-6.8831,2026-09-15,32.8,20.9,0.0,0.0,18.6,37.4,1,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,False,Low Impact
+Sidi Yahya Zaer,33.7105,-6.8831,2026-09-16,28.1,18.7,0.0,0.0,21.2,41.8,2,Warm,No Rain,Strong Wind,Cloudy,26.5,Low Risk,False,Low Impact
+Sidi Yahya Zaer,33.7105,-6.8831,2026-09-17,26.9,16.2,0.0,0.0,16.6,33.1,45,Warm,No Rain,Moderate Wind,Fog,22.5,Low Risk,False,Low Impact
+Sidi Yahya Zaer,33.7105,-6.8831,2026-09-18,27.9,15.2,0.0,0.0,16.3,33.8,45,Warm,No Rain,Moderate Wind,Fog,22.5,Low Risk,False,Low Impact
+Sidi Yahya Zaer,33.7105,-6.8831,2026-09-19,32.6,15.8,0.0,3.0,16.3,33.5,2,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,True,Low Impact
+Sidi Yahya Zaer,33.7105,-6.8831,2026-09-20,36.6,18.0,0.0,0.0,17.0,33.8,2,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,True,Low Impact
+Sidi Yahya Zaer,33.7105,-6.8831,2026-09-21,32.3,18.5,0.0,0.0,15.5,31.7,1,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,False,Low Impact
+Ben Guerir,32.23,-7.95,2026-09-15,37.2,24.4,0.0,3.0,22.7,45.4,3,Hot,No Rain,Strong Wind,Cloudy,30.25,Low Risk,False,Low Impact
+Ben Guerir,32.23,-7.95,2026-09-16,32.7,19.6,0.0,0.0,19.9,39.2,1,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,False,Low Impact
+Ben Guerir,32.23,-7.95,2026-09-17,28.8,16.5,0.0,3.0,16.9,34.9,3,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,False,Low Impact
+Ben Guerir,32.23,-7.95,2026-09-18,30.9,16.7,0.0,5.0,16.6,33.8,3,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,False,Low Impact
+Ben Guerir,32.23,-7.95,2026-09-19,34.3,18.2,0.0,5.0,17.6,37.1,2,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,True,Low Impact
+Ben Guerir,32.23,-7.95,2026-09-20,38.6,24.1,0.0,2.0,16.7,34.6,2,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,True,Low Impact
+Ben Guerir,32.23,-7.95,2026-09-21,34.3,23.5,0.0,3.0,19.4,35.3,2,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,False,Low Impact
+Ait Ali,30.1739,-9.4881,2026-09-15,36.7,25.0,0.0,0.0,21.3,35.6,3,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,False,Low Impact
+Ait Ali,30.1739,-9.4881,2026-09-16,31.3,22.3,0.0,0.0,25.3,40.7,1,Hot,No Rain,Strong Wind,Cloudy,30.25,Low Risk,False,Low Impact
+Ait Ali,30.1739,-9.4881,2026-09-17,27.2,20.9,0.0,0.0,26.3,42.5,3,Warm,No Rain,Strong Wind,Cloudy,26.5,Low Risk,False,Low Impact
+Ait Ali,30.1739,-9.4881,2026-09-18,27.1,20.2,0.0,0.0,21.1,36.0,2,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,False,Low Impact
+Ait Ali,30.1739,-9.4881,2026-09-19,26.7,20.5,0.0,3.0,20.5,34.6,2,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,True,Low Impact
+Ait Ali,30.1739,-9.4881,2026-09-20,27.3,20.8,0.0,0.0,19.7,33.8,2,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,True,Low Impact
+Ait Ali,30.1739,-9.4881,2026-09-21,29.7,20.8,0.0,0.0,16.6,28.8,45,Warm,No Rain,Moderate Wind,Fog,22.5,Low Risk,False,Low Impact
+My Drarga,30.3805,-9.4763,2026-09-15,36.4,24.9,0.0,8.0,17.1,37.8,3,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,False,Low Impact
+My Drarga,30.3805,-9.4763,2026-09-16,31.3,22.5,0.0,0.0,15.3,35.6,2,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,False,Low Impact
+My Drarga,30.3805,-9.4763,2026-09-17,27.0,20.7,0.0,0.0,18.7,41.8,3,Warm,No Rain,Strong Wind,Cloudy,26.5,Low Risk,False,Low Impact
+My Drarga,30.3805,-9.4763,2026-09-18,27.0,20.0,0.0,3.0,16.8,36.7,2,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,False,Low Impact
+My Drarga,30.3805,-9.4763,2026-09-19,26.9,20.4,0.0,0.0,17.2,37.1,3,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,True,Low Impact
+My Drarga,30.3805,-9.4763,2026-09-20,28.6,20.5,0.0,0.0,15.0,30.6,45,Warm,No Rain,Moderate Wind,Fog,22.5,Low Risk,True,Low Impact
+My Drarga,30.3805,-9.4763,2026-09-21,33.4,21.5,0.0,0.0,12.8,27.0,45,Hot,No Rain,Moderate Wind,Fog,26.25,Low Risk,False,Low Impact
+Lqoliaa,30.2942,-9.4544,2026-09-15,37.8,24.9,0.0,3.0,18.9,41.0,3,Hot,No Rain,Strong Wind,Cloudy,30.25,Low Risk,False,Low Impact
+Lqoliaa,30.2942,-9.4544,2026-09-16,31.2,21.7,0.0,0.0,21.3,42.8,1,Hot,No Rain,Strong Wind,Cloudy,30.25,Low Risk,False,Low Impact
+Lqoliaa,30.2942,-9.4544,2026-09-17,27.9,20.9,0.0,0.0,18.9,41.4,3,Warm,No Rain,Strong Wind,Cloudy,26.5,Low Risk,False,Low Impact
+Lqoliaa,30.2942,-9.4544,2026-09-18,27.9,20.1,0.0,3.0,19.0,41.4,2,Warm,No Rain,Strong Wind,Cloudy,26.5,Low Risk,False,Low Impact
+Lqoliaa,30.2942,-9.4544,2026-09-19,27.4,20.5,0.0,0.0,20.8,44.6,2,Warm,No Rain,Strong Wind,Cloudy,26.5,Low Risk,True,Low Impact
+Lqoliaa,30.2942,-9.4544,2026-09-20,26.7,20.4,0.0,0.0,18.9,41.8,45,Warm,No Rain,Strong Wind,Fog,31.5,Low Risk,True,Low Impact
+Lqoliaa,30.2942,-9.4544,2026-09-21,29.0,20.4,0.0,0.0,15.8,35.6,45,Warm,No Rain,Moderate Wind,Fog,22.5,Low Risk,False,Low Impact
+El Kelaa des Srarhna,32.05,-7.4,2026-09-15,37.6,25.5,0.1,3.0,20.0,34.6,3,Hot,Light Rain,Moderate Wind,Cloudy,28.25,Low Risk,False,Low Impact
+El Kelaa des Srarhna,32.05,-7.4,2026-09-16,34.2,20.5,0.0,0.0,16.9,29.2,0,Hot,No Rain,Moderate Wind,Clear,20.25,Low Risk,False,Low Impact
+El Kelaa des Srarhna,32.05,-7.4,2026-09-17,30.2,17.1,0.0,5.0,16.1,27.7,3,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,False,Low Impact
+El Kelaa des Srarhna,32.05,-7.4,2026-09-18,31.9,18.0,0.0,5.0,13.4,24.1,2,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,False,Low Impact
+El Kelaa des Srarhna,32.05,-7.4,2026-09-19,35.7,20.1,0.0,10.0,17.7,31.0,3,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,True,Low Impact
+El Kelaa des Srarhna,32.05,-7.4,2026-09-20,37.8,22.8,0.6,1.0,11.4,23.8,2,Hot,Light Rain,Moderate Wind,Cloudy,28.25,Low Risk,True,Low Impact
+El Kelaa des Srarhna,32.05,-7.4,2026-09-21,35.6,21.9,0.6,8.0,11.9,23.0,3,Hot,Light Rain,Moderate Wind,Cloudy,28.25,Low Risk,False,Low Impact
+Moulay Abdallah,33.1978,-8.5883,2026-09-15,28.9,21.7,0.0,0.0,20.5,32.4,45,Warm,No Rain,Moderate Wind,Fog,22.5,Low Risk,False,Low Impact
+Moulay Abdallah,33.1978,-8.5883,2026-09-16,26.0,21.0,0.0,0.0,21.3,33.5,2,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,False,Low Impact
+Moulay Abdallah,33.1978,-8.5883,2026-09-17,26.4,19.4,0.0,0.0,18.0,28.1,3,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,False,Low Impact
+Moulay Abdallah,33.1978,-8.5883,2026-09-18,26.1,19.8,0.0,0.0,21.1,34.6,2,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,False,Low Impact
+Moulay Abdallah,33.1978,-8.5883,2026-09-19,27.0,19.3,0.0,0.0,19.7,32.4,2,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,True,Low Impact
+Moulay Abdallah,33.1978,-8.5883,2026-09-20,30.2,20.6,0.0,0.0,16.5,31.3,2,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,True,Low Impact
+Moulay Abdallah,33.1978,-8.5883,2026-09-21,26.7,20.2,0.0,0.0,15.9,30.6,45,Warm,No Rain,Moderate Wind,Fog,22.5,Low Risk,False,Low Impact
+Tiflet,33.9,-6.33,2026-09-15,33.7,22.5,0.0,0.0,18.1,36.7,0,Hot,No Rain,Moderate Wind,Clear,20.25,Low Risk,False,Low Impact
+Tiflet,33.9,-6.33,2026-09-16,29.4,19.1,0.0,0.0,19.8,39.6,2,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,False,Low Impact
+Tiflet,33.9,-6.33,2026-09-17,28.0,16.4,0.0,0.0,14.2,28.8,45,Warm,No Rain,Moderate Wind,Fog,22.5,Low Risk,False,Low Impact
+Tiflet,33.9,-6.33,2026-09-18,29.4,16.4,0.0,3.0,15.8,32.4,3,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,False,Low Impact
+Tiflet,33.9,-6.33,2026-09-19,34.6,17.5,0.0,3.0,12.9,27.4,2,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,True,Low Impact
+Tiflet,33.9,-6.33,2026-09-20,37.5,21.0,0.0,0.0,14.8,31.3,2,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,True,Low Impact
+Tiflet,33.9,-6.33,2026-09-21,35.9,20.5,0.0,0.0,16.1,32.4,0,Hot,No Rain,Moderate Wind,Clear,20.25,Low Risk,False,Low Impact
+Oulad Teïma,30.4,-9.21,2026-09-15,41.3,25.6,0.0,3.0,23.8,45.7,3,Hot,No Rain,Strong Wind,Cloudy,30.25,Low Risk,False,Low Impact
+Oulad Teïma,30.4,-9.21,2026-09-16,34.7,22.2,0.0,0.0,20.7,39.2,1,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,False,Low Impact
+Oulad Teïma,30.4,-9.21,2026-09-17,29.7,20.1,0.0,0.0,24.4,46.4,3,Warm,No Rain,Strong Wind,Cloudy,26.5,Low Risk,False,Low Impact
+Oulad Teïma,30.4,-9.21,2026-09-18,29.5,19.3,0.0,3.0,22.9,43.9,2,Warm,No Rain,Strong Wind,Cloudy,26.5,Low Risk,False,Low Impact
+Oulad Teïma,30.4,-9.21,2026-09-19,30.5,19.8,0.0,3.0,22.6,44.3,2,Hot,No Rain,Strong Wind,Cloudy,30.25,Low Risk,True,Low Impact
+Oulad Teïma,30.4,-9.21,2026-09-20,28.1,19.6,0.0,3.0,27.7,49.3,45,Warm,No Rain,Strong Wind,Fog,31.5,Low Risk,True,Low Impact
+Oulad Teïma,30.4,-9.21,2026-09-21,32.7,19.7,0.0,0.0,22.6,41.4,45,Hot,No Rain,Strong Wind,Fog,35.25,Low Risk,False,Low Impact
+Berkane,34.9167,-2.3167,2026-09-15,27.2,17.9,0.0,0.0,12.4,27.0,3,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,False,Low Impact
+Berkane,34.9167,-2.3167,2026-09-16,31.6,17.5,0.0,0.0,13.4,28.4,3,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,False,Low Impact
+Berkane,34.9167,-2.3167,2026-09-17,26.4,19.5,0.0,3.0,15.6,32.4,3,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,False,Low Impact
+Berkane,34.9167,-2.3167,2026-09-18,26.2,18.3,0.0,8.0,17.9,38.5,45,Warm,No Rain,Moderate Wind,Fog,22.5,Low Risk,False,Low Impact
+Berkane,34.9167,-2.3167,2026-09-19,26.2,19.2,0.0,15.0,23.9,49.3,45,Warm,No Rain,Strong Wind,Fog,31.5,Low Risk,True,Low Impact
+Berkane,34.9167,-2.3167,2026-09-20,26.2,18.3,0.0,10.0,16.6,31.3,45,Warm,No Rain,Moderate Wind,Fog,22.5,Low Risk,True,Low Impact
+Berkane,34.9167,-2.3167,2026-09-21,26.4,18.8,0.0,5.0,13.9,27.4,45,Warm,No Rain,Moderate Wind,Fog,22.5,Low Risk,False,Low Impact
+Ain El Aouda,33.8111,-6.7922,2026-09-15,31.7,20.1,0.0,0.0,17.6,34.9,0,Hot,No Rain,Moderate Wind,Clear,20.25,Low Risk,False,Low Impact
+Ain El Aouda,33.8111,-6.7922,2026-09-16,27.6,18.8,0.0,0.0,20.5,41.0,2,Warm,No Rain,Strong Wind,Cloudy,26.5,Low Risk,False,Low Impact
+Ain El Aouda,33.8111,-6.7922,2026-09-17,27.0,17.1,0.0,0.0,15.3,30.6,3,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,False,Low Impact
+Ain El Aouda,33.8111,-6.7922,2026-09-18,27.9,15.4,0.0,3.0,15.6,31.3,45,Warm,No Rain,Moderate Wind,Fog,22.5,Low Risk,False,Low Impact
+Ain El Aouda,33.8111,-6.7922,2026-09-19,32.3,14.9,0.0,3.0,15.2,31.7,45,Hot,No Rain,Moderate Wind,Fog,26.25,Low Risk,True,Low Impact
+Ain El Aouda,33.8111,-6.7922,2026-09-20,38.3,19.3,0.0,2.0,15.6,29.9,1,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,True,Low Impact
+Ain El Aouda,33.8111,-6.7922,2026-09-21,33.3,19.5,0.0,0.0,16.1,31.0,0,Hot,No Rain,Moderate Wind,Clear,20.25,Low Risk,False,Low Impact
+Errachidia,31.9319,-4.4244,2026-09-15,34.4,24.1,0.7,18.0,28.9,59.0,61,Hot,Light Rain,Strong Wind,Rain,46.25,Moderate Risk,False,Moderate Impact
+Errachidia,31.9319,-4.4244,2026-09-16,32.8,21.2,0.0,0.0,19.9,40.7,2,Hot,No Rain,Strong Wind,Cloudy,30.25,Low Risk,False,Low Impact
+Errachidia,31.9319,-4.4244,2026-09-17,32.3,21.5,0.3,33.0,13.9,29.9,3,Hot,Light Rain,Moderate Wind,Cloudy,28.25,Low Risk,False,Low Impact
+Errachidia,31.9319,-4.4244,2026-09-18,32.6,21.7,0.0,25.0,16.4,66.6,3,Hot,No Rain,Very Strong Wind,Cloudy,37.75,Low Risk,False,Low Impact
+Errachidia,31.9319,-4.4244,2026-09-19,32.6,22.5,0.0,19.0,9.6,28.8,3,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,True,Low Impact
+Errachidia,31.9319,-4.4244,2026-09-20,33.1,23.7,0.3,14.0,25.4,43.6,3,Hot,Light Rain,Strong Wind,Cloudy,37.25,Low Risk,True,Low Impact
+Errachidia,31.9319,-4.4244,2026-09-21,30.6,21.0,0.9,15.0,13.1,28.8,3,Hot,Light Rain,Moderate Wind,Cloudy,28.25,Low Risk,False,Low Impact
+Al Fqih Ben Çalah,32.507,-6.6886,2026-09-15,39.4,22.8,0.0,5.0,19.6,37.1,2,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,False,Low Impact
+Al Fqih Ben Çalah,32.507,-6.6886,2026-09-16,35.4,19.0,0.0,0.0,16.2,29.9,1,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,False,Low Impact
+Al Fqih Ben Çalah,32.507,-6.6886,2026-09-17,33.0,16.7,0.0,8.0,15.0,31.3,45,Hot,No Rain,Moderate Wind,Fog,26.25,Low Risk,False,Low Impact
+Al Fqih Ben Çalah,32.507,-6.6886,2026-09-18,34.3,16.9,0.0,10.0,12.1,22.3,3,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,False,Low Impact
+Al Fqih Ben Çalah,32.507,-6.6886,2026-09-19,38.2,19.9,0.0,6.0,17.6,34.9,3,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,True,Low Impact
+Al Fqih Ben Çalah,32.507,-6.6886,2026-09-20,40.1,24.1,0.3,0.0,11.0,19.4,3,Hot,Light Rain,Light Wind,Cloudy,23.75,Low Risk,True,Low Impact
+Al Fqih Ben Çalah,32.507,-6.6886,2026-09-21,38.2,22.0,1.2,3.0,13.7,24.5,80,Hot,Light Rain,Moderate Wind,Rain Showers,38.25,Low Risk,False,Low Impact
+Ad Darwa,33.4167,-7.5333,2026-09-15,33.5,21.1,0.0,0.0,16.4,32.0,2,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,False,Low Impact
+Ad Darwa,33.4167,-7.5333,2026-09-16,27.9,19.6,0.0,0.0,17.1,32.8,45,Warm,No Rain,Moderate Wind,Fog,22.5,Low Risk,False,Low Impact
+Ad Darwa,33.4167,-7.5333,2026-09-17,27.3,18.7,0.0,0.0,15.8,30.6,3,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,False,Low Impact
+Ad Darwa,33.4167,-7.5333,2026-09-18,27.9,17.9,0.0,3.0,18.5,36.4,2,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,False,Low Impact
+Ad Darwa,33.4167,-7.5333,2026-09-19,30.4,17.4,0.0,2.0,15.5,31.3,45,Hot,No Rain,Moderate Wind,Fog,26.25,Low Risk,True,Low Impact
+Ad Darwa,33.4167,-7.5333,2026-09-20,36.3,19.8,0.0,2.0,18.4,35.3,2,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,True,Low Impact
+Ad Darwa,33.4167,-7.5333,2026-09-21,33.7,20.5,0.0,0.0,19.0,35.6,2,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,False,Low Impact
+Martil,35.61,-5.27,2026-09-15,26.7,21.7,0.0,0.0,10.5,25.2,2,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,False,Low Impact
+Martil,35.61,-5.27,2026-09-16,33.4,21.0,0.0,0.0,27.4,60.5,1,Hot,No Rain,Very Strong Wind,Cloudy,37.75,Low Risk,False,Low Impact
+Martil,35.61,-5.27,2026-09-17,25.4,18.0,0.0,0.0,12.9,28.8,3,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,False,Low Impact
+Martil,35.61,-5.27,2026-09-18,25.2,20.6,0.0,3.0,17.0,37.1,45,Warm,No Rain,Moderate Wind,Fog,22.5,Low Risk,False,Low Impact
+Martil,35.61,-5.27,2026-09-19,24.6,22.2,1.8,27.0,28.4,61.6,3,Warm,Light Rain,Very Strong Wind,Cloudy,41.0,Moderate Risk,True,Moderate Impact
+Martil,35.61,-5.27,2026-09-20,24.5,22.5,0.0,3.0,38.8,68.0,3,Warm,No Rain,Very Strong Wind,Cloudy,34.0,Low Risk,True,Low Impact
+Martil,35.61,-5.27,2026-09-21,24.7,22.3,0.0,0.0,34.7,63.0,3,Warm,No Rain,Very Strong Wind,Cloudy,34.0,Low Risk,False,Low Impact
+Sidi Slimane,34.26,-5.93,2026-09-15,35.1,20.9,0.0,0.0,18.9,40.0,0,Hot,No Rain,Strong Wind,Clear,29.25,Low Risk,False,Low Impact
+Sidi Slimane,34.26,-5.93,2026-09-16,31.3,20.4,0.0,0.0,20.8,43.6,2,Hot,No Rain,Strong Wind,Cloudy,30.25,Low Risk,False,Low Impact
+Sidi Slimane,34.26,-5.93,2026-09-17,29.8,19.4,0.0,0.0,14.0,30.2,3,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,False,Low Impact
+Sidi Slimane,34.26,-5.93,2026-09-18,31.7,17.0,0.0,3.0,14.1,35.3,45,Hot,No Rain,Moderate Wind,Fog,26.25,Low Risk,False,Low Impact
+Sidi Slimane,34.26,-5.93,2026-09-19,37.2,18.1,0.0,3.0,17.5,38.9,1,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,True,Low Impact
+Sidi Slimane,34.26,-5.93,2026-09-20,37.9,23.5,0.0,0.0,24.2,46.1,0,Hot,No Rain,Strong Wind,Clear,29.25,Low Risk,True,Low Impact
+Sidi Slimane,34.26,-5.93,2026-09-21,36.9,23.3,0.0,0.0,19.9,36.7,1,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,False,Low Impact
+Oued Zem,32.8619,-6.5711,2026-09-15,35.4,23.0,0.0,0.0,21.8,43.6,3,Hot,No Rain,Strong Wind,Cloudy,30.25,Low Risk,False,Low Impact
+Oued Zem,32.8619,-6.5711,2026-09-16,32.1,17.9,0.0,0.0,18.2,39.6,2,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,False,Low Impact
+Oued Zem,32.8619,-6.5711,2026-09-17,30.4,16.5,0.0,5.0,19.3,38.9,3,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,False,Low Impact
+Oued Zem,32.8619,-6.5711,2026-09-18,31.2,15.9,0.0,13.0,16.5,36.7,1,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,False,Low Impact
+Oued Zem,32.8619,-6.5711,2026-09-19,34.7,18.8,0.0,5.0,18.8,37.4,3,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,True,Low Impact
+Oued Zem,32.8619,-6.5711,2026-09-20,36.2,22.9,0.0,1.0,19.7,37.4,2,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,True,Low Impact
+Oued Zem,32.8619,-6.5711,2026-09-21,35.1,22.2,0.0,5.0,20.0,38.9,2,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,False,Low Impact
+Sefrou,33.83,-4.83,2026-09-15,32.4,23.6,0.0,0.0,17.7,37.8,2,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,False,Low Impact
+Sefrou,33.83,-4.83,2026-09-16,29.4,19.4,0.0,0.0,18.4,39.6,1,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,False,Low Impact
+Sefrou,33.83,-4.83,2026-09-17,26.4,17.9,0.0,10.0,16.4,36.4,3,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,False,Low Impact
+Sefrou,33.83,-4.83,2026-09-18,27.2,17.5,0.0,10.0,15.5,34.9,3,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,False,Low Impact
+Sefrou,33.83,-4.83,2026-09-19,30.6,19.6,0.0,10.0,18.3,40.7,2,Hot,No Rain,Strong Wind,Cloudy,30.25,Low Risk,True,Low Impact
+Sefrou,33.83,-4.83,2026-09-20,31.5,16.6,0.0,8.0,20.7,39.6,1,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,True,Low Impact
+Sefrou,33.83,-4.83,2026-09-21,31.2,16.5,0.0,14.0,14.8,29.2,0,Hot,No Rain,Moderate Wind,Clear,20.25,Low Risk,False,Low Impact
+Taroudannt,30.4711,-8.8778,2026-09-15,41.4,27.6,0.0,10.0,20.1,40.7,3,Hot,No Rain,Strong Wind,Cloudy,30.25,Low Risk,False,Low Impact
+Taroudannt,30.4711,-8.8778,2026-09-16,36.6,24.7,0.0,0.0,21.4,43.2,1,Hot,No Rain,Strong Wind,Cloudy,30.25,Low Risk,False,Low Impact
+Taroudannt,30.4711,-8.8778,2026-09-17,30.8,19.5,0.0,0.0,25.3,50.4,3,Hot,No Rain,Strong Wind,Cloudy,30.25,Low Risk,False,Low Impact
+Taroudannt,30.4711,-8.8778,2026-09-18,30.8,18.8,0.0,5.0,20.1,42.1,3,Hot,No Rain,Strong Wind,Cloudy,30.25,Low Risk,False,Low Impact
+Taroudannt,30.4711,-8.8778,2026-09-19,32.9,20.1,0.0,5.0,22.4,45.7,3,Hot,No Rain,Strong Wind,Cloudy,30.25,Low Risk,True,Low Impact
+Taroudannt,30.4711,-8.8778,2026-09-20,31.3,21.9,0.0,3.0,25.6,46.4,2,Hot,No Rain,Strong Wind,Cloudy,30.25,Low Risk,True,Low Impact
+Taroudannt,30.4711,-8.8778,2026-09-21,36.7,20.7,0.0,0.0,24.8,47.5,1,Hot,No Rain,Strong Wind,Cloudy,30.25,Low Risk,False,Low Impact
+Essaouira,31.513,-9.7687,2026-09-15,28.6,22.7,0.0,3.0,25.1,47.2,3,Warm,No Rain,Strong Wind,Cloudy,26.5,Low Risk,False,Low Impact
+Essaouira,31.513,-9.7687,2026-09-16,25.5,20.2,0.0,0.0,36.3,67.0,1,Warm,No Rain,Very Strong Wind,Cloudy,34.0,Low Risk,False,Low Impact
+Essaouira,31.513,-9.7687,2026-09-17,24.1,19.1,0.0,0.0,30.6,55.8,1,Warm,No Rain,Strong Wind,Cloudy,26.5,Low Risk,False,Low Impact
+Essaouira,31.513,-9.7687,2026-09-18,24.1,19.4,0.0,0.0,31.3,58.3,1,Warm,No Rain,Strong Wind,Cloudy,26.5,Low Risk,False,Low Impact
+Essaouira,31.513,-9.7687,2026-09-19,25.0,19.1,0.0,0.0,29.2,52.9,2,Warm,No Rain,Strong Wind,Cloudy,26.5,Low Risk,True,Low Impact
+Essaouira,31.513,-9.7687,2026-09-20,27.2,20.0,0.0,0.0,16.1,30.2,1,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,True,Low Impact
+Essaouira,31.513,-9.7687,2026-09-21,27.4,19.4,0.0,0.0,11.5,22.0,45,Warm,No Rain,Moderate Wind,Fog,22.5,Low Risk,False,Low Impact
+Azrou,33.4344,-5.2213,2026-09-15,29.8,18.0,0.0,0.0,19.8,42.5,2,Warm,No Rain,Strong Wind,Cloudy,26.5,Low Risk,False,Low Impact
+Azrou,33.4344,-5.2213,2026-09-16,26.1,14.2,0.0,0.0,16.8,37.8,3,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,False,Low Impact
+Azrou,33.4344,-5.2213,2026-09-17,26.4,15.1,0.0,28.0,16.2,37.1,3,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,False,Low Impact
+Azrou,33.4344,-5.2213,2026-09-18,26.1,14.5,0.0,33.0,13.9,30.6,3,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,False,Low Impact
+Azrou,33.4344,-5.2213,2026-09-19,28.6,17.2,0.0,15.0,18.4,38.9,3,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,True,Low Impact
+Azrou,33.4344,-5.2213,2026-09-20,29.5,19.6,0.0,9.0,23.4,54.4,3,Warm,No Rain,Strong Wind,Cloudy,26.5,Low Risk,True,Low Impact
+Azrou,33.4344,-5.2213,2026-09-21,29.0,19.6,0.0,10.0,25.6,61.9,1,Warm,No Rain,Very Strong Wind,Cloudy,34.0,Low Risk,False,Low Impact
+Guercif,34.23,-3.36,2026-09-15,33.2,18.9,0.0,0.0,23.0,41.8,3,Hot,No Rain,Strong Wind,Cloudy,30.25,Low Risk,False,Low Impact
+Guercif,34.23,-3.36,2026-09-16,34.6,18.6,0.0,0.0,24.4,46.1,2,Hot,No Rain,Strong Wind,Cloudy,30.25,Low Risk,False,Low Impact
+Guercif,34.23,-3.36,2026-09-17,30.9,20.5,0.0,3.0,26.8,50.4,3,Hot,No Rain,Strong Wind,Cloudy,30.25,Low Risk,False,Low Impact
+Guercif,34.23,-3.36,2026-09-18,30.0,19.4,0.0,20.0,26.3,51.5,3,Hot,No Rain,Strong Wind,Cloudy,30.25,Low Risk,False,Low Impact
+Guercif,34.23,-3.36,2026-09-19,29.2,20.2,0.0,18.0,32.4,64.4,3,Warm,No Rain,Very Strong Wind,Cloudy,34.0,Low Risk,True,Low Impact
+Guercif,34.23,-3.36,2026-09-20,29.4,20.4,0.0,6.0,32.2,56.5,3,Warm,No Rain,Strong Wind,Cloudy,26.5,Low Risk,True,Low Impact
+Guercif,34.23,-3.36,2026-09-21,29.5,20.6,0.0,3.0,31.0,52.2,3,Warm,No Rain,Strong Wind,Cloudy,26.5,Low Risk,False,Low Impact
+Warzat,30.9167,-6.9167,2026-09-15,31.6,21.5,0.0,25.0,20.6,38.5,3,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,False,Low Impact
+Warzat,30.9167,-6.9167,2026-09-16,33.1,18.4,0.0,0.0,24.3,42.1,2,Hot,No Rain,Strong Wind,Cloudy,30.25,Low Risk,False,Low Impact
+Warzat,30.9167,-6.9167,2026-09-17,33.0,18.8,0.0,38.0,16.9,29.9,3,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,False,Low Impact
+Warzat,30.9167,-6.9167,2026-09-18,32.1,20.0,0.0,18.0,15.4,30.2,3,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,False,Low Impact
+Warzat,30.9167,-6.9167,2026-09-19,32.8,21.0,0.0,18.0,7.0,21.2,3,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,True,Low Impact
+Warzat,30.9167,-6.9167,2026-09-20,33.8,22.0,0.0,6.0,25.0,46.4,3,Hot,No Rain,Strong Wind,Cloudy,30.25,Low Risk,True,Low Impact
+Warzat,30.9167,-6.9167,2026-09-21,31.4,20.5,0.6,5.0,17.7,34.6,80,Hot,Light Rain,Moderate Wind,Rain Showers,38.25,Low Risk,False,Low Impact
+Fnidq,35.8414,-5.3587,2026-09-15,27.4,21.4,0.0,0.0,11.3,22.3,2,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,False,Low Impact
+Fnidq,35.8414,-5.3587,2026-09-16,30.4,20.8,0.0,0.0,31.6,61.9,3,Hot,No Rain,Very Strong Wind,Cloudy,37.75,Low Risk,False,Low Impact
+Fnidq,35.8414,-5.3587,2026-09-17,26.5,17.4,0.0,0.0,11.5,23.0,3,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,False,Low Impact
+Fnidq,35.8414,-5.3587,2026-09-18,25.3,20.7,0.0,3.0,17.4,33.5,2,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,False,Low Impact
+Fnidq,35.8414,-5.3587,2026-09-19,24.7,22.0,0.9,27.0,32.0,60.1,80,Warm,Light Rain,Very Strong Wind,Rain Showers,51.0,Moderate Risk,True,Moderate Impact
+Fnidq,35.8414,-5.3587,2026-09-20,24.4,22.4,0.0,3.0,38.8,68.0,3,Warm,No Rain,Very Strong Wind,Cloudy,34.0,Low Risk,True,Low Impact
+Fnidq,35.8414,-5.3587,2026-09-21,24.6,22.3,0.0,0.0,34.7,63.0,3,Warm,No Rain,Very Strong Wind,Cloudy,34.0,Low Risk,False,Low Impact
+Tan-Tan,28.4333,-11.1,2026-09-15,37.0,23.4,0.0,0.0,19.7,37.8,0,Hot,No Rain,Moderate Wind,Clear,20.25,Low Risk,False,Low Impact
+Tan-Tan,28.4333,-11.1,2026-09-16,31.0,20.6,0.0,0.0,24.6,45.7,0,Hot,No Rain,Strong Wind,Clear,29.25,Low Risk,False,Low Impact
+Tan-Tan,28.4333,-11.1,2026-09-17,25.9,20.3,0.2,0.0,32.1,56.5,51,Warm,Light Rain,Strong Wind,Drizzle,37.5,Low Risk,False,Low Impact
+Tan-Tan,28.4333,-11.1,2026-09-18,25.7,19.5,0.0,0.0,26.3,47.9,1,Warm,No Rain,Strong Wind,Cloudy,26.5,Low Risk,False,Low Impact
+Tan-Tan,28.4333,-11.1,2026-09-19,26.1,19.6,0.0,0.0,19.6,38.9,3,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,True,Low Impact
+Tan-Tan,28.4333,-11.1,2026-09-20,30.3,17.8,0.0,2.0,16.2,33.8,3,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,True,Low Impact
+Tan-Tan,28.4333,-11.1,2026-09-21,33.4,17.7,0.0,4.0,20.1,43.9,1,Hot,No Rain,Strong Wind,Cloudy,30.25,Low Risk,False,Low Impact
+Sidi Qacem,34.21,-5.7,2026-09-15,35.0,21.9,0.0,0.0,20.1,41.8,0,Hot,No Rain,Strong Wind,Clear,29.25,Low Risk,False,Low Impact
+Sidi Qacem,34.21,-5.7,2026-09-16,31.8,20.7,0.0,0.0,19.3,42.5,2,Hot,No Rain,Strong Wind,Cloudy,30.25,Low Risk,False,Low Impact
+Sidi Qacem,34.21,-5.7,2026-09-17,29.8,19.4,0.0,0.0,13.5,29.2,3,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,False,Low Impact
+Sidi Qacem,34.21,-5.7,2026-09-18,31.2,18.0,0.0,5.0,15.8,34.6,3,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,False,Low Impact
+Sidi Qacem,34.21,-5.7,2026-09-19,36.3,19.3,0.0,3.0,21.6,44.0,1,Hot,No Rain,Strong Wind,Cloudy,30.25,Low Risk,True,Low Impact
+Sidi Qacem,34.21,-5.7,2026-09-20,37.0,24.5,0.0,0.0,22.5,46.8,1,Hot,No Rain,Strong Wind,Cloudy,30.25,Low Risk,True,Low Impact
+Sidi Qacem,34.21,-5.7,2026-09-21,36.3,24.1,0.0,0.0,17.2,36.4,1,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,False,Low Impact
+M’diq,35.68,-5.32,2026-09-15,26.6,21.5,0.0,0.0,10.5,25.2,2,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,False,Low Impact
+M’diq,35.68,-5.32,2026-09-16,33.2,20.8,0.0,0.0,27.4,60.5,1,Hot,No Rain,Very Strong Wind,Cloudy,37.75,Low Risk,False,Low Impact
+M’diq,35.68,-5.32,2026-09-17,25.3,17.9,0.0,0.0,12.9,28.8,3,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,False,Low Impact
+M’diq,35.68,-5.32,2026-09-18,25.0,20.4,0.0,3.0,17.0,37.1,45,Warm,No Rain,Moderate Wind,Fog,22.5,Low Risk,False,Low Impact
+M’diq,35.68,-5.32,2026-09-19,24.4,22.0,1.8,3.0,28.4,61.6,3,Warm,Light Rain,Very Strong Wind,Cloudy,41.0,Moderate Risk,True,Moderate Impact
+M’diq,35.68,-5.32,2026-09-20,25.6,22.4,0.0,0.0,40.4,84.2,2,Warm,No Rain,Extreme Wind,Cloudy,38.5,Low Risk,True,Low Impact
+M’diq,35.68,-5.32,2026-09-21,25.7,22.1,0.0,0.0,36.8,76.3,2,Warm,No Rain,Very Strong Wind,Cloudy,34.0,Low Risk,False,Low Impact
+Youssoufia,32.25,-8.53,2026-09-15,37.4,24.6,0.0,3.0,24.1,49.7,3,Hot,No Rain,Strong Wind,Cloudy,30.25,Low Risk,False,Low Impact
+Youssoufia,32.25,-8.53,2026-09-16,31.6,19.5,0.0,0.0,20.0,41.0,1,Hot,No Rain,Strong Wind,Cloudy,30.25,Low Risk,False,Low Impact
+Youssoufia,32.25,-8.53,2026-09-17,28.6,17.3,0.0,0.0,18.3,38.2,3,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,False,Low Impact
+Youssoufia,32.25,-8.53,2026-09-18,30.7,16.9,0.0,5.0,17.7,37.4,45,Hot,No Rain,Moderate Wind,Fog,26.25,Low Risk,False,Low Impact
+Youssoufia,32.25,-8.53,2026-09-19,33.6,17.7,0.0,2.0,17.6,37.1,3,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,True,Low Impact
+Youssoufia,32.25,-8.53,2026-09-20,39.0,22.9,0.0,2.0,19.1,48.2,2,Hot,No Rain,Strong Wind,Cloudy,30.25,Low Risk,True,Low Impact
+Youssoufia,32.25,-8.53,2026-09-21,32.6,21.6,0.0,0.0,19.6,36.0,2,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,False,Low Impact
+Midalt,32.68,-4.74,2026-09-15,30.1,17.9,0.1,10.0,23.6,42.5,3,Hot,Light Rain,Strong Wind,Cloudy,37.25,Low Risk,False,Low Impact
+Midalt,32.68,-4.74,2026-09-16,27.1,17.3,0.0,0.0,24.1,43.9,1,Warm,No Rain,Strong Wind,Cloudy,26.5,Low Risk,False,Low Impact
+Midalt,32.68,-4.74,2026-09-17,28.2,14.5,0.3,32.0,23.2,39.2,80,Warm,Light Rain,Moderate Wind,Rain Showers,34.5,Low Risk,False,Low Impact
+Midalt,32.68,-4.74,2026-09-18,27.6,14.7,0.0,16.0,17.8,36.4,3,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,False,Low Impact
+Midalt,32.68,-4.74,2026-09-19,27.1,14.8,1.8,23.0,14.2,30.2,3,Warm,Light Rain,Moderate Wind,Cloudy,24.5,Low Risk,True,Low Impact
+Midalt,32.68,-4.74,2026-09-20,29.0,15.8,0.6,9.0,16.8,27.7,3,Warm,Light Rain,Moderate Wind,Cloudy,24.5,Low Risk,True,Low Impact
+Midalt,32.68,-4.74,2026-09-21,29.5,16.9,0.0,14.0,27.2,47.5,3,Warm,No Rain,Strong Wind,Cloudy,26.5,Low Risk,False,Low Impact
+Aïn Harrouda,33.6372,-7.4483,2026-09-15,29.3,21.7,0.0,0.0,11.9,31.3,45,Warm,No Rain,Moderate Wind,Fog,22.5,Low Risk,False,Low Impact
+Aïn Harrouda,33.6372,-7.4483,2026-09-16,26.4,20.6,0.0,0.0,15.3,37.4,45,Warm,No Rain,Moderate Wind,Fog,22.5,Low Risk,False,Low Impact
+Aïn Harrouda,33.6372,-7.4483,2026-09-17,26.2,19.7,0.0,0.0,13.2,34.6,3,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,False,Low Impact
+Aïn Harrouda,33.6372,-7.4483,2026-09-18,26.5,18.6,0.0,3.0,14.1,37.1,3,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,False,Low Impact
+Aïn Harrouda,33.6372,-7.4483,2026-09-19,27.5,17.8,0.0,0.0,12.3,32.4,45,Warm,No Rain,Moderate Wind,Fog,22.5,Low Risk,True,Low Impact
+Aïn Harrouda,33.6372,-7.4483,2026-09-20,30.4,19.9,0.0,0.0,11.5,27.4,2,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,True,Low Impact
+Aïn Harrouda,33.6372,-7.4483,2026-09-21,30.3,20.6,0.0,0.0,13.8,33.8,2,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,False,Low Impact
+Souq Sebt Oulad Nemma,32.3,-6.7,2026-09-15,39.6,25.1,0.0,3.0,20.6,36.0,3,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,False,Low Impact
+Souq Sebt Oulad Nemma,32.3,-6.7,2026-09-16,35.7,20.4,0.0,0.0,12.9,22.3,0,Hot,No Rain,Moderate Wind,Clear,20.25,Low Risk,False,Low Impact
+Souq Sebt Oulad Nemma,32.3,-6.7,2026-09-17,32.6,18.0,0.0,8.0,13.7,24.5,3,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,False,Low Impact
+Souq Sebt Oulad Nemma,32.3,-6.7,2026-09-18,34.3,18.5,0.0,8.0,10.6,19.8,3,Hot,No Rain,Light Wind,Cloudy,16.75,Very Low Risk,False,Low Impact
+Souq Sebt Oulad Nemma,32.3,-6.7,2026-09-19,38.3,20.5,0.0,4.0,8.6,18.0,2,Hot,No Rain,Light Wind,Cloudy,16.75,Very Low Risk,True,Low Impact
+Souq Sebt Oulad Nemma,32.3,-6.7,2026-09-20,40.2,23.8,0.3,0.0,10.7,20.2,2,Hot,Light Rain,Moderate Wind,Cloudy,28.25,Low Risk,True,Low Impact
+Souq Sebt Oulad Nemma,32.3,-6.7,2026-09-21,38.6,23.8,0.6,3.0,16.6,29.2,80,Hot,Light Rain,Moderate Wind,Rain Showers,38.25,Low Risk,False,Low Impact
+Mehdya,34.2557,-6.6745,2026-09-15,27.7,21.0,0.0,0.0,12.5,28.1,45,Warm,No Rain,Moderate Wind,Fog,22.5,Low Risk,False,Low Impact
+Mehdya,34.2557,-6.6745,2026-09-16,26.6,21.0,0.0,0.0,16.6,36.7,3,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,False,Low Impact
+Mehdya,34.2557,-6.6745,2026-09-17,26.5,19.3,0.0,0.0,11.3,26.6,3,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,False,Low Impact
+Mehdya,34.2557,-6.6745,2026-09-18,26.2,16.4,0.0,3.0,12.3,28.8,45,Warm,No Rain,Moderate Wind,Fog,22.5,Low Risk,False,Low Impact
+Mehdya,34.2557,-6.6745,2026-09-19,31.9,17.2,0.0,0.0,15.6,35.3,45,Hot,No Rain,Moderate Wind,Fog,26.25,Low Risk,True,Low Impact
+Mehdya,34.2557,-6.6745,2026-09-20,36.7,22.5,0.0,0.0,17.3,40.3,1,Hot,No Rain,Strong Wind,Cloudy,30.25,Low Risk,True,Low Impact
+Mehdya,34.2557,-6.6745,2026-09-21,33.1,22.1,0.0,0.0,14.3,33.1,0,Hot,No Rain,Moderate Wind,Clear,20.25,Low Risk,False,Low Impact
+Ouezzane,34.8,-5.6,2026-09-15,35.7,19.8,0.0,0.0,20.9,39.2,1,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,False,Low Impact
+Ouezzane,34.8,-5.6,2026-09-16,30.6,17.1,0.0,0.0,17.6,34.9,2,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,False,Low Impact
+Ouezzane,34.8,-5.6,2026-09-17,29.6,17.0,0.0,0.0,18.6,36.0,3,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,False,Low Impact
+Ouezzane,34.8,-5.6,2026-09-18,31.2,15.4,0.0,8.0,15.5,34.6,3,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,False,Low Impact
+Ouezzane,34.8,-5.6,2026-09-19,35.9,17.2,0.0,3.0,16.6,34.2,1,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,True,Low Impact
+Ouezzane,34.8,-5.6,2026-09-20,36.7,21.6,0.0,3.0,20.2,39.6,0,Hot,No Rain,Moderate Wind,Clear,20.25,Low Risk,True,Low Impact
+Ouezzane,34.8,-5.6,2026-09-21,35.8,21.4,0.0,3.0,16.4,33.1,2,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,False,Low Impact
+Semara,26.7394,-11.6703,2026-09-15,40.9,26.8,0.0,1.0,31.5,50.4,0,Hot,No Rain,Strong Wind,Clear,29.25,Low Risk,False,Low Impact
+Semara,26.7394,-11.6703,2026-09-16,39.4,25.2,0.0,0.0,32.0,55.1,0,Hot,No Rain,Strong Wind,Clear,29.25,Low Risk,False,Low Impact
+Semara,26.7394,-11.6703,2026-09-17,31.0,20.3,0.0,0.0,29.3,50.4,3,Hot,No Rain,Strong Wind,Cloudy,30.25,Low Risk,False,Low Impact
+Semara,26.7394,-11.6703,2026-09-18,30.2,19.3,0.0,0.0,25.9,46.1,3,Hot,No Rain,Strong Wind,Cloudy,30.25,Low Risk,False,Low Impact
+Semara,26.7394,-11.6703,2026-09-19,32.5,18.4,0.0,0.0,20.8,37.4,3,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,True,Low Impact
+Semara,26.7394,-11.6703,2026-09-20,37.5,18.1,0.0,2.0,24.0,38.9,1,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,True,Low Impact
+Semara,26.7394,-11.6703,2026-09-21,41.3,22.6,0.0,25.0,16.9,44.6,3,Hot,No Rain,Strong Wind,Cloudy,30.25,Low Risk,False,Low Impact
+Ait Ourir,31.5644,-7.6628,2026-09-15,36.2,24.4,0.0,5.0,11.9,25.9,3,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,False,Low Impact
+Ait Ourir,31.5644,-7.6628,2026-09-16,33.0,20.0,0.0,0.0,14.1,27.4,0,Hot,No Rain,Moderate Wind,Clear,20.25,Low Risk,False,Low Impact
+Ait Ourir,31.5644,-7.6628,2026-09-17,29.3,17.7,0.0,5.0,11.4,22.3,3,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,False,Low Impact
+Ait Ourir,31.5644,-7.6628,2026-09-18,31.0,17.9,0.0,10.0,11.2,22.3,3,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,False,Low Impact
+Ait Ourir,31.5644,-7.6628,2026-09-19,34.8,20.3,0.6,20.0,11.5,21.6,80,Hot,Light Rain,Moderate Wind,Rain Showers,38.25,Low Risk,True,Low Impact
+Ait Ourir,31.5644,-7.6628,2026-09-20,37.0,21.8,0.3,5.0,10.2,19.8,3,Hot,Light Rain,Light Wind,Cloudy,23.75,Low Risk,True,Low Impact
+Ait Ourir,31.5644,-7.6628,2026-09-21,33.9,21.8,1.8,5.0,9.9,28.8,80,Hot,Light Rain,Moderate Wind,Rain Showers,38.25,Low Risk,False,Low Impact
+Oulad Tayeb,33.9598,-4.9954,2026-09-15,34.3,23.3,0.0,0.0,16.6,32.0,2,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,False,Low Impact
+Oulad Tayeb,33.9598,-4.9954,2026-09-16,31.5,21.4,0.0,0.0,17.3,32.4,2,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,False,Low Impact
+Oulad Tayeb,33.9598,-4.9954,2026-09-17,28.8,18.6,0.0,0.0,14.6,28.1,45,Warm,No Rain,Moderate Wind,Fog,22.5,Low Risk,False,Low Impact
+Oulad Tayeb,33.9598,-4.9954,2026-09-18,30.1,18.1,0.0,5.0,12.0,25.6,3,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,False,Low Impact
+Oulad Tayeb,33.9598,-4.9954,2026-09-19,33.1,19.5,0.0,3.0,20.7,38.9,2,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,True,Low Impact
+Oulad Tayeb,33.9598,-4.9954,2026-09-20,33.2,21.6,0.0,0.0,20.0,48.6,1,Hot,No Rain,Strong Wind,Cloudy,30.25,Low Risk,True,Low Impact
+Oulad Tayeb,33.9598,-4.9954,2026-09-21,33.1,20.8,0.0,0.0,14.4,37.4,0,Hot,No Rain,Moderate Wind,Clear,20.25,Low Risk,False,Low Impact
+Tit Mellil,33.5533,-7.4822,2026-09-15,30.1,21.3,0.0,0.0,12.8,33.5,45,Hot,No Rain,Moderate Wind,Fog,26.25,Low Risk,False,Low Impact
+Tit Mellil,33.5533,-7.4822,2026-09-16,26.5,20.2,0.0,0.0,14.7,37.1,45,Warm,No Rain,Moderate Wind,Fog,22.5,Low Risk,False,Low Impact
+Tit Mellil,33.5533,-7.4822,2026-09-17,26.2,19.1,0.0,0.0,13.4,34.9,3,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,False,Low Impact
+Tit Mellil,33.5533,-7.4822,2026-09-18,26.5,18.3,0.0,3.0,15.0,39.6,3,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,False,Low Impact
+Tit Mellil,33.5533,-7.4822,2026-09-19,27.7,18.2,0.0,0.0,12.6,33.1,2,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,True,Low Impact
+Tit Mellil,33.5533,-7.4822,2026-09-20,31.1,20.0,0.0,0.0,11.6,29.9,2,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,True,Low Impact
+Tit Mellil,33.5533,-7.4822,2026-09-21,29.7,20.9,0.0,0.0,13.6,36.0,2,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,False,Low Impact
+Sidi Bennour,32.655,-8.4292,2026-09-15,37.2,21.4,0.0,3.0,25.7,44.6,3,Hot,No Rain,Strong Wind,Cloudy,30.25,Low Risk,False,Low Impact
+Sidi Bennour,32.655,-8.4292,2026-09-16,30.6,18.5,0.0,0.0,22.5,38.5,2,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,False,Low Impact
+Sidi Bennour,32.655,-8.4292,2026-09-17,28.6,17.8,0.0,0.0,21.1,37.1,3,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,False,Low Impact
+Sidi Bennour,32.655,-8.4292,2026-09-18,30.3,16.7,0.0,3.0,20.9,37.8,45,Hot,No Rain,Moderate Wind,Fog,26.25,Low Risk,False,Low Impact
+Sidi Bennour,32.655,-8.4292,2026-09-19,33.2,16.6,0.0,3.0,19.1,33.5,45,Hot,No Rain,Moderate Wind,Fog,26.25,Low Risk,True,Low Impact
+Sidi Bennour,32.655,-8.4292,2026-09-20,38.7,19.9,0.0,0.0,18.4,36.0,2,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,True,Low Impact
+Sidi Bennour,32.655,-8.4292,2026-09-21,32.7,19.6,0.0,3.0,17.6,33.5,45,Hot,No Rain,Moderate Wind,Fog,26.25,Low Risk,False,Low Impact
+Temsia,30.3633,-9.4144,2026-09-15,38.7,25.5,0.0,3.0,21.2,45.0,3,Hot,No Rain,Strong Wind,Cloudy,30.25,Low Risk,False,Low Impact
+Temsia,30.3633,-9.4144,2026-09-16,31.1,22.4,0.0,0.0,18.0,39.2,1,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,False,Low Impact
+Temsia,30.3633,-9.4144,2026-09-17,28.0,20.9,0.0,0.0,21.6,45.4,3,Warm,No Rain,Strong Wind,Cloudy,26.5,Low Risk,False,Low Impact
+Temsia,30.3633,-9.4144,2026-09-18,28.1,20.2,0.0,3.0,20.1,42.5,2,Warm,No Rain,Strong Wind,Cloudy,26.5,Low Risk,False,Low Impact
+Temsia,30.3633,-9.4144,2026-09-19,28.0,20.6,0.0,3.0,21.4,45.0,2,Warm,No Rain,Strong Wind,Cloudy,26.5,Low Risk,True,Low Impact
+Temsia,30.3633,-9.4144,2026-09-20,28.6,20.1,0.0,0.0,27.7,49.3,45,Warm,No Rain,Strong Wind,Fog,31.5,Low Risk,True,Low Impact
+Temsia,30.3633,-9.4144,2026-09-21,33.2,20.2,0.0,0.0,22.6,41.4,45,Hot,No Rain,Strong Wind,Fog,35.25,Low Risk,False,Low Impact
+Biougra,30.2144,-9.3708,2026-09-15,38.1,26.1,0.0,3.0,22.7,37.4,2,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,False,Low Impact
+Biougra,30.2144,-9.3708,2026-09-16,33.2,23.3,0.0,0.0,29.5,48.6,1,Hot,No Rain,Strong Wind,Cloudy,30.25,Low Risk,False,Low Impact
+Biougra,30.2144,-9.3708,2026-09-17,27.8,21.0,0.0,0.0,32.9,54.7,3,Warm,No Rain,Strong Wind,Cloudy,26.5,Low Risk,False,Low Impact
+Biougra,30.2144,-9.3708,2026-09-18,28.0,20.4,0.0,3.0,22.7,37.8,2,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,False,Low Impact
+Biougra,30.2144,-9.3708,2026-09-19,28.0,20.7,0.0,0.0,20.7,34.2,2,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,True,Low Impact
+Biougra,30.2144,-9.3708,2026-09-20,27.3,19.9,0.0,0.0,25.5,43.9,45,Warm,No Rain,Strong Wind,Fog,31.5,Low Risk,True,Low Impact
+Biougra,30.2144,-9.3708,2026-09-21,30.7,19.9,0.0,0.0,19.8,35.3,45,Hot,No Rain,Moderate Wind,Fog,26.25,Low Risk,False,Low Impact
+Al Hoceïma,35.2472,-3.9322,2026-09-15,26.3,20.2,0.0,0.0,10.5,19.4,45,Warm,No Rain,Light Wind,Fog,18.0,Very Low Risk,False,Low Impact
+Al Hoceïma,35.2472,-3.9322,2026-09-16,28.8,20.2,0.0,0.0,11.6,22.3,1,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,False,Low Impact
+Al Hoceïma,35.2472,-3.9322,2026-09-17,25.6,19.8,0.0,0.0,14.1,25.2,3,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,False,Low Impact
+Al Hoceïma,35.2472,-3.9322,2026-09-18,26.2,19.1,0.0,8.0,15.9,34.9,3,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,False,Low Impact
+Al Hoceïma,35.2472,-3.9322,2026-09-19,28.4,19.4,0.0,20.0,25.6,46.1,1,Warm,No Rain,Strong Wind,Cloudy,26.5,Low Risk,True,Low Impact
+Al Hoceïma,35.2472,-3.9322,2026-09-20,27.3,21.9,0.0,3.0,33.7,60.5,2,Warm,No Rain,Very Strong Wind,Cloudy,34.0,Low Risk,True,Low Impact
+Al Hoceïma,35.2472,-3.9322,2026-09-21,26.1,21.8,0.0,0.0,30.0,57.6,3,Warm,No Rain,Strong Wind,Cloudy,26.5,Low Risk,False,Low Impact
+Qasbat Tadla,32.6,-6.26,2026-09-15,38.9,22.9,0.0,3.0,19.3,35.3,2,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,False,Low Impact
+Qasbat Tadla,32.6,-6.26,2026-09-16,34.6,18.3,0.0,0.0,13.9,25.2,1,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,False,Low Impact
+Qasbat Tadla,32.6,-6.26,2026-09-17,32.8,17.7,0.0,15.0,15.1,27.4,3,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,False,Low Impact
+Qasbat Tadla,32.6,-6.26,2026-09-18,34.2,17.6,0.0,9.0,16.6,29.9,3,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,False,Low Impact
+Qasbat Tadla,32.6,-6.26,2026-09-19,37.4,21.2,0.0,3.0,18.4,32.8,3,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,True,Low Impact
+Qasbat Tadla,32.6,-6.26,2026-09-20,39.4,23.1,0.0,3.0,21.4,37.8,2,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,True,Low Impact
+Qasbat Tadla,32.6,-6.26,2026-09-21,37.5,19.9,0.6,9.0,7.9,20.5,80,Hot,Light Rain,Moderate Wind,Rain Showers,38.25,Low Risk,False,Low Impact
+Aziylal,31.96,-6.56,2026-09-15,30.2,19.7,0.1,23.0,22.0,44.6,3,Hot,Light Rain,Strong Wind,Cloudy,37.25,Low Risk,False,Low Impact
+Aziylal,31.96,-6.56,2026-09-16,26.7,16.0,0.0,0.0,18.1,38.2,0,Warm,No Rain,Moderate Wind,Clear,16.5,Very Low Risk,False,Low Impact
+Aziylal,31.96,-6.56,2026-09-17,26.1,15.4,0.0,23.0,15.8,34.2,3,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,False,Low Impact
+Aziylal,31.96,-6.56,2026-09-18,26.7,16.5,0.0,23.0,16.8,35.3,3,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,False,Low Impact
+Aziylal,31.96,-6.56,2026-09-19,29.6,19.1,0.0,20.0,16.4,37.4,3,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,True,Low Impact
+Aziylal,31.96,-6.56,2026-09-20,30.8,20.2,0.0,3.0,18.0,34.2,3,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,True,Low Impact
+Aziylal,31.96,-6.56,2026-09-21,29.2,19.4,1.8,12.0,16.0,33.1,80,Warm,Light Rain,Moderate Wind,Rain Showers,34.5,Low Risk,False,Low Impact
+Boujad,32.7741,-6.3925,2026-09-15,36.9,23.6,0.0,3.0,22.4,40.0,3,Hot,No Rain,Strong Wind,Cloudy,30.25,Low Risk,False,Low Impact
+Boujad,32.7741,-6.3925,2026-09-16,32.7,18.2,0.0,0.0,18.7,33.5,1,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,False,Low Impact
+Boujad,32.7741,-6.3925,2026-09-17,31.4,17.2,0.0,15.0,16.9,35.3,2,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,False,Low Impact
+Boujad,32.7741,-6.3925,2026-09-18,32.6,16.7,0.0,13.0,18.0,34.9,3,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,False,Low Impact
+Boujad,32.7741,-6.3925,2026-09-19,35.9,20.7,0.0,5.0,18.5,42.5,3,Hot,No Rain,Strong Wind,Cloudy,30.25,Low Risk,True,Low Impact
+Boujad,32.7741,-6.3925,2026-09-20,36.9,24.0,0.0,2.0,19.2,42.5,2,Hot,No Rain,Strong Wind,Cloudy,30.25,Low Risk,True,Low Impact
+Boujad,32.7741,-6.3925,2026-09-21,35.4,22.8,0.6,5.0,14.3,34.6,3,Hot,Light Rain,Moderate Wind,Cloudy,28.25,Low Risk,False,Low Impact
+Al Aaroui,35.0104,-3.0073,2026-09-15,29.2,18.4,0.0,0.0,16.6,28.8,45,Warm,No Rain,Moderate Wind,Fog,22.5,Low Risk,False,Low Impact
+Al Aaroui,35.0104,-3.0073,2026-09-16,33.1,17.8,0.0,0.0,14.5,25.9,2,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,False,Low Impact
+Al Aaroui,35.0104,-3.0073,2026-09-17,27.4,18.5,0.0,0.0,18.6,32.8,3,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,False,Low Impact
+Al Aaroui,35.0104,-3.0073,2026-09-18,27.1,19.9,0.0,10.0,23.2,42.1,3,Warm,No Rain,Strong Wind,Cloudy,26.5,Low Risk,False,Low Impact
+Al Aaroui,35.0104,-3.0073,2026-09-19,26.0,20.4,0.0,15.0,29.6,52.2,3,Warm,No Rain,Strong Wind,Cloudy,26.5,Low Risk,True,Low Impact
+Al Aaroui,35.0104,-3.0073,2026-09-20,26.9,20.5,0.0,10.0,29.6,54.4,3,Warm,No Rain,Strong Wind,Cloudy,26.5,Low Risk,True,Low Impact
+Al Aaroui,35.0104,-3.0073,2026-09-21,26.6,20.7,0.0,8.0,25.7,46.4,3,Warm,No Rain,Strong Wind,Cloudy,26.5,Low Risk,False,Low Impact
+Mrirt,33.1654,-5.5634,2026-09-15,33.7,19.7,0.0,5.0,20.1,40.3,3,Hot,No Rain,Strong Wind,Cloudy,30.25,Low Risk,False,Low Impact
+Mrirt,33.1654,-5.5634,2026-09-16,30.3,14.6,0.0,0.0,19.0,41.0,3,Hot,No Rain,Strong Wind,Cloudy,30.25,Low Risk,False,Low Impact
+Mrirt,33.1654,-5.5634,2026-09-17,30.4,15.5,0.0,30.0,22.0,43.9,2,Hot,No Rain,Strong Wind,Cloudy,30.25,Low Risk,False,Low Impact
+Mrirt,33.1654,-5.5634,2026-09-18,29.8,14.2,0.0,23.0,21.2,42.1,3,Warm,No Rain,Strong Wind,Cloudy,26.5,Low Risk,False,Low Impact
+Mrirt,33.1654,-5.5634,2026-09-19,32.1,16.6,0.3,6.0,21.1,40.3,3,Hot,Light Rain,Strong Wind,Cloudy,37.25,Low Risk,True,Low Impact
+Mrirt,33.1654,-5.5634,2026-09-20,33.3,17.2,0.0,9.0,19.9,38.2,3,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,True,Low Impact
+Mrirt,33.1654,-5.5634,2026-09-21,32.8,18.0,0.0,10.0,23.1,43.9,2,Hot,No Rain,Strong Wind,Cloudy,30.25,Low Risk,False,Low Impact
+Tineghir,31.5147,-5.5328,2026-09-15,32.4,20.8,0.8,23.0,29.8,65.9,61,Hot,Light Rain,Very Strong Wind,Rain,53.75,Moderate Risk,False,Moderate Impact
+Tineghir,31.5147,-5.5328,2026-09-16,31.3,18.5,0.0,5.0,31.7,49.7,3,Hot,No Rain,Strong Wind,Cloudy,30.25,Low Risk,False,Low Impact
+Tineghir,31.5147,-5.5328,2026-09-17,30.6,19.3,0.5,48.0,18.0,43.9,80,Hot,Light Rain,Strong Wind,Rain Showers,47.25,Moderate Risk,False,Moderate Impact
+Tineghir,31.5147,-5.5328,2026-09-18,30.6,19.1,0.0,38.0,19.1,31.7,3,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,False,Low Impact
+Tineghir,31.5147,-5.5328,2026-09-19,30.7,20.5,0.0,27.0,17.8,36.7,3,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,True,Low Impact
+Tineghir,31.5147,-5.5328,2026-09-20,31.6,20.6,0.6,12.0,17.1,32.4,3,Hot,Light Rain,Moderate Wind,Cloudy,28.25,Low Risk,True,Low Impact
+Tineghir,31.5147,-5.5328,2026-09-21,29.1,20.4,0.6,14.0,15.5,45.4,80,Warm,Light Rain,Strong Wind,Rain Showers,43.5,Moderate Risk,False,Moderate Impact
+Bouknadel,34.1766,-6.6893,2026-09-15,26.3,21.0,0.0,0.0,14.6,25.6,45,Warm,No Rain,Moderate Wind,Fog,22.5,Low Risk,False,Low Impact
+Bouknadel,34.1766,-6.6893,2026-09-16,25.5,20.9,0.0,0.0,19.2,32.4,3,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,False,Low Impact
+Bouknadel,34.1766,-6.6893,2026-09-17,25.3,19.1,0.0,0.0,12.4,22.3,3,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,False,Low Impact
+Bouknadel,34.1766,-6.6893,2026-09-18,25.0,17.7,0.0,3.0,13.3,23.8,45,Warm,No Rain,Moderate Wind,Fog,22.5,Low Risk,False,Low Impact
+Bouknadel,34.1766,-6.6893,2026-09-19,29.7,17.5,0.0,0.0,16.3,28.4,45,Warm,No Rain,Moderate Wind,Fog,22.5,Low Risk,True,Low Impact
+Bouknadel,34.1766,-6.6893,2026-09-20,36.6,22.4,0.0,0.0,17.3,40.3,1,Hot,No Rain,Strong Wind,Cloudy,30.25,Low Risk,True,Low Impact
+Bouknadel,34.1766,-6.6893,2026-09-21,33.0,22.0,0.0,0.0,14.3,33.1,0,Hot,No Rain,Moderate Wind,Clear,20.25,Low Risk,False,Low Impact
+Cabo Bojador,26.1269,-14.4992,2026-09-15,33.3,24.4,0.0,0.0,25.4,43.9,2,Hot,No Rain,Strong Wind,Cloudy,30.25,Low Risk,False,Low Impact
+Cabo Bojador,26.1269,-14.4992,2026-09-16,28.9,21.9,0.0,0.0,26.8,48.6,0,Warm,No Rain,Strong Wind,Clear,25.5,Low Risk,False,Low Impact
+Cabo Bojador,26.1269,-14.4992,2026-09-17,25.5,20.7,0.0,0.0,32.8,58.3,3,Warm,No Rain,Strong Wind,Cloudy,26.5,Low Risk,False,Low Impact
+Cabo Bojador,26.1269,-14.4992,2026-09-18,24.9,20.2,0.0,0.0,25.1,47.2,3,Warm,No Rain,Strong Wind,Cloudy,26.5,Low Risk,False,Low Impact
+Cabo Bojador,26.1269,-14.4992,2026-09-19,25.3,19.2,0.0,0.0,20.9,41.4,1,Warm,No Rain,Strong Wind,Cloudy,26.5,Low Risk,True,Low Impact
+Cabo Bojador,26.1269,-14.4992,2026-09-20,26.2,19.2,0.0,0.0,27.9,51.1,1,Warm,No Rain,Strong Wind,Cloudy,26.5,Low Risk,True,Low Impact
+Cabo Bojador,26.1269,-14.4992,2026-09-21,26.9,20.1,0.0,8.0,25.9,46.8,1,Warm,No Rain,Strong Wind,Cloudy,26.5,Low Risk,False,Low Impact
+Zagora,30.3316,-5.8376,2026-09-15,37.2,26.2,0.0,10.0,26.4,42.8,3,Hot,No Rain,Strong Wind,Cloudy,30.25,Low Risk,False,Low Impact
+Zagora,30.3316,-5.8376,2026-09-16,37.7,23.4,0.0,3.0,14.6,23.4,3,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,False,Low Impact
+Zagora,30.3316,-5.8376,2026-09-17,35.4,27.1,1.0,18.0,15.9,29.5,80,Hot,Light Rain,Moderate Wind,Rain Showers,38.25,Low Risk,False,Low Impact
+Zagora,30.3316,-5.8376,2026-09-18,35.7,23.3,0.0,14.0,10.7,19.8,3,Hot,No Rain,Light Wind,Cloudy,16.75,Very Low Risk,False,Low Impact
+Zagora,30.3316,-5.8376,2026-09-19,36.7,25.0,0.0,10.0,23.3,36.4,3,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,True,Low Impact
+Zagora,30.3316,-5.8376,2026-09-20,36.3,26.3,0.0,5.0,18.3,31.3,3,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,True,Low Impact
+Zagora,30.3316,-5.8376,2026-09-21,35.6,25.7,0.3,3.0,16.9,28.4,3,Hot,Light Rain,Moderate Wind,Cloudy,28.25,Low Risk,False,Low Impact
+Azemmour,33.2833,-8.3333,2026-09-15,28.9,21.1,0.0,0.0,17.7,31.7,45,Warm,No Rain,Moderate Wind,Fog,22.5,Low Risk,False,Low Impact
+Azemmour,33.2833,-8.3333,2026-09-16,26.4,20.1,0.0,0.0,19.2,34.2,45,Warm,No Rain,Moderate Wind,Fog,22.5,Low Risk,False,Low Impact
+Azemmour,33.2833,-8.3333,2026-09-17,26.6,18.6,0.0,0.0,15.6,28.8,3,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,False,Low Impact
+Azemmour,33.2833,-8.3333,2026-09-18,26.2,19.0,0.0,0.0,18.4,36.0,45,Warm,No Rain,Moderate Wind,Fog,22.5,Low Risk,False,Low Impact
+Azemmour,33.2833,-8.3333,2026-09-19,27.1,18.7,0.0,0.0,19.0,34.6,2,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,True,Low Impact
+Azemmour,33.2833,-8.3333,2026-09-20,28.7,21.0,0.0,0.0,15.5,30.2,2,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,True,Low Impact
+Azemmour,33.2833,-8.3333,2026-09-21,27.5,20.3,0.0,0.0,16.8,33.1,45,Warm,No Rain,Moderate Wind,Fog,22.5,Low Risk,False,Low Impact
+El Hajeb,33.6928,-5.3711,2026-09-15,32.2,21.6,0.0,0.0,20.5,42.8,2,Hot,No Rain,Strong Wind,Cloudy,30.25,Low Risk,False,Low Impact
+El Hajeb,33.6928,-5.3711,2026-09-16,28.8,18.3,0.0,0.0,18.7,38.9,1,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,False,Low Impact
+El Hajeb,33.6928,-5.3711,2026-09-17,26.0,16.2,0.0,10.0,16.9,36.4,3,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,False,Low Impact
+El Hajeb,33.6928,-5.3711,2026-09-18,26.8,15.8,0.0,23.0,15.8,32.4,3,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,False,Low Impact
+El Hajeb,33.6928,-5.3711,2026-09-19,30.7,17.2,0.0,6.0,21.3,43.6,2,Hot,No Rain,Strong Wind,Cloudy,30.25,Low Risk,True,Low Impact
+El Hajeb,33.6928,-5.3711,2026-09-20,32.1,19.3,0.0,9.0,18.8,40.0,1,Hot,No Rain,Strong Wind,Cloudy,30.25,Low Risk,True,Low Impact
+El Hajeb,33.6928,-5.3711,2026-09-21,31.2,19.0,0.0,10.0,17.4,33.1,0,Hot,No Rain,Moderate Wind,Clear,20.25,Low Risk,False,Low Impact
+Jerada,34.31,-2.16,2026-09-15,30.8,19.6,0.0,0.0,19.0,35.6,3,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,False,Low Impact
+Jerada,34.31,-2.16,2026-09-16,29.3,17.9,0.0,0.0,24.2,46.4,1,Warm,No Rain,Strong Wind,Cloudy,26.5,Low Risk,False,Low Impact
+Jerada,34.31,-2.16,2026-09-17,29.0,17.7,0.0,5.0,17.8,37.1,3,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,False,Low Impact
+Jerada,34.31,-2.16,2026-09-18,27.3,17.1,0.0,15.0,23.4,43.9,3,Warm,No Rain,Strong Wind,Cloudy,26.5,Low Risk,False,Low Impact
+Jerada,34.31,-2.16,2026-09-19,26.9,16.3,0.0,33.0,21.7,54.0,3,Warm,No Rain,Strong Wind,Cloudy,26.5,Low Risk,True,Low Impact
+Jerada,34.31,-2.16,2026-09-20,27.5,16.7,0.3,14.0,20.0,33.1,2,Warm,Light Rain,Moderate Wind,Cloudy,24.5,Low Risk,True,Low Impact
+Jerada,34.31,-2.16,2026-09-21,25.4,17.6,0.6,15.0,16.1,31.3,3,Warm,Light Rain,Moderate Wind,Cloudy,24.5,Low Risk,False,Low Impact
+El Aïoun,34.5726,-2.5127,2026-09-15,31.9,16.9,0.0,0.0,14.1,24.5,3,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,False,Low Impact
+El Aïoun,34.5726,-2.5127,2026-09-16,32.2,15.7,0.0,0.0,21.6,37.4,1,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,False,Low Impact
+El Aïoun,34.5726,-2.5127,2026-09-17,29.7,17.1,0.0,3.0,16.8,28.4,3,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,False,Low Impact
+El Aïoun,34.5726,-2.5127,2026-09-18,28.8,17.4,0.0,20.0,18.9,32.4,3,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,False,Low Impact
+El Aïoun,34.5726,-2.5127,2026-09-19,28.7,17.8,0.0,25.0,23.3,39.6,2,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,True,Low Impact
+El Aïoun,34.5726,-2.5127,2026-09-20,28.9,18.4,0.0,8.0,21.7,39.2,2,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,True,Low Impact
+El Aïoun,34.5726,-2.5127,2026-09-21,29.5,18.5,0.0,8.0,20.9,36.0,3,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,False,Low Impact
+Tameslouht,31.5,-8.1,2026-09-15,37.8,25.4,0.0,8.0,19.1,35.3,3,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,False,Low Impact
+Tameslouht,31.5,-8.1,2026-09-16,34.4,21.6,0.0,0.0,17.4,28.4,0,Hot,No Rain,Moderate Wind,Clear,20.25,Low Risk,False,Low Impact
+Tameslouht,31.5,-8.1,2026-09-17,30.1,17.9,0.0,3.0,14.1,23.8,2,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,False,Low Impact
+Tameslouht,31.5,-8.1,2026-09-18,31.7,18.5,0.0,3.0,12.1,20.9,3,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,False,Low Impact
+Tameslouht,31.5,-8.1,2026-09-19,35.4,20.9,0.0,5.0,12.1,19.8,2,Hot,No Rain,Light Wind,Cloudy,16.75,Very Low Risk,True,Low Impact
+Tameslouht,31.5,-8.1,2026-09-20,38.2,23.4,0.0,4.0,14.5,40.3,3,Hot,No Rain,Strong Wind,Cloudy,30.25,Low Risk,True,Low Impact
+Tameslouht,31.5,-8.1,2026-09-21,33.5,23.9,0.3,5.0,17.9,32.0,2,Hot,Light Rain,Moderate Wind,Cloudy,28.25,Low Risk,False,Low Impact
+Sidi Yahia El Gharb,34.3058,-6.3058,2026-09-15,32.1,20.7,0.0,0.0,18.3,33.5,45,Hot,No Rain,Moderate Wind,Fog,26.25,Low Risk,False,Low Impact
+Sidi Yahia El Gharb,34.3058,-6.3058,2026-09-16,28.5,20.5,0.0,0.0,21.7,39.2,3,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,False,Low Impact
+Sidi Yahia El Gharb,34.3058,-6.3058,2026-09-17,28.2,18.8,0.0,0.0,14.9,27.7,3,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,False,Low Impact
+Sidi Yahia El Gharb,34.3058,-6.3058,2026-09-18,28.7,15.8,0.0,3.0,16.9,32.0,45,Warm,No Rain,Moderate Wind,Fog,22.5,Low Risk,False,Low Impact
+Sidi Yahia El Gharb,34.3058,-6.3058,2026-09-19,36.4,16.8,0.0,3.0,18.1,29.3,45,Hot,No Rain,Moderate Wind,Fog,26.25,Low Risk,True,Low Impact
+Sidi Yahia El Gharb,34.3058,-6.3058,2026-09-20,38.1,22.9,0.0,0.0,23.1,45.0,1,Hot,No Rain,Strong Wind,Cloudy,30.25,Low Risk,True,Low Impact
+Sidi Yahia El Gharb,34.3058,-6.3058,2026-09-21,37.1,23.2,0.0,0.0,18.8,34.9,0,Hot,No Rain,Moderate Wind,Clear,20.25,Low Risk,False,Low Impact
+Chichaoua,31.5333,-8.7667,2026-09-15,38.4,24.8,0.0,3.0,25.3,40.7,2,Hot,No Rain,Strong Wind,Cloudy,30.25,Low Risk,False,Low Impact
+Chichaoua,31.5333,-8.7667,2026-09-16,34.9,21.7,0.0,0.0,22.0,35.3,1,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,False,Low Impact
+Chichaoua,31.5333,-8.7667,2026-09-17,30.1,18.0,0.0,3.0,19.2,30.6,2,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,False,Low Impact
+Chichaoua,31.5333,-8.7667,2026-09-18,31.8,18.3,0.0,5.0,16.2,27.4,1,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,False,Low Impact
+Chichaoua,31.5333,-8.7667,2026-09-19,34.8,19.1,0.0,5.0,17.1,27.4,2,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,True,Low Impact
+Chichaoua,31.5333,-8.7667,2026-09-20,36.3,23.5,0.0,3.0,23.3,38.5,3,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,True,Low Impact
+Chichaoua,31.5333,-8.7667,2026-09-21,34.5,23.4,0.0,5.0,18.1,30.6,2,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,False,Low Impact
+Al ’Attawia,31.83,-7.31,2026-09-15,36.4,24.6,0.0,5.0,15.9,30.6,3,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,False,Low Impact
+Al ’Attawia,31.83,-7.31,2026-09-16,33.0,18.9,0.0,0.0,14.9,27.0,0,Hot,No Rain,Moderate Wind,Clear,20.25,Low Risk,False,Low Impact
+Al ’Attawia,31.83,-7.31,2026-09-17,29.3,16.9,0.0,9.0,15.0,27.0,45,Warm,No Rain,Moderate Wind,Fog,22.5,Low Risk,False,Low Impact
+Al ’Attawia,31.83,-7.31,2026-09-18,30.8,17.5,0.0,10.0,11.5,21.2,3,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,False,Low Impact
+Al ’Attawia,31.83,-7.31,2026-09-19,34.7,20.0,0.0,10.0,13.7,26.6,2,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,True,Low Impact
+Al ’Attawia,31.83,-7.31,2026-09-20,37.0,20.8,0.3,3.0,11.7,24.5,3,Hot,Light Rain,Moderate Wind,Cloudy,28.25,Low Risk,True,Low Impact
+Al ’Attawia,31.83,-7.31,2026-09-21,35.0,20.2,0.9,8.0,9.7,20.9,3,Hot,Light Rain,Moderate Wind,Cloudy,28.25,Low Risk,False,Low Impact
+Tabount,30.9014,-6.9217,2026-09-15,32.0,22.4,0.0,25.0,21.3,33.8,3,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,False,Low Impact
+Tabount,30.9014,-6.9217,2026-09-16,33.3,19.5,0.0,0.0,27.0,43.6,2,Hot,No Rain,Strong Wind,Cloudy,30.25,Low Risk,False,Low Impact
+Tabount,30.9014,-6.9217,2026-09-17,33.2,20.1,0.0,38.0,20.0,38.5,3,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,False,Low Impact
+Tabount,30.9014,-6.9217,2026-09-18,32.3,20.3,0.0,18.0,16.8,27.4,3,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,False,Low Impact
+Tabount,30.9014,-6.9217,2026-09-19,32.9,21.6,0.0,18.0,6.8,18.4,3,Hot,No Rain,Light Wind,Cloudy,16.75,Very Low Risk,True,Low Impact
+Tabount,30.9014,-6.9217,2026-09-20,33.7,21.9,0.0,6.0,25.0,46.4,3,Hot,No Rain,Strong Wind,Cloudy,30.25,Low Risk,True,Low Impact
+Tabount,30.9014,-6.9217,2026-09-21,31.3,20.4,0.6,5.0,17.7,34.6,80,Hot,Light Rain,Moderate Wind,Rain Showers,38.25,Low Risk,False,Low Impact
+Zaïo,34.9396,-2.7334,2026-09-15,30.0,18.9,0.0,0.0,10.0,24.1,3,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,False,Low Impact
+Zaïo,34.9396,-2.7334,2026-09-16,33.3,19.6,0.0,0.0,13.0,29.5,2,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,False,Low Impact
+Zaïo,34.9396,-2.7334,2026-09-17,27.9,20.1,0.0,3.0,15.5,29.5,3,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,False,Low Impact
+Zaïo,34.9396,-2.7334,2026-09-18,28.1,20.0,0.0,3.0,16.5,41.4,45,Warm,No Rain,Strong Wind,Fog,31.5,Low Risk,False,Low Impact
+Zaïo,34.9396,-2.7334,2026-09-19,27.4,19.7,0.0,5.0,27.0,54.4,45,Warm,No Rain,Strong Wind,Fog,31.5,Low Risk,True,Low Impact
+Zaïo,34.9396,-2.7334,2026-09-20,26.9,20.2,0.0,8.0,30.4,55.1,3,Warm,No Rain,Strong Wind,Cloudy,26.5,Low Risk,True,Low Impact
+Zaïo,34.9396,-2.7334,2026-09-21,27.1,20.9,0.0,5.0,23.6,42.5,3,Warm,No Rain,Strong Wind,Cloudy,26.5,Low Risk,False,Low Impact
+Aguelmous,33.1324,-5.8366,2026-09-15,32.7,19.6,0.0,3.0,21.9,42.8,3,Hot,No Rain,Strong Wind,Cloudy,30.25,Low Risk,False,Low Impact
+Aguelmous,33.1324,-5.8366,2026-09-16,29.6,15.9,0.0,0.0,17.0,33.5,1,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,False,Low Impact
+Aguelmous,33.1324,-5.8366,2026-09-17,29.3,16.4,0.0,25.0,20.2,39.6,2,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,False,Low Impact
+Aguelmous,33.1324,-5.8366,2026-09-18,30.1,15.4,0.0,28.0,16.9,34.6,3,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,False,Low Impact
+Aguelmous,33.1324,-5.8366,2026-09-19,31.4,16.9,0.0,6.0,17.9,40.3,3,Hot,No Rain,Strong Wind,Cloudy,30.25,Low Risk,True,Low Impact
+Aguelmous,33.1324,-5.8366,2026-09-20,32.4,18.6,0.0,5.0,19.5,38.5,3,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,True,Low Impact
+Aguelmous,33.1324,-5.8366,2026-09-21,32.4,20.1,0.0,5.0,24.3,47.9,2,Hot,No Rain,Strong Wind,Cloudy,30.25,Low Risk,False,Low Impact
+Asilah,35.4667,-6.0333,2026-09-15,32.2,21.4,0.0,0.0,18.6,33.8,0,Hot,No Rain,Moderate Wind,Clear,20.25,Low Risk,False,Low Impact
+Asilah,35.4667,-6.0333,2026-09-16,25.1,19.5,0.0,0.0,19.4,35.3,3,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,False,Low Impact
+Asilah,35.4667,-6.0333,2026-09-17,24.5,18.9,0.0,0.0,14.4,27.0,3,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,False,Low Impact
+Asilah,35.4667,-6.0333,2026-09-18,25.7,17.0,0.0,0.0,23.2,39.2,2,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,False,Low Impact
+Asilah,35.4667,-6.0333,2026-09-19,29.2,22.3,0.0,3.0,38.5,70.9,0,Warm,No Rain,Very Strong Wind,Clear,33.0,Low Risk,True,Low Impact
+Asilah,35.4667,-6.0333,2026-09-20,33.7,24.4,0.0,0.0,27.4,52.6,0,Hot,No Rain,Strong Wind,Clear,29.25,Low Risk,True,Low Impact
+Asilah,35.4667,-6.0333,2026-09-21,33.8,24.4,0.0,0.0,23.0,44.3,2,Hot,No Rain,Strong Wind,Cloudy,30.25,Low Risk,False,Low Impact
+Imzouren,35.1464,-3.8506,2026-09-15,27.0,20.0,0.0,0.0,11.5,21.2,45,Warm,No Rain,Moderate Wind,Fog,22.5,Low Risk,False,Low Impact
+Imzouren,35.1464,-3.8506,2026-09-16,30.0,20.9,0.0,0.0,11.2,21.2,3,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,False,Low Impact
+Imzouren,35.1464,-3.8506,2026-09-17,25.9,19.1,0.0,0.0,15.2,27.4,3,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,False,Low Impact
+Imzouren,35.1464,-3.8506,2026-09-18,26.5,19.0,0.0,9.0,14.5,33.8,3,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,False,Low Impact
+Imzouren,35.1464,-3.8506,2026-09-19,29.5,18.9,0.0,9.0,24.5,44.3,1,Warm,No Rain,Strong Wind,Cloudy,26.5,Low Risk,True,Low Impact
+Imzouren,35.1464,-3.8506,2026-09-20,28.9,21.9,0.0,5.0,22.2,45.7,2,Warm,No Rain,Strong Wind,Cloudy,26.5,Low Risk,True,Low Impact
+Imzouren,35.1464,-3.8506,2026-09-21,28.1,21.9,0.0,3.0,18.7,36.0,3,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,False,Low Impact
+Mediouna,33.4556,-7.5208,2026-09-15,33.8,20.9,0.0,0.0,17.8,31.7,45,Hot,No Rain,Moderate Wind,Fog,26.25,Low Risk,False,Low Impact
+Mediouna,33.4556,-7.5208,2026-09-16,28.2,19.4,0.0,0.0,18.1,32.0,45,Warm,No Rain,Moderate Wind,Fog,22.5,Low Risk,False,Low Impact
+Mediouna,33.4556,-7.5208,2026-09-17,27.6,18.6,0.0,0.0,16.4,29.5,3,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,False,Low Impact
+Mediouna,33.4556,-7.5208,2026-09-18,28.2,17.7,0.0,3.0,19.6,36.0,3,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,False,Low Impact
+Mediouna,33.4556,-7.5208,2026-09-19,30.8,16.9,0.0,0.0,16.6,30.6,2,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,True,Low Impact
+Mediouna,33.4556,-7.5208,2026-09-20,30.7,19.6,0.0,0.0,11.6,29.9,2,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,True,Low Impact
+Mediouna,33.4556,-7.5208,2026-09-21,29.3,20.5,0.0,0.0,13.6,36.0,2,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,False,Low Impact
+Demnat,31.7311,-7.0361,2026-09-15,33.1,22.3,0.0,18.0,22.0,43.2,3,Hot,No Rain,Strong Wind,Cloudy,30.25,Low Risk,False,Low Impact
+Demnat,31.7311,-7.0361,2026-09-16,30.0,17.3,0.0,0.0,16.3,31.3,0,Hot,No Rain,Moderate Wind,Clear,20.25,Low Risk,False,Low Impact
+Demnat,31.7311,-7.0361,2026-09-17,26.7,15.6,0.0,15.0,15.8,30.2,3,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,False,Low Impact
+Demnat,31.7311,-7.0361,2026-09-18,28.2,15.7,0.0,6.0,12.0,23.4,3,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,False,Low Impact
+Demnat,31.7311,-7.0361,2026-09-19,32.0,18.6,0.0,8.0,12.4,24.1,2,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,True,Low Impact
+Demnat,31.7311,-7.0361,2026-09-20,34.1,19.7,0.3,5.0,15.0,28.4,80,Hot,Light Rain,Moderate Wind,Rain Showers,38.25,Low Risk,True,Low Impact
+Demnat,31.7311,-7.0361,2026-09-21,32.4,19.9,0.6,7.0,12.7,24.1,3,Hot,Light Rain,Moderate Wind,Cloudy,28.25,Low Risk,False,Low Impact
+Aïn Taoujdat,33.9333,-5.2167,2026-09-15,34.2,22.3,0.0,0.0,19.2,39.2,2,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,False,Low Impact
+Aïn Taoujdat,33.9333,-5.2167,2026-09-16,31.8,20.6,0.0,0.0,19.7,40.3,1,Hot,No Rain,Strong Wind,Cloudy,30.25,Low Risk,False,Low Impact
+Aïn Taoujdat,33.9333,-5.2167,2026-09-17,27.9,17.9,0.0,0.0,15.0,28.8,45,Warm,No Rain,Moderate Wind,Fog,22.5,Low Risk,False,Low Impact
+Aïn Taoujdat,33.9333,-5.2167,2026-09-18,29.3,17.4,0.0,10.0,13.7,28.4,3,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,False,Low Impact
+Aïn Taoujdat,33.9333,-5.2167,2026-09-19,33.3,18.5,0.0,1.0,19.6,37.4,2,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,True,Low Impact
+Aïn Taoujdat,33.9333,-5.2167,2026-09-20,34.8,20.0,0.0,0.0,22.9,41.8,1,Hot,No Rain,Strong Wind,Cloudy,30.25,Low Risk,True,Low Impact
+Aïn Taoujdat,33.9333,-5.2167,2026-09-21,34.2,19.8,0.0,0.0,13.7,24.8,0,Hot,No Rain,Moderate Wind,Clear,20.25,Low Risk,False,Low Impact
+Sidi Smai’il,32.8167,-8.5,2026-09-15,35.6,21.8,0.0,3.0,23.9,41.8,3,Hot,No Rain,Strong Wind,Cloudy,30.25,Low Risk,False,Low Impact
+Sidi Smai’il,32.8167,-8.5,2026-09-16,29.0,19.5,0.0,0.0,20.4,35.6,2,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,False,Low Impact
+Sidi Smai’il,32.8167,-8.5,2026-09-17,27.8,18.5,0.0,0.0,18.8,33.1,3,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,False,Low Impact
+Sidi Smai’il,32.8167,-8.5,2026-09-18,29.2,18.0,0.0,0.0,20.2,36.7,2,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,False,Low Impact
+Sidi Smai’il,32.8167,-8.5,2026-09-19,31.4,17.5,0.0,3.0,17.3,31.0,3,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,True,Low Impact
+Sidi Smai’il,32.8167,-8.5,2026-09-20,35.2,20.6,0.0,0.0,19.0,34.6,2,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,True,Low Impact
+Sidi Smai’il,32.8167,-8.5,2026-09-21,30.1,19.5,0.0,3.0,17.4,31.7,45,Hot,No Rain,Moderate Wind,Fog,26.25,Low Risk,False,Low Impact
+Moulay Bousselham,34.8786,-6.2933,2026-09-15,27.8,19.3,0.0,0.0,25.6,43.6,45,Warm,No Rain,Strong Wind,Fog,31.5,Low Risk,False,Low Impact
+Moulay Bousselham,34.8786,-6.2933,2026-09-16,25.7,19.2,0.0,0.0,17.9,30.2,45,Warm,No Rain,Moderate Wind,Fog,22.5,Low Risk,False,Low Impact
+Moulay Bousselham,34.8786,-6.2933,2026-09-17,25.2,18.8,0.0,2.0,14.1,23.8,3,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,False,Low Impact
+Moulay Bousselham,34.8786,-6.2933,2026-09-18,25.7,17.2,0.0,3.0,20.1,33.5,45,Warm,No Rain,Moderate Wind,Fog,22.5,Low Risk,False,Low Impact
+Moulay Bousselham,34.8786,-6.2933,2026-09-19,30.7,17.8,0.0,0.0,13.9,26.6,45,Hot,No Rain,Moderate Wind,Fog,26.25,Low Risk,True,Low Impact
+Moulay Bousselham,34.8786,-6.2933,2026-09-20,37.3,18.7,0.0,0.0,13.0,25.2,1,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,True,Low Impact
+Moulay Bousselham,34.8786,-6.2933,2026-09-21,34.0,19.5,0.0,0.0,18.9,33.8,1,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,False,Low Impact
+Mechraa Bel Ksiri,34.56,-5.95,2026-09-15,35.1,20.8,0.0,0.0,20.3,36.7,45,Hot,No Rain,Moderate Wind,Fog,26.25,Low Risk,False,Low Impact
+Mechraa Bel Ksiri,34.56,-5.95,2026-09-16,30.2,19.6,0.0,0.0,20.0,37.8,3,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,False,Low Impact
+Mechraa Bel Ksiri,34.56,-5.95,2026-09-17,29.5,19.0,0.0,0.0,15.7,28.8,3,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,False,Low Impact
+Mechraa Bel Ksiri,34.56,-5.95,2026-09-18,31.5,16.5,0.0,3.0,15.0,33.1,45,Hot,No Rain,Moderate Wind,Fog,26.25,Low Risk,False,Low Impact
+Mechraa Bel Ksiri,34.56,-5.95,2026-09-19,36.9,17.7,0.0,3.0,18.0,33.5,45,Hot,No Rain,Moderate Wind,Fog,26.25,Low Risk,True,Low Impact
+Mechraa Bel Ksiri,34.56,-5.95,2026-09-20,38.3,23.4,0.0,0.0,24.6,47.5,0,Hot,No Rain,Strong Wind,Clear,29.25,Low Risk,True,Low Impact
+Mechraa Bel Ksiri,34.56,-5.95,2026-09-21,37.0,23.9,0.0,0.0,20.9,39.6,1,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,False,Low Impact
+Souk et Tnine Jorf el Mellah,34.4945,-5.5047,2026-09-15,36.1,22.4,0.0,0.0,20.2,37.8,1,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,False,Low Impact
+Souk et Tnine Jorf el Mellah,34.4945,-5.5047,2026-09-16,31.6,19.6,0.0,0.0,19.7,37.8,2,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,False,Low Impact
+Souk et Tnine Jorf el Mellah,34.4945,-5.5047,2026-09-17,30.4,19.6,0.0,0.0,15.2,28.8,3,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,False,Low Impact
+Souk et Tnine Jorf el Mellah,34.4945,-5.5047,2026-09-18,31.8,16.7,0.0,3.0,14.3,25.2,45,Hot,No Rain,Moderate Wind,Fog,26.25,Low Risk,False,Low Impact
+Souk et Tnine Jorf el Mellah,34.4945,-5.5047,2026-09-19,36.4,19.4,0.0,0.0,22.4,40.0,1,Hot,No Rain,Strong Wind,Cloudy,30.25,Low Risk,True,Low Impact
+Souk et Tnine Jorf el Mellah,34.4945,-5.5047,2026-09-20,37.6,24.6,0.0,0.0,25.8,48.2,0,Hot,No Rain,Strong Wind,Clear,29.25,Low Risk,True,Low Impact
+Souk et Tnine Jorf el Mellah,34.4945,-5.5047,2026-09-21,36.5,24.0,0.0,0.0,20.2,37.8,1,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,False,Low Impact
+Zeghanghane,35.1575,-3.0017,2026-09-15,28.6,19.7,0.0,0.0,12.1,23.4,45,Warm,No Rain,Moderate Wind,Fog,22.5,Low Risk,False,Low Impact
+Zeghanghane,35.1575,-3.0017,2026-09-16,32.3,18.9,0.0,0.0,10.1,22.0,2,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,False,Low Impact
+Zeghanghane,35.1575,-3.0017,2026-09-17,27.2,19.6,0.0,0.0,15.3,30.6,3,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,False,Low Impact
+Zeghanghane,35.1575,-3.0017,2026-09-18,26.6,20.5,0.0,8.0,18.5,38.5,3,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,False,Low Impact
+Zeghanghane,35.1575,-3.0017,2026-09-19,25.8,21.6,0.0,20.0,27.2,55.1,2,Warm,No Rain,Strong Wind,Cloudy,26.5,Low Risk,True,Low Impact
+Zeghanghane,35.1575,-3.0017,2026-09-20,26.1,21.8,0.0,13.0,27.4,50.0,2,Warm,No Rain,Strong Wind,Cloudy,26.5,Low Risk,True,Low Impact
+Zeghanghane,35.1575,-3.0017,2026-09-21,26.0,22.2,0.0,5.0,24.0,44.6,3,Warm,No Rain,Strong Wind,Cloudy,26.5,Low Risk,False,Low Impact
+Oulad Barhil,30.6408,-8.475,2026-09-15,39.3,26.0,0.0,15.0,22.3,52.2,3,Hot,No Rain,Strong Wind,Cloudy,30.25,Low Risk,False,Low Impact
+Oulad Barhil,30.6408,-8.475,2026-09-16,36.1,22.5,0.0,0.0,25.5,46.4,1,Hot,No Rain,Strong Wind,Cloudy,30.25,Low Risk,False,Low Impact
+Oulad Barhil,30.6408,-8.475,2026-09-17,30.1,18.5,0.0,0.0,30.9,55.8,3,Hot,No Rain,Strong Wind,Cloudy,30.25,Low Risk,False,Low Impact
+Oulad Barhil,30.6408,-8.475,2026-09-18,30.8,17.8,0.0,10.0,25.0,46.8,3,Hot,No Rain,Strong Wind,Cloudy,30.25,Low Risk,False,Low Impact
+Oulad Barhil,30.6408,-8.475,2026-09-19,36.6,20.0,0.0,10.0,23.7,44.6,3,Hot,No Rain,Strong Wind,Cloudy,30.25,Low Risk,True,Low Impact
+Oulad Barhil,30.6408,-8.475,2026-09-20,38.7,22.4,0.0,6.0,19.5,34.9,2,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,True,Low Impact
+Oulad Barhil,30.6408,-8.475,2026-09-21,36.3,21.3,0.0,0.0,25.4,45.7,1,Hot,No Rain,Strong Wind,Cloudy,30.25,Low Risk,False,Low Impact
+Bir Jdid,33.3737,-8.0002,2026-09-15,29.9,20.9,0.0,0.0,16.9,32.0,45,Warm,No Rain,Moderate Wind,Fog,22.5,Low Risk,False,Low Impact
+Bir Jdid,33.3737,-8.0002,2026-09-16,26.2,20.0,0.0,0.0,18.6,35.6,45,Warm,No Rain,Moderate Wind,Fog,22.5,Low Risk,False,Low Impact
+Bir Jdid,33.3737,-8.0002,2026-09-17,26.2,18.2,0.0,0.0,17.6,33.8,3,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,False,Low Impact
+Bir Jdid,33.3737,-8.0002,2026-09-18,26.5,18.5,0.0,0.0,19.8,38.9,45,Warm,No Rain,Moderate Wind,Fog,22.5,Low Risk,False,Low Impact
+Bir Jdid,33.3737,-8.0002,2026-09-19,27.4,18.4,0.0,0.0,18.3,34.9,45,Warm,No Rain,Moderate Wind,Fog,22.5,Low Risk,True,Low Impact
+Bir Jdid,33.3737,-8.0002,2026-09-20,31.3,19.4,0.0,0.0,15.5,30.2,2,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,True,Low Impact
+Bir Jdid,33.3737,-8.0002,2026-09-21,29.5,20.0,0.0,0.0,19.2,36.7,45,Warm,No Rain,Moderate Wind,Fog,22.5,Low Risk,False,Low Impact
+Bou Arfa,32.531,-1.9631,2026-09-15,32.0,20.5,0.3,10.0,18.2,30.6,3,Hot,Light Rain,Moderate Wind,Cloudy,28.25,Low Risk,False,Low Impact
+Bou Arfa,32.531,-1.9631,2026-09-16,29.7,19.0,0.0,3.0,14.8,23.8,3,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,False,Low Impact
+Bou Arfa,32.531,-1.9631,2026-09-17,30.0,17.8,0.5,8.0,19.6,31.3,80,Hot,Light Rain,Moderate Wind,Rain Showers,38.25,Low Risk,False,Low Impact
+Bou Arfa,32.531,-1.9631,2026-09-18,30.2,18.2,0.1,25.0,17.7,27.7,3,Hot,Light Rain,Moderate Wind,Cloudy,28.25,Low Risk,False,Low Impact
+Bou Arfa,32.531,-1.9631,2026-09-19,29.9,19.5,0.0,20.0,15.1,24.5,3,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,True,Low Impact
+Bou Arfa,32.531,-1.9631,2026-09-20,30.8,21.5,2.4,12.0,15.6,32.0,80,Hot,Moderate Rain,Moderate Wind,Rain Showers,47.0,Moderate Risk,True,Moderate Impact
+Bou Arfa,32.531,-1.9631,2026-09-21,22.2,19.0,9.7,8.0,12.4,29.5,95,Warm,Moderate Rain,Moderate Wind,Thunderstorm,52.25,Moderate Risk,False,Moderate Impact
+Tahannawt,31.3514,-7.9508,2026-09-15,33.6,22.3,0.0,10.0,20.1,34.9,3,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,False,Low Impact
+Tahannawt,31.3514,-7.9508,2026-09-16,30.8,18.6,0.0,0.0,16.1,30.6,1,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,False,Low Impact
+Tahannawt,31.3514,-7.9508,2026-09-17,27.2,15.6,0.0,5.0,13.4,25.9,1,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,False,Low Impact
+Tahannawt,31.3514,-7.9508,2026-09-18,28.4,16.0,0.0,5.0,14.1,26.3,3,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,False,Low Impact
+Tahannawt,31.3514,-7.9508,2026-09-19,31.8,18.9,0.0,10.0,12.4,23.8,2,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,True,Low Impact
+Tahannawt,31.3514,-7.9508,2026-09-20,35.1,19.6,0.0,5.0,11.9,27.7,3,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,True,Low Impact
+Tahannawt,31.3514,-7.9508,2026-09-21,31.4,20.3,0.3,9.0,15.3,28.8,3,Hot,Light Rain,Moderate Wind,Cloudy,28.25,Low Risk,False,Low Impact
+Arfoud,31.4361,-4.2328,2026-09-15,36.9,25.5,0.6,20.0,51.2,86.0,61,Hot,Light Rain,Extreme Wind,Rain,58.25,Moderate Risk,False,Moderate Impact
+Arfoud,31.4361,-4.2328,2026-09-16,35.1,22.1,0.0,3.0,12.0,19.1,2,Hot,No Rain,Light Wind,Cloudy,16.75,Very Low Risk,False,Low Impact
+Arfoud,31.4361,-4.2328,2026-09-17,34.4,23.6,0.4,24.0,18.8,29.5,80,Hot,Light Rain,Moderate Wind,Rain Showers,38.25,Low Risk,False,Low Impact
+Arfoud,31.4361,-4.2328,2026-09-18,34.3,22.2,0.0,23.0,11.6,19.8,3,Hot,No Rain,Light Wind,Cloudy,16.75,Very Low Risk,False,Low Impact
+Arfoud,31.4361,-4.2328,2026-09-19,34.5,24.0,0.0,21.0,13.5,23.8,3,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,True,Low Impact
+Arfoud,31.4361,-4.2328,2026-09-20,35.4,24.7,0.0,10.0,16.9,26.0,3,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,True,Low Impact
+Arfoud,31.4361,-4.2328,2026-09-21,32.1,23.7,0.9,5.0,17.7,27.7,3,Hot,Light Rain,Moderate Wind,Cloudy,28.25,Low Risk,False,Low Impact
+Tahla,34.05,-4.42,2026-09-15,34.6,21.2,0.0,0.0,17.4,32.4,3,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,False,Low Impact
+Tahla,34.05,-4.42,2026-09-16,31.0,19.7,0.0,0.0,16.6,31.3,1,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,False,Low Impact
+Tahla,34.05,-4.42,2026-09-17,29.2,17.0,0.0,10.0,16.1,30.2,3,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,False,Low Impact
+Tahla,34.05,-4.42,2026-09-18,30.8,17.1,0.0,13.0,14.4,28.1,3,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,False,Low Impact
+Tahla,34.05,-4.42,2026-09-19,31.4,20.0,0.0,4.0,22.7,43.9,3,Hot,No Rain,Strong Wind,Cloudy,30.25,Low Risk,True,Low Impact
+Tahla,34.05,-4.42,2026-09-20,33.2,21.9,0.0,0.0,19.9,36.4,1,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,True,Low Impact
+Tahla,34.05,-4.42,2026-09-21,32.4,22.2,0.0,3.0,20.0,35.3,0,Hot,No Rain,Moderate Wind,Clear,20.25,Low Risk,False,Low Impact
+Missour,33.05,-3.9908,2026-09-15,36.1,20.7,0.0,13.0,21.6,34.2,3,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,False,Low Impact
+Missour,33.05,-3.9908,2026-09-16,32.1,18.9,0.0,0.0,23.7,36.7,1,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,False,Low Impact
+Missour,33.05,-3.9908,2026-09-17,32.1,17.8,0.1,25.0,29.6,47.2,3,Hot,Light Rain,Strong Wind,Cloudy,37.25,Low Risk,False,Low Impact
+Missour,33.05,-3.9908,2026-09-18,31.0,17.0,0.0,13.0,29.7,48.2,3,Hot,No Rain,Strong Wind,Cloudy,30.25,Low Risk,False,Low Impact
+Missour,33.05,-3.9908,2026-09-19,29.7,17.5,0.3,15.0,19.8,47.2,80,Warm,Light Rain,Strong Wind,Rain Showers,43.5,Moderate Risk,True,Moderate Impact
+Missour,33.05,-3.9908,2026-09-20,30.8,18.2,0.0,7.0,22.7,34.6,3,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,True,Low Impact
+Missour,33.05,-3.9908,2026-09-21,30.0,18.5,1.2,8.0,27.0,41.8,3,Hot,Light Rain,Strong Wind,Cloudy,37.25,Low Risk,False,Low Impact
+Sidi Lmokhtar,31.57,-9.01,2026-09-15,38.4,24.4,0.0,5.0,24.1,40.0,3,Hot,No Rain,Strong Wind,Cloudy,30.25,Low Risk,False,Low Impact
+Sidi Lmokhtar,31.57,-9.01,2026-09-16,34.5,21.6,0.0,0.0,24.3,40.7,1,Hot,No Rain,Strong Wind,Cloudy,30.25,Low Risk,False,Low Impact
+Sidi Lmokhtar,31.57,-9.01,2026-09-17,29.4,17.7,0.0,2.0,23.1,39.2,2,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,False,Low Impact
+Sidi Lmokhtar,31.57,-9.01,2026-09-18,31.7,17.7,0.0,3.0,15.9,29.2,1,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,False,Low Impact
+Sidi Lmokhtar,31.57,-9.01,2026-09-19,34.7,18.8,0.0,3.0,14.1,25.2,2,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,True,Low Impact
+Sidi Lmokhtar,31.57,-9.01,2026-09-20,34.8,22.3,0.0,3.0,25.0,43.9,2,Hot,No Rain,Strong Wind,Cloudy,30.25,Low Risk,True,Low Impact
+Sidi Lmokhtar,31.57,-9.01,2026-09-21,32.8,20.9,0.0,3.0,22.2,36.4,2,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,False,Low Impact
+Douar Toulal,33.8951,-5.6021,2026-09-15,33.9,21.8,0.0,0.0,17.8,40.0,2,Hot,No Rain,Strong Wind,Cloudy,30.25,Low Risk,False,Low Impact
+Douar Toulal,33.8951,-5.6021,2026-09-16,30.8,18.9,0.0,0.0,18.4,40.0,1,Hot,No Rain,Strong Wind,Cloudy,30.25,Low Risk,False,Low Impact
+Douar Toulal,33.8951,-5.6021,2026-09-17,28.1,17.7,0.0,5.0,15.1,34.2,45,Warm,No Rain,Moderate Wind,Fog,22.5,Low Risk,False,Low Impact
+Douar Toulal,33.8951,-5.6021,2026-09-18,29.0,16.3,0.0,20.0,13.8,30.6,3,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,False,Low Impact
+Douar Toulal,33.8951,-5.6021,2026-09-19,34.4,18.4,0.0,5.0,15.2,32.0,2,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,True,Low Impact
+Douar Toulal,33.8951,-5.6021,2026-09-20,35.4,21.6,0.0,0.0,18.8,35.6,1,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,True,Low Impact
+Douar Toulal,33.8951,-5.6021,2026-09-21,34.8,20.7,0.0,0.0,13.7,25.9,0,Hot,No Rain,Moderate Wind,Clear,20.25,Low Risk,False,Low Impact
+Oulad Yaïch,32.4167,-6.3333,2026-09-15,38.5,25.3,0.0,3.0,20.9,38.2,3,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,False,Low Impact
+Oulad Yaïch,32.4167,-6.3333,2026-09-16,34.9,21.4,0.0,0.0,10.0,19.1,0,Hot,No Rain,Light Wind,Clear,15.75,Very Low Risk,False,Low Impact
+Oulad Yaïch,32.4167,-6.3333,2026-09-17,32.4,17.7,0.0,13.0,11.3,22.0,3,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,False,Low Impact
+Oulad Yaïch,32.4167,-6.3333,2026-09-18,34.0,19.0,0.0,6.0,9.0,16.2,3,Hot,No Rain,Light Wind,Cloudy,16.75,Very Low Risk,False,Low Impact
+Oulad Yaïch,32.4167,-6.3333,2026-09-19,37.5,20.9,0.0,3.0,8.1,24.1,3,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,True,Low Impact
+Oulad Yaïch,32.4167,-6.3333,2026-09-20,38.1,28.7,0.3,3.0,16.1,29.5,2,Hot,Light Rain,Moderate Wind,Cloudy,28.25,Low Risk,True,Low Impact
+Oulad Yaïch,32.4167,-6.3333,2026-09-21,36.8,28.1,0.9,9.0,18.6,37.1,80,Hot,Light Rain,Moderate Wind,Rain Showers,38.25,Low Risk,False,Low Impact
+Zawyat ech Cheïkh,32.6541,-5.9214,2026-09-15,36.1,20.3,0.0,5.0,18.6,35.3,3,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,False,Low Impact
+Zawyat ech Cheïkh,32.6541,-5.9214,2026-09-16,32.2,16.7,0.0,0.0,11.9,22.3,3,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,False,Low Impact
+Zawyat ech Cheïkh,32.6541,-5.9214,2026-09-17,31.0,17.0,0.0,13.0,14.4,26.3,3,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,False,Low Impact
+Zawyat ech Cheïkh,32.6541,-5.9214,2026-09-18,32.2,16.0,0.0,18.0,11.9,22.0,3,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,False,Low Impact
+Zawyat ech Cheïkh,32.6541,-5.9214,2026-09-19,35.3,18.9,0.0,7.0,8.3,18.0,2,Hot,No Rain,Light Wind,Cloudy,16.75,Very Low Risk,True,Low Impact
+Zawyat ech Cheïkh,32.6541,-5.9214,2026-09-20,37.2,22.4,0.0,3.0,16.9,33.5,2,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,True,Low Impact
+Zawyat ech Cheïkh,32.6541,-5.9214,2026-09-21,35.4,21.6,0.6,0.0,14.9,29.9,80,Hot,Light Rain,Moderate Wind,Rain Showers,38.25,Low Risk,False,Low Impact
+Imi-n-Tanout,31.177,-8.8504,2026-09-15,33.5,25.3,0.0,5.0,30.7,53.3,2,Hot,No Rain,Strong Wind,Cloudy,30.25,Low Risk,False,Low Impact
+Imi-n-Tanout,31.177,-8.8504,2026-09-16,30.5,20.2,0.0,0.0,24.8,43.6,1,Hot,No Rain,Strong Wind,Cloudy,30.25,Low Risk,False,Low Impact
+Imi-n-Tanout,31.177,-8.8504,2026-09-17,26.0,17.0,0.0,0.0,19.4,33.5,45,Warm,No Rain,Moderate Wind,Fog,22.5,Low Risk,False,Low Impact
+Imi-n-Tanout,31.177,-8.8504,2026-09-18,27.2,16.0,0.0,8.0,16.3,30.6,2,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,False,Low Impact
+Imi-n-Tanout,31.177,-8.8504,2026-09-19,30.7,19.9,0.0,18.0,16.7,28.4,2,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,True,Low Impact
+Imi-n-Tanout,31.177,-8.8504,2026-09-20,33.5,23.6,0.0,3.0,15.2,29.9,3,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,True,Low Impact
+Imi-n-Tanout,31.177,-8.8504,2026-09-21,31.2,23.3,0.0,3.0,19.2,32.4,3,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,False,Low Impact
+Sebt Gzoula,32.1219,-9.0889,2026-09-15,38.2,24.6,0.0,0.0,24.1,45.4,3,Hot,No Rain,Strong Wind,Cloudy,30.25,Low Risk,False,Low Impact
+Sebt Gzoula,32.1219,-9.0889,2026-09-16,31.4,20.8,0.0,0.0,20.4,37.8,2,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,False,Low Impact
+Sebt Gzoula,32.1219,-9.0889,2026-09-17,28.2,18.3,0.0,0.0,18.1,34.6,2,Warm,No Rain,Moderate Wind,Cloudy,17.5,Very Low Risk,False,Low Impact
+Sebt Gzoula,32.1219,-9.0889,2026-09-18,30.4,18.1,0.0,0.0,18.2,34.9,3,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,False,Low Impact
+Sebt Gzoula,32.1219,-9.0889,2026-09-19,33.1,18.7,0.0,3.0,16.3,31.7,2,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,True,Low Impact
+Sebt Gzoula,32.1219,-9.0889,2026-09-20,30.6,21.3,0.0,0.0,18.3,34.6,2,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,True,Low Impact
+Sebt Gzoula,32.1219,-9.0889,2026-09-21,27.2,18.7,0.0,0.0,14.8,28.1,45,Warm,No Rain,Moderate Wind,Fog,22.5,Low Risk,False,Low Impact
+Tifariti,26.158,-10.567,2026-09-15,37.7,25.6,0.0,8.0,22.2,41.4,1,Hot,No Rain,Strong Wind,Cloudy,30.25,Low Risk,False,Low Impact
+Tifariti,26.158,-10.567,2026-09-16,38.5,23.5,0.0,0.0,37.3,54.4,0,Hot,No Rain,Strong Wind,Clear,29.25,Low Risk,False,Low Impact
+Tifariti,26.158,-10.567,2026-09-17,31.1,17.7,0.0,0.0,37.5,54.4,1,Hot,No Rain,Strong Wind,Cloudy,30.25,Low Risk,False,Low Impact
+Tifariti,26.158,-10.567,2026-09-18,29.6,16.8,0.0,0.0,36.4,53.6,3,Warm,No Rain,Strong Wind,Cloudy,26.5,Low Risk,False,Low Impact
+Tifariti,26.158,-10.567,2026-09-19,31.7,16.6,0.0,0.0,24.5,41.8,3,Hot,No Rain,Strong Wind,Cloudy,30.25,Low Risk,True,Low Impact
+Tifariti,26.158,-10.567,2026-09-20,37.5,18.5,0.0,6.0,16.0,28.8,0,Hot,No Rain,Moderate Wind,Clear,20.25,Low Risk,True,Low Impact
+Tifariti,26.158,-10.567,2026-09-21,38.6,25.5,0.0,20.0,21.3,37.8,2,Hot,No Rain,Moderate Wind,Cloudy,21.25,Low Risk,False,Low Impact
