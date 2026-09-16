@@ -324,3 +324,42 @@ col3.metric("Précipitation maximale", f"{max_risk} mm", f"Ville: {city}")
 city, max_risk_score = get_maximum_risk_score()
 col4.metric("Risque météorologique maximal", f"{max_risk_score}", f"Ville: {city}")
 
+st.markdown("---")
+
+st.subheader("Analyse des prévisions météorologiques et des risques par ville")
+temperature_per_city = st.columns(1)
+with temperature_per_city[0]:
+    date_filter = st.date_input("Date", datetime.date.today(), key="date_filter", width=120)    
+    st.markdown("### Température maximale par ville")
+    max_temp_df = get_max_temperature_per_city()
+    
+    max_temp_df = max_temp_df[max_temp_df["date"] == date_filter]
+    
+    fig_max_temp = px.bar(
+        max_temp_df,
+        x="city",
+        y="max_temperature",
+        labels={"city": "Ville", "max_temperature": "Température maximale (°C)"},
+        title="Température maximale par ville",
+    )
+    st.plotly_chart(fig_max_temp, use_container_width=True)
+    
+
+st.markdown("---")
+
+precipitation_per_city = st.columns(1)
+
+with precipitation_per_city[0]:
+    st.markdown("### Précipitation maximale par ville")
+    max_precip_df = get_max_precipitation_per_city()
+    fig_max_precip = px.bar(
+        max_precip_df,
+        x="city",
+        y="max_precipitation",
+        labels={"city": "Ville", "max_precipitation": "Précipitation maximale (mm)"},
+        title="Précipitation maximale par ville",
+    )
+    st.plotly_chart(fig_max_precip, use_container_width=True)
+    
+
+st.markdown("---")
