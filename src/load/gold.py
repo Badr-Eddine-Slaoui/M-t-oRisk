@@ -141,6 +141,3 @@ def gold_load_pipeline() -> None:
     insert_or_upsert_weather_risks(weather_risks_df)
     
     print("Loading gold data completed.")
-    
-if __name__ == "__main__":
-    gold_load_pipeline()
