@@ -374,18 +374,12 @@ with average_risk_per_city[0]:
     
     average_risk_df = average_risk_df[average_risk_df["date"] == date_filter]
     
-    fig_average_risk = px.scatter(
+    fig_average_risk = px.bar(
         average_risk_df,
         x="city",
         y="average_risk",
-        color="average_risk",
-        size="average_risk",
-        hover_data=["city", "average_risk"],
-        labels={
-            "city": "Ville",
-            "average_risk": "Risque moyen",
-        },
-        title="Risque moyen par ville",
+        labels={"city": "Ville", "average_risk": "Risque moyen"},
+        title="Risque moyen par ville"
     )
     st.plotly_chart(fig_average_risk, use_container_width=True)
 
