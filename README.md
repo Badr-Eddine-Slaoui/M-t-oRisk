@@ -68,6 +68,8 @@ MétéoRisk/
 ├── dashboard/
 │   └── app.py              # Streamlit dashboard
 ├── dags/                   # Airflow DAGs (orchestration)
+│   ├── __init__.py
+│   └── main.py             # weather_data_pipeline DAG (extract >> transform >> load)
 ├── uml/
 │   └── ClassDiagram.puml   # PlantUML class diagram
 ├── Dockerfile              # Python / Streamlit image
@@ -76,6 +78,28 @@ MétéoRisk/
 ├── requirements.txt
 └── .env.example            # Copy to .env and fill in credentials
 ```
+
+---
+
+## Pipeline Orchestration (Airflow)
+
+The pipeline is orchestrated with Apache Airflow via the `weather_data_pipeline` DAG (`dags/main.py`), running on a `@daily` schedule:
+
+```
+[extract] ──► [transform] ──► [load]
+```
+
+- **`extract` task**: Ingests 7-day meteorological forecasts from Open-Meteo for all configured Moroccan cities and stores raw data in `data/bronze/`.
+- **`transform` task**: Cleans values, performs quality checks, and calculates weighted delivery disruption scores, saving output in `data/silver/`.
+- **`load` task**: Upserts dimensional cities, forecast metrics, and calculated risk levels into the PostgreSQL Gold layer.
+
+### Triggering the Pipeline
+
+- **Via Airflow Web UI**: Navigate to [http://localhost:8080](http://localhost:8080), unpause `weather_data_pipeline`, and click **Trigger DAG**.
+- **Via Docker CLI**:
+  ```bash
+  docker exec -it weather-airflow airflow dags trigger weather_data_pipeline
+  ```
 
 ---
 
@@ -95,25 +119,29 @@ cp .env.example .env   # edit with your passwords / ports
 docker compose up -d
 ```
 
-### 3. Run the pipeline manually (inside the python container)
+### 3. Initialize the database schema
 
 ```bash
-docker exec -it weather-python bash
-
-# Inside the container:
-python -m src.db.migrate                       # create tables
-python -m src.extractions.weather              # bronze: fetch API data
-python -m src.transformations.silver           # silver: clean & score
-python -m src.load.gold                        # gold: load to Postgres
+docker exec -it weather-python python -m src.db.migrate
 ```
 
-### 4. Open the dashboard
+### 4. Trigger the pipeline
 
-Navigate to http://localhost:8501
+Run via Airflow (recommended):
+```bash
+docker exec -it weather-airflow airflow dags trigger weather_data_pipeline
+```
 
-### 5. Open Airflow
+Or run standalone inside the python container:
+```bash
+docker exec -it weather-python bash -c "python -m src.extractions.weather && python -m src.transformations.silver && python -m src.load.gold"
+```
 
-Navigate to http://localhost:8080
+### 5. Access Dashboards & Tools
+
+- **Streamlit Dashboard**: [http://localhost:8501](http://localhost:8501)
+- **Airflow UI**: [http://localhost:8080](http://localhost:8080)
+- **pgAdmin**: [http://localhost:5050](http://localhost:5050)
 
 ---
 
